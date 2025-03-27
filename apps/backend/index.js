@@ -30,9 +30,6 @@ const port = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-// Definir la ruta al directorio de build del frontend
-const frontendPath = path.join(__dirname, '../../frontend/dist');
-
 // Rutas públicas
 app.use('/api/auth', authRoutes);
 
@@ -66,16 +63,16 @@ app.get('/api', (req, res) => {
   });
 });
 
-// Servir archivos estáticos del frontend
-app.use(express.static(frontendPath));
-
 // Planificador de tareas para cálculos automáticos de predicciones
 const { iniciarPlanificador } = require('./utils/planificador');
 iniciarPlanificador();
 
+// Servir archivos estáticos del frontend desde 'public'
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Todas las rutas no API se redirigen al index.html del frontend
 app.get('*', (req, res) => {
-  res.sendFile(path.join(frontendPath, 'index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // Middleware de manejo de errores (debe estar después de todas las rutas)
@@ -84,6 +81,6 @@ app.use(errorMiddleware);
 // Iniciar servidor
 app.listen(port, () => {
   console.log(`API de farmacia escuchando en http://localhost:${port}`);
-  console.log(`Frontend servido desde ${frontendPath}`);
+  console.log(`Frontend servido desde ${path.join(__dirname, 'public')}`);
   console.log(`Módulo de predicciones activo en http://localhost:${port}/api/predicciones`);
 });
