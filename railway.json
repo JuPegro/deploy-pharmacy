@@ -1,7 +1,7 @@
 {
     "build": {
       "builder": "nixpacks",
-      "buildCommand": "cd apps/backend && npm install"
+      "buildCommand": "cd apps/backend && npm install && npx prisma generate"
     },
     "deploy": {
       "startCommand": "cd apps/backend && node index.js",
