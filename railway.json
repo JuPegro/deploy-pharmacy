@@ -1,7 +1,7 @@
 {
     "build": {
       "builder": "nixpacks",
-      "buildCommand": "npm run build"
+      "buildCommand": "cd apps/backend && npm install"
     },
     "deploy": {
       "startCommand": "cd apps/backend && node src/index.js",
@@ -13,3 +13,4 @@
       }
     }
   }
+  
