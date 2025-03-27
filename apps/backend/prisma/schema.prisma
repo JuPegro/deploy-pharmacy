@@ -1,0 +1,142 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Usuario {
+  id          String                 @id @default(uuid())
+  nombre      String
+  email       String                 @unique
+  password    String
+  rol         Rol
+  movimientos MovimientoInventario[]
+  ventas      Venta[]
+  farmacias   Farmacia[]             @relation("UsuarioFarmacia")
+}
+
+model Farmacia {
+  id           String                 @id @default(uuid())
+  nombre       String
+  direccion    String
+  latitud      Float
+  longitud     Float
+  devoluciones Devolucion[]
+  inventarios  Inventario[]
+  movimientos  MovimientoInventario[]
+  reservas     Reserva[]
+  ventas       Venta[]
+  usuarios     Usuario[]              @relation("UsuarioFarmacia")
+}
+
+model Medicamento {
+  id              String       @id @default(uuid())
+  nombre          String
+  categoria       String
+  descripcion     String?
+  presentacion    String?
+  principioActivo String?
+  requiereReceta  Boolean      @default(false)
+  inventarios     Inventario[]
+
+  SugerenciaInventario SugerenciaInventario[]
+}
+
+model Inventario {
+  id            String                 @id @default(uuid())
+  stock         Int
+  stockMinimo   Int                    @default(10)
+  precio        Decimal                @db.Decimal(10, 2)
+  vencimiento   DateTime
+  farmaciaId    String
+  medicamentoId String
+  devoluciones  Devolucion[]
+  farmacia      Farmacia               @relation(fields: [farmaciaId], references: [id])
+  medicamento   Medicamento            @relation(fields: [medicamentoId], references: [id])
+  movimientos   MovimientoInventario[]
+  reservas      Reserva[]
+  ventas        Venta[]
+
+  @@unique([farmaciaId, medicamentoId])
+}
+
+model Venta {
+  id             String     @id @default(uuid())
+  cantidad       Int
+  fecha          DateTime   @default(now())
+  farmaciaId     String
+  precioUnitario Decimal    @db.Decimal(10, 2)
+  inventarioId   String
+  usuarioId      String?
+  farmacia       Farmacia   @relation(fields: [farmaciaId], references: [id])
+  inventario     Inventario @relation(fields: [inventarioId], references: [id])
+  vendedor       Usuario?   @relation(fields: [usuarioId], references: [id])
+}
+
+model Devolucion {
+  id           String     @id @default(uuid())
+  cantidad     Int
+  fecha        DateTime   @default(now())
+  motivo       String
+  farmaciaId   String
+  inventarioId String
+  farmacia     Farmacia   @relation(fields: [farmaciaId], references: [id])
+  inventario   Inventario @relation(fields: [inventarioId], references: [id])
+}
+
+model MovimientoInventario {
+  id            String         @id @default(uuid())
+  tipo          MovimientoTipo
+  cantidad      Int
+  fecha         DateTime       @default(now())
+  farmaciaId    String
+  inventarioId  String
+  usuarioId     String?
+  farmacia      Farmacia       @relation(fields: [farmaciaId], references: [id])
+  inventario    Inventario     @relation(fields: [inventarioId], references: [id])
+  registradoPor Usuario?       @relation(fields: [usuarioId], references: [id])
+}
+
+model Reserva {
+  id              String        @id @default(uuid())
+  fecha           DateTime      @default(now())
+  estado          EstadoReserva
+  farmaciaId      String
+  nombreCliente   String
+  telefonoCliente String
+  inventarioId    String
+  farmacia        Farmacia      @relation(fields: [farmaciaId], references: [id])
+  inventario      Inventario    @relation(fields: [inventarioId], references: [id])
+}
+
+model SugerenciaInventario {
+  id               String   @id @default(uuid())
+  medicamentoId    String
+  medicamento      Medicamento @relation(fields: [medicamentoId], references: [id])
+  stockActual      Int
+  ventasDiarias    Float
+  demandaProyectada Int
+  diasSinVenta     Int
+  recomendacion    String
+}
+
+enum Rol {
+  ADMIN
+  FARMACIA
+}
+
+enum MovimientoTipo {
+  INGRESO
+  SALIDA
+  AJUSTE
+}
+
+enum EstadoReserva {
+  PENDIENTE
+  CONFIRMADA
+  CANCELADA
+  COMPLETADA
+}

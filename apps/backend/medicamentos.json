@@ -1,0 +1,1602 @@
+[
+  {
+    "nombre": "HiperRisperidonaCare Comprimidos",
+    "categoria": "Antidepresivos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antidepresivos.",
+    "principioActivo": "Risperidona",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaMetoclopramidaPro Crema",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Metoclopramida",
+    "presentacion": "Crema",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "DiclofenacoMax Inyectable",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Diclofenaco",
+    "presentacion": "Inyectable",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperNaproxenoPro Inyectable",
+    "categoria": "Analgésicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con analgésicos.",
+    "principioActivo": "Naproxeno",
+    "presentacion": "Inyectable",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaMetforminaCare Spray",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antiinflamatorios.",
+    "principioActivo": "Metformina",
+    "presentacion": "Spray",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "HiperWarfarina Comprimidos",
+    "categoria": "Dermatológicos",
+    "descripcion": "Contiene Warfarina como principio activo.",
+    "principioActivo": "Warfarina",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperMetoclopramidaMed Inyectable",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Metoclopramida",
+    "presentacion": "Inyectable",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraWarfarinaPro Cápsulas",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Contiene Warfarina como principio activo.",
+    "principioActivo": "Warfarina",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SimvastatinaCare Spray",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Spray",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperAtorvastatinaMed Crema",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Contiene Atorvastatina como principio activo.",
+    "principioActivo": "Atorvastatina",
+    "presentacion": "Crema",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraSalmeterolPro Supositorio",
+    "categoria": "Hormonales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con hormonales.",
+    "principioActivo": "Salmeterol",
+    "presentacion": "Supositorio",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "HiperOmeprazolPro Ungüento",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Omeprazol",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperAtorvastatina Solución oral",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Contiene Atorvastatina como principio activo.",
+    "principioActivo": "Atorvastatina",
+    "presentacion": "Solución oral",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaKetorolacoPro Spray",
+    "categoria": "Neurológicos",
+    "descripcion": "Contiene Ketorolaco como principio activo.",
+    "principioActivo": "Ketorolaco",
+    "presentacion": "Spray",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperRisperidonaCare Comprimidos",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Risperidona",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraEnalapril Spray",
+    "categoria": "Antibióticos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Enalapril",
+    "presentacion": "Spray",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaParacetamolCare Solución oral",
+    "categoria": "Hormonales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con hormonales.",
+    "principioActivo": "Paracetamol",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraRisperidonaPlus Solución oral",
+    "categoria": "Antivirales",
+    "descripcion": "Contiene Risperidona como principio activo.",
+    "principioActivo": "Risperidona",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoIbuprofeno Spray",
+    "categoria": "Respiratorios",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Ibuprofeno",
+    "presentacion": "Spray",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperTramadolPro Jarabe",
+    "categoria": "Hormonales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con hormonales.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Jarabe",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaNifedipinoPro Gotas",
+    "categoria": "Analgésicos",
+    "descripcion": "Medicamento indicado para el tratamiento de analgésicos.",
+    "principioActivo": "Nifedipino",
+    "presentacion": "Gotas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraSimvastatinaMax Crema",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con gastrointestinales.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Crema",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraKetorolacoCare Cápsulas",
+    "categoria": "Analgésicos",
+    "descripcion": "Contiene Ketorolaco como principio activo.",
+    "principioActivo": "Ketorolaco",
+    "presentacion": "Cápsulas",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "NeoLosartanMed Spray",
+    "categoria": "Respiratorios",
+    "descripcion": "Contiene Losartan como principio activo.",
+    "principioActivo": "Losartan",
+    "presentacion": "Spray",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "NeoAcido AcetilsalicilicoCare Gotas",
+    "categoria": "Antivirales",
+    "descripcion": "Contiene Acido Acetilsalicilico como principio activo.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Gotas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoAspirina Jarabe",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Aspirina",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperClopidogrelMed Supositorio",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Clopidogrel",
+    "presentacion": "Supositorio",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraClopidogrelCare Cápsulas",
+    "categoria": "Hormonales",
+    "descripcion": "Contiene Clopidogrel como principio activo.",
+    "principioActivo": "Clopidogrel",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaOmeprazol Comprimidos",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antiinflamatorios.",
+    "principioActivo": "Omeprazol",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraRanitidinaPlus Comprimidos",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con gastrointestinales.",
+    "principioActivo": "Ranitidina",
+    "presentacion": "Comprimidos",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperAcido AcetilsalicilicoCare Cápsulas",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraAcido AcetilsalicilicoMed Ungüento",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaAspirinaPlus Ungüento",
+    "categoria": "Respiratorios",
+    "descripcion": "Contiene Aspirina como principio activo.",
+    "principioActivo": "Aspirina",
+    "presentacion": "Ungüento",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraBupropion Comprimidos",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Contiene Bupropion como principio activo.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoSalmeterolMax Cápsulas",
+    "categoria": "Hormonales",
+    "descripcion": "Medicamento indicado para el tratamiento de hormonales.",
+    "principioActivo": "Salmeterol",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "Acido AcetilsalicilicoMax Cápsulas",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Medicamento indicado para el tratamiento de antihistamínicos.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraIbuprofenoCare Jarabe",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Medicamento indicado para el tratamiento de antihistamínicos.",
+    "principioActivo": "Ibuprofeno",
+    "presentacion": "Jarabe",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "NeoAmoxicilinaMed Inyectable",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antihistamínicos.",
+    "principioActivo": "Amoxicilina",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperBupropionMed Gotas",
+    "categoria": "Dermatológicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con dermatológicos.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Gotas",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraWarfarinaMed Crema",
+    "categoria": "Antidepresivos",
+    "descripcion": "Medicamento indicado para el tratamiento de antidepresivos.",
+    "principioActivo": "Warfarina",
+    "presentacion": "Crema",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperRisperidonaMed Inyectable",
+    "categoria": "Antibióticos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Risperidona",
+    "presentacion": "Inyectable",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperBupropionPlus Solución oral",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antihistamínicos.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Solución oral",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraEnalaprilCare Ungüento",
+    "categoria": "Hormonales",
+    "descripcion": "Contiene Enalapril como principio activo.",
+    "principioActivo": "Enalapril",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaMetformina Supositorio",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Medicamento indicado para el tratamiento de cardiovasculares.",
+    "principioActivo": "Metformina",
+    "presentacion": "Supositorio",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperKetorolacoMax Jarabe",
+    "categoria": "Antidepresivos",
+    "descripcion": "Medicamento indicado para el tratamiento de antidepresivos.",
+    "principioActivo": "Ketorolaco",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperWarfarinaMax Solución oral",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antiinflamatorios.",
+    "principioActivo": "Warfarina",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaNifedipinoCare Supositorio",
+    "categoria": "Analgésicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con analgésicos.",
+    "principioActivo": "Nifedipino",
+    "presentacion": "Supositorio",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperTramadolMed Supositorio",
+    "categoria": "Neurológicos",
+    "descripcion": "Contiene Tramadol como principio activo.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Supositorio",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "HiperRanitidinaPlus Spray",
+    "categoria": "Respiratorios",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con respiratorios.",
+    "principioActivo": "Ranitidina",
+    "presentacion": "Spray",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaAmoxicilinaMed Jarabe",
+    "categoria": "Dermatológicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con dermatológicos.",
+    "principioActivo": "Amoxicilina",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "KetorolacoMax Solución oral",
+    "categoria": "Antibióticos",
+    "descripcion": "Contiene Ketorolaco como principio activo.",
+    "principioActivo": "Ketorolaco",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraBupropionCare Spray",
+    "categoria": "Antivirales",
+    "descripcion": "Contiene Bupropion como principio activo.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Spray",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaLosartanPro Supositorio",
+    "categoria": "Antibióticos",
+    "descripcion": "Medicamento indicado para el tratamiento de antibióticos.",
+    "principioActivo": "Losartan",
+    "presentacion": "Supositorio",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaSimvastatinaPro Spray",
+    "categoria": "Neurológicos",
+    "descripcion": "Medicamento indicado para el tratamiento de neurológicos.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Spray",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperDiclofenacoCare Spray",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Contiene Diclofenaco como principio activo.",
+    "principioActivo": "Diclofenaco",
+    "presentacion": "Spray",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperKetorolacoMed Comprimidos",
+    "categoria": "Dermatológicos",
+    "descripcion": "Contiene Ketorolaco como principio activo.",
+    "principioActivo": "Ketorolaco",
+    "presentacion": "Comprimidos",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "LosartanPro Comprimidos",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Losartan",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoFluoxetinaPlus Gotas",
+    "categoria": "Antivirales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Fluoxetina",
+    "presentacion": "Gotas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperAspirinaPro Solución oral",
+    "categoria": "Dermatológicos",
+    "descripcion": "Medicamento indicado para el tratamiento de dermatológicos.",
+    "principioActivo": "Aspirina",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "Nifedipino Crema",
+    "categoria": "Antivirales",
+    "descripcion": "Contiene Nifedipino como principio activo.",
+    "principioActivo": "Nifedipino",
+    "presentacion": "Crema",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "Ketorolaco Cápsulas",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Ketorolaco",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperSalmeterolMed Comprimidos",
+    "categoria": "Respiratorios",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Salmeterol",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperRanitidinaMax Supositorio",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antihistamínicos.",
+    "principioActivo": "Ranitidina",
+    "presentacion": "Supositorio",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraBupropionMax Ungüento",
+    "categoria": "Dermatológicos",
+    "descripcion": "Medicamento indicado para el tratamiento de dermatológicos.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoWarfarinaMed Gotas",
+    "categoria": "Respiratorios",
+    "descripcion": "Medicamento indicado para el tratamiento de respiratorios.",
+    "principioActivo": "Warfarina",
+    "presentacion": "Gotas",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperSimvastatinaMax Ungüento",
+    "categoria": "Dermatológicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con dermatológicos.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperTramadolMed Spray",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Contiene Tramadol como principio activo.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Spray",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "HiperSimvastatina Supositorio",
+    "categoria": "Respiratorios",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con respiratorios.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Supositorio",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoAcido AcetilsalicilicoMed Supositorio",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Medicamento indicado para el tratamiento de antiinflamatorios.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Supositorio",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraRisperidonaMax Jarabe",
+    "categoria": "Antibióticos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antibióticos.",
+    "principioActivo": "Risperidona",
+    "presentacion": "Jarabe",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperAcido Acetilsalicilico Inyectable",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con cardiovasculares.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaKetorolaco Solución oral",
+    "categoria": "Neurológicos",
+    "descripcion": "Contiene Ketorolaco como principio activo.",
+    "principioActivo": "Ketorolaco",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NaproxenoPlus Inyectable",
+    "categoria": "Dermatológicos",
+    "descripcion": "Medicamento indicado para el tratamiento de dermatológicos.",
+    "principioActivo": "Naproxeno",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoRisperidona Comprimidos",
+    "categoria": "Dermatológicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con dermatológicos.",
+    "principioActivo": "Risperidona",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "Paracetamol Ungüento",
+    "categoria": "Neurológicos",
+    "descripcion": "Contiene Paracetamol como principio activo.",
+    "principioActivo": "Paracetamol",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoEnalaprilPro Jarabe",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Contiene Enalapril como principio activo.",
+    "principioActivo": "Enalapril",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "EnalaprilMed Gotas",
+    "categoria": "Dermatológicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con dermatológicos.",
+    "principioActivo": "Enalapril",
+    "presentacion": "Gotas",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperSalmeterol Crema",
+    "categoria": "Respiratorios",
+    "descripcion": "Medicamento indicado para el tratamiento de respiratorios.",
+    "principioActivo": "Salmeterol",
+    "presentacion": "Crema",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaTramadolMax Supositorio",
+    "categoria": "Neurológicos",
+    "descripcion": "Medicamento indicado para el tratamiento de neurológicos.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Supositorio",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaSimvastatinaMax Cápsulas",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Contiene Simvastatina como principio activo.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoBupropion Jarabe",
+    "categoria": "Dermatológicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "AtorvastatinaCare Gotas",
+    "categoria": "Antibióticos",
+    "descripcion": "Contiene Atorvastatina como principio activo.",
+    "principioActivo": "Atorvastatina",
+    "presentacion": "Gotas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraTramadolPlus Gotas",
+    "categoria": "Antibióticos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antibióticos.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Gotas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperRanitidinaMed Comprimidos",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antiinflamatorios.",
+    "principioActivo": "Ranitidina",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaSalmeterolMax Crema",
+    "categoria": "Antidepresivos",
+    "descripcion": "Contiene Salmeterol como principio activo.",
+    "principioActivo": "Salmeterol",
+    "presentacion": "Crema",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaTramadolCare Gotas",
+    "categoria": "Neurológicos",
+    "descripcion": "Medicamento indicado para el tratamiento de neurológicos.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Gotas",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "AspirinaPro Comprimidos",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con gastrointestinales.",
+    "principioActivo": "Aspirina",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperIbuprofeno Jarabe",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Contiene Ibuprofeno como principio activo.",
+    "principioActivo": "Ibuprofeno",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraFluoxetinaPro Spray",
+    "categoria": "Antibióticos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antibióticos.",
+    "principioActivo": "Fluoxetina",
+    "presentacion": "Spray",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoAcido AcetilsalicilicoMax Spray",
+    "categoria": "Analgésicos",
+    "descripcion": "Medicamento indicado para el tratamiento de analgésicos.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Spray",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoAtorvastatinaMax Ungüento",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con gastrointestinales.",
+    "principioActivo": "Atorvastatina",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraParacetamolPlus Gotas",
+    "categoria": "Antidepresivos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Paracetamol",
+    "presentacion": "Gotas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperDiclofenacoCare Jarabe",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Medicamento indicado para el tratamiento de antihistamínicos.",
+    "principioActivo": "Diclofenaco",
+    "presentacion": "Jarabe",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraRanitidinaCare Jarabe",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Contiene Ranitidina como principio activo.",
+    "principioActivo": "Ranitidina",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoIbuprofenoPro Solución oral",
+    "categoria": "Antidepresivos",
+    "descripcion": "Medicamento indicado para el tratamiento de antidepresivos.",
+    "principioActivo": "Ibuprofeno",
+    "presentacion": "Solución oral",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "NeoClopidogrel Ungüento",
+    "categoria": "Antivirales",
+    "descripcion": "Medicamento indicado para el tratamiento de antivirales.",
+    "principioActivo": "Clopidogrel",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "TramadolMax Jarabe",
+    "categoria": "Antibióticos",
+    "descripcion": "Contiene Tramadol como principio activo.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Jarabe",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraClopidogrelCare Comprimidos",
+    "categoria": "Antivirales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antivirales.",
+    "principioActivo": "Clopidogrel",
+    "presentacion": "Comprimidos",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "ParacetamolMed Spray",
+    "categoria": "Respiratorios",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Paracetamol",
+    "presentacion": "Spray",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperRisperidonaMed Gotas",
+    "categoria": "Analgésicos",
+    "descripcion": "Contiene Risperidona como principio activo.",
+    "principioActivo": "Risperidona",
+    "presentacion": "Gotas",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "NeoAcido AcetilsalicilicoPlus Crema",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Crema",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaBupropionPlus Comprimidos",
+    "categoria": "Hormonales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con hormonales.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperSimvastatinaCare Inyectable",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaOmeprazol Solución oral",
+    "categoria": "Dermatológicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Omeprazol",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaSimvastatinaPro Inyectable",
+    "categoria": "Antidepresivos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antidepresivos.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Inyectable",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperFluoxetinaPlus Supositorio",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Medicamento indicado para el tratamiento de antihistamínicos.",
+    "principioActivo": "Fluoxetina",
+    "presentacion": "Supositorio",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaOmeprazolMed Inyectable",
+    "categoria": "Neurológicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Omeprazol",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "OmeprazolCare Jarabe",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Omeprazol",
+    "presentacion": "Jarabe",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperMetformina Crema",
+    "categoria": "Respiratorios",
+    "descripcion": "Contiene Metformina como principio activo.",
+    "principioActivo": "Metformina",
+    "presentacion": "Crema",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraClopidogrelPro Inyectable",
+    "categoria": "Antidepresivos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Clopidogrel",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaNaproxenoPlus Jarabe",
+    "categoria": "Antidepresivos",
+    "descripcion": "Contiene Naproxeno como principio activo.",
+    "principioActivo": "Naproxeno",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SimvastatinaCare Cápsulas",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con cardiovasculares.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoBupropionMed Crema",
+    "categoria": "Analgésicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con analgésicos.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Crema",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraFluoxetinaCare Comprimidos",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Contiene Fluoxetina como principio activo.",
+    "principioActivo": "Fluoxetina",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraNaproxenoPlus Solución oral",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Naproxeno",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperIbuprofenoCare Spray",
+    "categoria": "Dermatológicos",
+    "descripcion": "Contiene Ibuprofeno como principio activo.",
+    "principioActivo": "Ibuprofeno",
+    "presentacion": "Spray",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "HiperAcido Acetilsalicilico Jarabe",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Contiene Acido Acetilsalicilico como principio activo.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraSalmeterolCare Crema",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Medicamento indicado para el tratamiento de gastrointestinales.",
+    "principioActivo": "Salmeterol",
+    "presentacion": "Crema",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperSalmeterolCare Crema",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Medicamento indicado para el tratamiento de antiinflamatorios.",
+    "principioActivo": "Salmeterol",
+    "presentacion": "Crema",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaMetoclopramidaMed Inyectable",
+    "categoria": "Hormonales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Metoclopramida",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaAtorvastatinaPro Solución oral",
+    "categoria": "Neurológicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Atorvastatina",
+    "presentacion": "Solución oral",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaAspirinaCare Inyectable",
+    "categoria": "Antibióticos",
+    "descripcion": "Medicamento indicado para el tratamiento de antibióticos.",
+    "principioActivo": "Aspirina",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "WarfarinaPlus Spray",
+    "categoria": "Respiratorios",
+    "descripcion": "Medicamento indicado para el tratamiento de respiratorios.",
+    "principioActivo": "Warfarina",
+    "presentacion": "Spray",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperClopidogrel Ungüento",
+    "categoria": "Respiratorios",
+    "descripcion": "Contiene Clopidogrel como principio activo.",
+    "principioActivo": "Clopidogrel",
+    "presentacion": "Ungüento",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "ClopidogrelMax Ungüento",
+    "categoria": "Dermatológicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Clopidogrel",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaKetorolacoCare Inyectable",
+    "categoria": "Neurológicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Ketorolaco",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperMetformina Comprimidos",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Contiene Metformina como principio activo.",
+    "principioActivo": "Metformina",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoWarfarinaMed Cápsulas",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Medicamento indicado para el tratamiento de antiinflamatorios.",
+    "principioActivo": "Warfarina",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperWarfarinaMax Inyectable",
+    "categoria": "Hormonales",
+    "descripcion": "Medicamento indicado para el tratamiento de hormonales.",
+    "principioActivo": "Warfarina",
+    "presentacion": "Inyectable",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraParacetamolPlus Spray",
+    "categoria": "Antibióticos",
+    "descripcion": "Contiene Paracetamol como principio activo.",
+    "principioActivo": "Paracetamol",
+    "presentacion": "Spray",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoBupropionCare Cápsulas",
+    "categoria": "Hormonales",
+    "descripcion": "Contiene Bupropion como principio activo.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoAtorvastatina Ungüento",
+    "categoria": "Hormonales",
+    "descripcion": "Contiene Atorvastatina como principio activo.",
+    "principioActivo": "Atorvastatina",
+    "presentacion": "Ungüento",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaRisperidonaMax Solución oral",
+    "categoria": "Hormonales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con hormonales.",
+    "principioActivo": "Risperidona",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaAspirinaMed Inyectable",
+    "categoria": "Analgésicos",
+    "descripcion": "Medicamento indicado para el tratamiento de analgésicos.",
+    "principioActivo": "Aspirina",
+    "presentacion": "Inyectable",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "LosartanCare Spray",
+    "categoria": "Antivirales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Losartan",
+    "presentacion": "Spray",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraWarfarina Inyectable",
+    "categoria": "Antivirales",
+    "descripcion": "Contiene Warfarina como principio activo.",
+    "principioActivo": "Warfarina",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoTramadolMax Cápsulas",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Contiene Tramadol como principio activo.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraAmoxicilinaPlus Supositorio",
+    "categoria": "Antibióticos",
+    "descripcion": "Medicamento indicado para el tratamiento de antibióticos.",
+    "principioActivo": "Amoxicilina",
+    "presentacion": "Supositorio",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraOmeprazolMed Comprimidos",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Contiene Omeprazol como principio activo.",
+    "principioActivo": "Omeprazol",
+    "presentacion": "Comprimidos",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaTramadolMed Crema",
+    "categoria": "Analgésicos",
+    "descripcion": "Medicamento indicado para el tratamiento de analgésicos.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Crema",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperKetorolacoCare Gotas",
+    "categoria": "Antivirales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antivirales.",
+    "principioActivo": "Ketorolaco",
+    "presentacion": "Gotas",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraBupropionPro Solución oral",
+    "categoria": "Respiratorios",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con respiratorios.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperSalmeterolPlus Supositorio",
+    "categoria": "Dermatológicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con dermatológicos.",
+    "principioActivo": "Salmeterol",
+    "presentacion": "Supositorio",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "KetorolacoCare Solución oral",
+    "categoria": "Antidepresivos",
+    "descripcion": "Medicamento indicado para el tratamiento de antidepresivos.",
+    "principioActivo": "Ketorolaco",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperOmeprazolCare Gotas",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Omeprazol",
+    "presentacion": "Gotas",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaDiclofenacoMed Comprimidos",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Medicamento indicado para el tratamiento de cardiovasculares.",
+    "principioActivo": "Diclofenaco",
+    "presentacion": "Comprimidos",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "HiperNifedipinoCare Gotas",
+    "categoria": "Antivirales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antivirales.",
+    "principioActivo": "Nifedipino",
+    "presentacion": "Gotas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "Metoclopramida Gotas",
+    "categoria": "Antibióticos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antibióticos.",
+    "principioActivo": "Metoclopramida",
+    "presentacion": "Gotas",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraAmoxicilina Ungüento",
+    "categoria": "Analgésicos",
+    "descripcion": "Medicamento indicado para el tratamiento de analgésicos.",
+    "principioActivo": "Amoxicilina",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaAcido AcetilsalicilicoMed Cápsulas",
+    "categoria": "Antibióticos",
+    "descripcion": "Contiene Acido Acetilsalicilico como principio activo.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoIbuprofenoPro Cápsulas",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Medicamento indicado para el tratamiento de gastrointestinales.",
+    "principioActivo": "Ibuprofeno",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperAspirinaPro Inyectable",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antiinflamatorios.",
+    "principioActivo": "Aspirina",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperRisperidonaPlus Jarabe",
+    "categoria": "Antivirales",
+    "descripcion": "Contiene Risperidona como principio activo.",
+    "principioActivo": "Risperidona",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraBupropion Jarabe",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antiinflamatorios.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaOmeprazolCare Spray",
+    "categoria": "Respiratorios",
+    "descripcion": "Contiene Omeprazol como principio activo.",
+    "principioActivo": "Omeprazol",
+    "presentacion": "Spray",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperTramadol Cápsulas",
+    "categoria": "Neurológicos",
+    "descripcion": "Contiene Tramadol como principio activo.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraSimvastatina Ungüento",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NifedipinoCare Cápsulas",
+    "categoria": "Antibióticos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Nifedipino",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperIbuprofenoPro Inyectable",
+    "categoria": "Hormonales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con hormonales.",
+    "principioActivo": "Ibuprofeno",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoNifedipinoMax Gotas",
+    "categoria": "Neurológicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con neurológicos.",
+    "principioActivo": "Nifedipino",
+    "presentacion": "Gotas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaFluoxetina Jarabe",
+    "categoria": "Antidepresivos",
+    "descripcion": "Medicamento indicado para el tratamiento de antidepresivos.",
+    "principioActivo": "Fluoxetina",
+    "presentacion": "Jarabe",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "HiperAcido AcetilsalicilicoCare Cápsulas",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antihistamínicos.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraSalmeterolMed Cápsulas",
+    "categoria": "Analgésicos",
+    "descripcion": "Contiene Salmeterol como principio activo.",
+    "principioActivo": "Salmeterol",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraFluoxetinaMax Spray",
+    "categoria": "Dermatológicos",
+    "descripcion": "Medicamento indicado para el tratamiento de dermatológicos.",
+    "principioActivo": "Fluoxetina",
+    "presentacion": "Spray",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "HiperBupropionPro Gotas",
+    "categoria": "Neurológicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Gotas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperKetorolacoPro Comprimidos",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Ketorolaco",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraRanitidinaPro Crema",
+    "categoria": "Neurológicos",
+    "descripcion": "Contiene Ranitidina como principio activo.",
+    "principioActivo": "Ranitidina",
+    "presentacion": "Crema",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraAtorvastatina Jarabe",
+    "categoria": "Respiratorios",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Atorvastatina",
+    "presentacion": "Jarabe",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaTramadol Jarabe",
+    "categoria": "Neurológicos",
+    "descripcion": "Medicamento indicado para el tratamiento de neurológicos.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoAcido Acetilsalicilico Supositorio",
+    "categoria": "Antibióticos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Supositorio",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "NeoParacetamolMax Gotas",
+    "categoria": "Analgésicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Paracetamol",
+    "presentacion": "Gotas",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "SuperDiclofenacoPlus Gotas",
+    "categoria": "Gastrointestinales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Diclofenaco",
+    "presentacion": "Gotas",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "HiperTramadolCare Jarabe",
+    "categoria": "Dermatológicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con dermatológicos.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "AtorvastatinaPro Solución oral",
+    "categoria": "Antivirales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antivirales.",
+    "principioActivo": "Atorvastatina",
+    "presentacion": "Solución oral",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaBupropionMed Comprimidos",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Contiene Bupropion como principio activo.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraAspirinaCare Comprimidos",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antihistamínicos.",
+    "principioActivo": "Aspirina",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaSimvastatinaMax Gotas",
+    "categoria": "Hormonales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con hormonales.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Gotas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperEnalapril Inyectable",
+    "categoria": "Hormonales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con hormonales.",
+    "principioActivo": "Enalapril",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperSalmeterolCare Spray",
+    "categoria": "Antibióticos",
+    "descripcion": "Contiene Salmeterol como principio activo.",
+    "principioActivo": "Salmeterol",
+    "presentacion": "Spray",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "Fluoxetina Ungüento",
+    "categoria": "Analgésicos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Fluoxetina",
+    "presentacion": "Ungüento",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SimvastatinaPlus Comprimidos",
+    "categoria": "Dermatológicos",
+    "descripcion": "Contiene Simvastatina como principio activo.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Comprimidos",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraAmoxicilinaMed Inyectable",
+    "categoria": "Hormonales",
+    "descripcion": "Medicamento indicado para el tratamiento de hormonales.",
+    "principioActivo": "Amoxicilina",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "Ibuprofeno Solución oral",
+    "categoria": "Neurológicos",
+    "descripcion": "Medicamento indicado para el tratamiento de neurológicos.",
+    "principioActivo": "Ibuprofeno",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoParacetamol Comprimidos",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Contiene Paracetamol como principio activo.",
+    "principioActivo": "Paracetamol",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperSalmeterol Comprimidos",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Contiene Salmeterol como principio activo.",
+    "principioActivo": "Salmeterol",
+    "presentacion": "Comprimidos",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraFluoxetinaPro Cápsulas",
+    "categoria": "Antihistamínicos",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antihistamínicos.",
+    "principioActivo": "Fluoxetina",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperFluoxetinaCare Gotas",
+    "categoria": "Hormonales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Fluoxetina",
+    "presentacion": "Gotas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperLosartanPlus Solución oral",
+    "categoria": "Antivirales",
+    "descripcion": "Contiene Losartan como principio activo.",
+    "principioActivo": "Losartan",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "UltraFluoxetinaCare Cápsulas",
+    "categoria": "Antidepresivos",
+    "descripcion": "Contiene Fluoxetina como principio activo.",
+    "principioActivo": "Fluoxetina",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaAcido AcetilsalicilicoPlus Inyectable",
+    "categoria": "Antibióticos",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MegaMetoclopramida Cápsulas",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Metoclopramida",
+    "presentacion": "Cápsulas",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperRanitidinaMed Ungüento",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Ranitidina",
+    "presentacion": "Ungüento",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "MegaAcido AcetilsalicilicoCare Solución oral",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Solución oral",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperTramadolPro Crema",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Medicamento indicado para el tratamiento de antiinflamatorios.",
+    "principioActivo": "Tramadol",
+    "presentacion": "Crema",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "MetoclopramidaPlus Crema",
+    "categoria": "Antivirales",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antivirales.",
+    "principioActivo": "Metoclopramida",
+    "presentacion": "Crema",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "SuperClopidogrel Inyectable",
+    "categoria": "Antibióticos",
+    "descripcion": "Medicamento indicado para el tratamiento de antibióticos.",
+    "principioActivo": "Clopidogrel",
+    "presentacion": "Inyectable",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "HiperAcido AcetilsalicilicoCare Solución oral",
+    "categoria": "Hormonales",
+    "descripcion": "Formulación avanzada para un tratamiento efectivo.",
+    "principioActivo": "Acido Acetilsalicilico",
+    "presentacion": "Solución oral",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraBupropionCare Solución oral",
+    "categoria": "Antiinflamatorios",
+    "descripcion": "Desarrollado para aliviar los síntomas relacionados con antiinflamatorios.",
+    "principioActivo": "Bupropion",
+    "presentacion": "Solución oral",
+    "requiereReceta": true
+  },
+  {
+    "nombre": "UltraSimvastatinaMax Jarabe",
+    "categoria": "Cardiovasculares",
+    "descripcion": "Medicamento indicado para el tratamiento de cardiovasculares.",
+    "principioActivo": "Simvastatina",
+    "presentacion": "Jarabe",
+    "requiereReceta": false
+  },
+  {
+    "nombre": "NeoNaproxenoPlus Comprimidos",
+    "categoria": "Dermatológicos",
+    "descripcion": "Contiene Naproxeno como principio activo.",
+    "principioActivo": "Naproxeno",
+    "presentacion": "Comprimidos",
+    "requiereReceta": false
+  }
+]
