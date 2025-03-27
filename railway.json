@@ -1,0 +1,15 @@
+{
+    "build": {
+      "builder": "nixpacks",
+      "buildCommand": "npm run build"
+    },
+    "deploy": {
+      "startCommand": "cd apps/backend && node src/index.js",
+      "healthcheck": {
+        "path": "/",
+        "interval": 10,
+        "timeout": 5,
+        "retries": 3
+      }
+    }
+  }
