@@ -1,3 +1,4 @@
+// apps/backend/scripts/generar-devoluciones.js
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
@@ -14,129 +15,171 @@ const motivosDevoluciones = [
 
 async function generarDevoluciones() {
   try {
-    // Iniciar transacción
-    const resultado = await prisma.$transaction(async (tx) => {
-      // Obtener ventas recientes con inventarios y medicamentos
-      const ventas = await tx.venta.findMany({
-        where: {
-          fecha: {
-            gte: new Date(Date.now() - 90 * 24 * 60 * 60 * 1000) // Ventas de los últimos 90 días
+    console.log("Iniciando generación de devoluciones...");
+    
+    // Obtener ventas recientes
+    const ventas = await prisma.venta.findMany({
+      where: {
+        fecha: {
+          gte: new Date(Date.now() - 90 * 24 * 60 * 60 * 1000) // Ventas de los últimos 90 días
+        }
+      },
+      include: {
+        inventario: {
+          include: {
+            medicamento: true
           }
         },
-        include: {
-          inventario: {
-            include: {
-              medicamento: true,
-              farmacia: true
-            }
-          }
-        }
-      });
-
-      console.log(`Ventas encontradas: ${ventas.length}`);
+        farmacia: true
+      }
+    });
+    
+    console.log(`Ventas encontradas: ${ventas.length}`);
+    
+    if (ventas.length === 0) {
+      throw new Error('No hay ventas para generar devoluciones. Ejecute primero el script de ventas.');
+    }
+    
+    // Determinar número de devoluciones a generar (aproximadamente 10% de las ventas)
+    const numDevoluciones = Math.min(Math.ceil(ventas.length * 0.1), 20);
+    console.log(`Generando ${numDevoluciones} devoluciones...`);
+    
+    // Conjunto para rastrear ventas ya devueltas (para evitar duplicados)
+    const ventasDevueltas = new Set();
+    
+    const devoluciones = [];
+    
+    for (let i = 0; i < numDevoluciones; i++) {
+      // Seleccionar una venta que no haya sido devuelta
+      let ventaSeleccionada;
+      let intentos = 0;
       
-      if (ventas.length === 0) {
-        throw new Error('No hay ventas para generar devoluciones');
+      do {
+        ventaSeleccionada = ventas[Math.floor(Math.random() * ventas.length)];
+        intentos++;
+        
+        if (intentos > 100) {
+          // Evitar bucle infinito si hay pocas ventas
+          console.log("Demasiados intentos para encontrar una venta no devuelta. Reiniciando conjunto...");
+          ventasDevueltas.clear();
+          break;
+        }
+      } while (
+        ventasDevueltas.has(ventaSeleccionada.id) && 
+        ventasDevueltas.size < ventas.length
+      );
+      
+      // Marcar esta venta como devuelta
+      ventasDevueltas.add(ventaSeleccionada.id);
+      
+      // Calcular cantidad de devolución (entre 1 y la cantidad vendida)
+      const cantidadDevolucion = Math.min(
+        ventaSeleccionada.cantidad,
+        Math.floor(Math.random() * ventaSeleccionada.cantidad) + 1
+      );
+      
+      // Seleccionar un motivo aleatorio
+      const motivoAleatorio = motivosDevoluciones[
+        Math.floor(Math.random() * motivosDevoluciones.length)
+      ];
+      
+      // Generar fecha de devolución (después de la fecha de venta)
+      const fechaVenta = new Date(ventaSeleccionada.fecha);
+      const diasAleatorios = Math.floor(Math.random() * 14) + 1; // Entre 1 y 14 días después
+      const fechaDevolucion = new Date(fechaVenta);
+      fechaDevolucion.setDate(fechaVenta.getDate() + diasAleatorios);
+      
+      // Asegurarse de que la fecha no sea futura
+      const hoy = new Date();
+      if (fechaDevolucion > hoy) {
+        fechaDevolucion.setTime(hoy.getTime());
       }
-
-      // Generar devoluciones
-      const devoluciones = [];
-      const inventariosDevueltos = new Set();
-
-      // Generar 10 devoluciones o el máximo posible
-      const numDevoluciones = Math.min(10, ventas.length);
-      console.log(`Generando ${numDevoluciones} devoluciones`);
-
-      for (let i = 0; i < numDevoluciones; i++) {
-        // Seleccionar una venta que no haya sido devuelta aún
-        let ventaSeleccionada;
-        do {
-          ventaSeleccionada = ventas[Math.floor(Math.random() * ventas.length)];
-        } while (
-          inventariosDevueltos.has(ventaSeleccionada.inventarioId)
-        );
-
-        // Calcular cantidad de devolución (entre 1 y el 30% de la venta original)
-        const cantidadMaxima = Math.min(
-          ventaSeleccionada.cantidad, 
-          Math.floor(ventaSeleccionada.cantidad * 0.3)
-        );
-        const cantidadDevolucion = Math.floor(Math.random() * cantidadMaxima) + 1;
-
-        // Crear objeto de devolución
-        const devolucion = {
-          inventarioId: ventaSeleccionada.inventarioId,
-          farmaciaId: ventaSeleccionada.farmaciaId,
-          cantidad: cantidadDevolucion,
-          motivo: motivosDevoluciones[Math.floor(Math.random() * motivosDevoluciones.length)],
-          fecha: new Date(Date.now() - Math.floor(Math.random() * 90 * 24 * 60 * 60 * 1000))
-        };
-
-        devoluciones.push(devolucion);
-        inventariosDevueltos.add(ventaSeleccionada.inventarioId);
-
-        console.log(`Devolución generada - Medicamento: ${ventaSeleccionada.inventario.medicamento.nombre}, Cantidad: ${cantidadDevolucion}`);
-      }
-
-      // Crear devoluciones
-      const resultadoDevoluciones = await tx.devolucion.createMany({
-        data: devoluciones
+      
+      // Crear objeto de devolución
+      devoluciones.push({
+        cantidad: cantidadDevolucion,
+        motivo: motivoAleatorio,
+        fecha: fechaDevolucion,
+        inventarioId: ventaSeleccionada.inventarioId,
+        farmaciaId: ventaSeleccionada.farmaciaId,
+        estado: ['PENDIENTE', 'APROBADA', 'RECHAZADA'][Math.floor(Math.random() * 3)] // Estado aleatorio
       });
-      console.log(`Devoluciones creadas: ${resultadoDevoluciones.count}`);
-
-      // Actualizar stocks de inventario
+    }
+    
+    // Crear devoluciones en la base de datos
+    const devolucionesCreadas = await prisma.$transaction(async (tx) => {
+      const resultado = [];
+      
       for (const devolucion of devoluciones) {
-        await tx.inventario.update({
-          where: { id: devolucion.inventarioId },
-          data: {
-            stock: {
-              increment: devolucion.cantidad
-            }
+        const devolucionCreada = await tx.devolucion.create({
+          data: devolucion,
+          include: {
+            inventario: {
+              include: {
+                medicamento: true
+              }
+            },
+            farmacia: true
           }
         });
-      }
-
-      // Verificar devoluciones creadas
-      const devolucionesRegistradas = await tx.devolucion.findMany({
-        where: {
-          fecha: {
-            gte: new Date(Date.now() - 91 * 24 * 60 * 60 * 1000) // Últimos 91 días
-          }
-        },
-        include: {
-          farmacia: { select: { nombre: true } },
-          inventario: { 
-            include: { 
-              medicamento: { select: { nombre: true } } 
-            } 
-          }
+        
+        resultado.push(devolucionCreada);
+        
+        // Si la devolución está aprobada, incrementar el stock
+        if (devolucion.estado === 'APROBADA') {
+          await tx.inventario.update({
+            where: { id: devolucion.inventarioId },
+            data: {
+              stock: {
+                increment: devolucion.cantidad
+              }
+            }
+          });
+          
+          // Registrar el movimiento de inventario
+          await tx.movimientoInventario.create({
+            data: {
+              tipo: 'INGRESO',
+              cantidad: devolucion.cantidad,
+              fecha: devolucion.fecha,
+              inventarioId: devolucion.inventarioId,
+              farmaciaId: devolucion.farmaciaId
+            }
+          });
         }
-      });
-
-      console.log("\nDetalles de devoluciones generadas:");
-      devolucionesRegistradas.forEach(devolucion => {
-        console.log(`- Farmacia: ${devolucion.farmacia.nombre}`);
-        console.log(`  Medicamento: ${devolucion.inventario.medicamento.nombre}`);
-        console.log(`  Cantidad: ${devolucion.cantidad}`);
-        console.log(`  Motivo: ${devolucion.motivo}`);
-        console.log(`  Fecha: ${devolucion.fecha}`);
-        console.log('---');
-      });
-
-      return devolucionesRegistradas;
+      }
+      
+      return resultado;
     });
+    
+    console.log(`Generación de devoluciones completada. Se crearon ${devolucionesCreadas.length} devoluciones.`);
+    
+    // Mostrar algunas estadísticas
+    const porEstado = devolucionesCreadas.reduce((acc, dev) => {
+      acc[dev.estado] = (acc[dev.estado] || 0) + 1;
+      return acc;
+    }, {});
+    
+    console.log("\nEstadísticas de devoluciones generadas:");
+    for (const [estado, cantidad] of Object.entries(porEstado)) {
+      console.log(`- ${estado}: ${cantidad}`);
+    }
 
-    console.log('Proceso de generación de devoluciones completado con éxito');
-    return resultado;
   } catch (error) {
     console.error('Error al generar devoluciones:', error);
-    console.error('Detalles del error:', error.message);
-    console.error('Traza del error:', error.stack);
     throw error;
   } finally {
     await prisma.$disconnect();
   }
 }
 
-// Ejecutar generación de devoluciones
-generarDevoluciones();
+// Ejecutar la función
+generarDevoluciones()
+  .then(() => {
+    console.log('Proceso completado exitosamente.');
+    process.exit(0);
+  })
+  .catch((error) => {
+    console.error('Error en el proceso:', error);
+    process.exit(1);
+  });

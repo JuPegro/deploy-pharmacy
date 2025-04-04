@@ -1,3 +1,4 @@
+// apps/backend/scripts/generar-inventarios.js
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
@@ -13,93 +14,99 @@ const generarFechaVencimiento = () => {
 
 // Función para generar stock
 const generarStock = () => {
-  return Math.floor(Math.random() * 200) + 10; // Entre 10 y 210
+  return Math.floor(Math.random() * 100) + 10; // Entre 10 y 110
 };
 
-// Función para generar precio (basado en stock y un precio base del medicamento)
-const generarPrecio = (stock, precioBase) => {
-  return parseFloat((precioBase * stock * (Math.random() * 0.5 + 0.5)).toFixed(2));
+// Función para generar precio
+const generarPrecio = () => {
+  return parseFloat((Math.random() * 5000 + 500).toFixed(2)); // Entre 500 y 5500
 };
 
 async function generarInventarios() {
   try {
-    // Eliminar inventarios existentes
-    await prisma.inventario.deleteMany();
-    console.log("Inventarios anteriores eliminados.");
-
+    console.log("Iniciando generación de inventarios...");
+    
     // Obtener todas las farmacias y medicamentos
     const [farmacias, medicamentos] = await Promise.all([
       prisma.farmacia.findMany(),
       prisma.medicamento.findMany()
     ]);
-
-    // Generar inventarios
-    const inventarios = [];
-    const inventariosUnicos = new Set();
-
-    // Iterar sobre cada farmacia
+    
+    if (farmacias.length === 0) {
+      throw new Error("No hay farmacias en la base de datos. Ejecute primero el script de farmacias.");
+    }
+    
+    if (medicamentos.length === 0) {
+      throw new Error("No hay medicamentos en la base de datos. Ejecute primero el script de medicamentos.");
+    }
+    
+    console.log(`Farmacias encontradas: ${farmacias.length}`);
+    console.log(`Medicamentos encontrados: ${medicamentos.length}`);
+    
+    // Verificar inventarios existentes
+    const inventariosExistentes = await prisma.inventario.findMany({
+      select: { farmaciaId: true, medicamentoId: true }
+    });
+    
+    const claveExistente = (farmaciaId, medicamentoId) => {
+      return inventariosExistentes.some(
+        inv => inv.farmaciaId === farmaciaId && inv.medicamentoId === medicamentoId
+      );
+    };
+    
+    // Crear nuevos inventarios
+    let creados = 0;
+    const totalOperaciones = farmacias.length * Math.min(medicamentos.length, 30); // Máximo 30 medicamentos por farmacia
+    
     for (const farmacia of farmacias) {
-      // Seleccionar un subconjunto de medicamentos para esta farmacia
+      // Seleccionar un subconjunto aleatorio de medicamentos para esta farmacia
       const medicamentosSeleccionados = medicamentos
         .sort(() => 0.5 - Math.random()) // Mezclar aleatoriamente
         .slice(0, Math.floor(Math.random() * 20) + 10); // Entre 10 y 30 medicamentos por farmacia
-
-      // Crear inventario para estos medicamentos
+      
+      console.log(`Generando inventarios para ${farmacia.nombre} (${medicamentosSeleccionados.length} medicamentos)...`);
+      
       for (const medicamento of medicamentosSeleccionados) {
-        // Generar una clave única para prevenir duplicados
-        const claveUnica = `${farmacia.id}-${medicamento.id}`;
+        // Verificar si ya existe este inventario
+        if (claveExistente(farmacia.id, medicamento.id)) {
+          continue;
+        }
         
-        // Evitar duplicados
-        if (!inventariosUnicos.has(claveUnica)) {
-          const stock = generarStock();
-          
-          // Asignar un precio base al medicamento (si no existe)
-          const precioBase = Math.random() * 10 + 5; // Entre 5 y 15
-          
-          const nuevoInventario = {
+        // Crear un nuevo inventario
+        await prisma.inventario.create({
+          data: {
             farmaciaId: farmacia.id,
             medicamentoId: medicamento.id,
-            stock: stock,
-            stockMinimo: 10, // Stock mínimo por defecto
-            precio: generarPrecio(stock, precioBase),
+            stock: generarStock(),
+            stockMinimo: Math.floor(Math.random() * 10) + 5, // Entre 5 y 15
+            precio: generarPrecio(),
             vencimiento: generarFechaVencimiento()
-          };
-
-          inventarios.push(nuevoInventario);
-          inventariosUnicos.add(claveUnica);
-        }
+          }
+        });
+        
+        creados++;
       }
+      
+      console.log(`Progreso: ${creados}/${totalOperaciones} inventarios creados`);
     }
-
-    // Insertar inventarios
-    const resultado = await prisma.inventario.createMany({
-      data: inventarios,
-      skipDuplicates: true // Evitar duplicados
-    });
-
-    console.log(`Se insertaron ${resultado.count} registros de inventario`);
-
-    // Verificar inventarios
-    const inventariosEnBD = await prisma.inventario.findMany({
-      include: {
-        farmacia: { select: { nombre: true } },
-        medicamento: { select: { nombre: true } }
-      }
-    });
-
-    console.log("\nMuestra de inventarios generados:");
-    inventariosEnBD.slice(0, 20).forEach(inv => {
-      console.log(`- ${inv.farmacia.nombre}: ${inv.medicamento.nombre} (Stock: ${inv.stock}, Precio: $${inv.precio})`);
-    });
-
-    console.log(`\nTotal de registros de inventario: ${inventariosEnBD.length}`);
+    
+    console.log(`Generación de inventarios completada. Se crearon ${creados} nuevos inventarios.`);
 
   } catch (error) {
     console.error('Error al generar inventarios:', error);
+    throw error;
   } finally {
     await prisma.$disconnect();
   }
 }
 
-// Ejecutar generación de inventarios
-generarInventarios();
+// Ejecutar la función
+generarInventarios()
+  .then(() => {
+    console.log('Proceso completado exitosamente.');
+    process.exit(0);
+  })
+  .catch((error) => {
+    console.error('Error en el proceso:', error);
+    process.exit(1);
+  });

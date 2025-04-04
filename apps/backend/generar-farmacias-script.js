@@ -1,3 +1,4 @@
+// apps/backend/scripts/generar-farmacias.js
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
@@ -62,95 +63,59 @@ const farmaciasDominicanas = [
     direccion: "Calle Duarte, San Rafael del Yuma",
     latitud: 18.4600,
     longitud: -68.3817
-  },
-  {
-    nombre: "Farmacia Puerto Plata",
-    direccion: "Malecón, Puerto Plata",
-    latitud: 19.7892,
-    longitud: -70.6828
-  },
-  {
-    nombre: "Farmacia Bávaro",
-    direccion: "Av. Turística, Bávaro",
-    latitud: 18.6847,
-    longitud: -68.4050
-  },
-  {
-    nombre: "Farmacia Santo Domingo Norte",
-    direccion: "Av. Jacobo Majluta, Santo Domingo Norte",
-    latitud: 18.5500,
-    longitud: -69.8667
-  },
-  {
-    nombre: "Farmacia Moca",
-    direccion: "Calle El Progreso, Moca",
-    latitud: 19.3889,
-    longitud: -70.5264
-  },
-  {
-    nombre: "Farmacia Barahona",
-    direccion: "Av. Lizandro Procopio, Barahona",
-    latitud: 18.2096,
-    longitud: -71.0984
-  },
-  {
-    nombre: "Farmacia San Pedro de Macorís",
-    direccion: "Calle Duarte, San Pedro de Macorís",
-    latitud: 18.4615,
-    longitud: -69.3081
-  },
-  {
-    nombre: "Farmacia Samaná",
-    direccion: "Malecón, Samaná",
-    latitud: 19.2042,
-    longitud: -69.3375
-  },
-  {
-    nombre: "Farmacia Monte Cristi",
-    direccion: "Calle Principal, Monte Cristi",
-    latitud: 19.8472,
-    longitud: -71.6550
-  },
-  {
-    nombre: "Farmacia Romana",
-    direccion: "Av. Circunvalación, La Romana",
-    latitud: 18.4270,
-    longitud: -68.9730
-  },
-  {
-    nombre: "Farmacia Bonao",
-    direccion: "Calle Duarte, Bonao",
-    latitud: 18.9789,
-    longitud: -70.4107
   }
 ];
 
 async function insertarFarmacias() {
   try {
-    // Eliminar farmacias existentes
-    await prisma.farmacia.deleteMany();
-    console.log("Farmacias anteriores eliminadas.");
-
-    // Insertar nuevas farmacias
-    const resultado = await prisma.farmacia.createMany({
-      data: farmaciasDominicanas
+    console.log("Iniciando inserción de farmacias...");
+    
+    // Verificar farmacias existentes
+    const farmaciasExistentes = await prisma.farmacia.findMany({
+      select: { nombre: true }
     });
-
-    console.log(`Se insertaron ${resultado.count} farmacias`);
-
-    // Verificar farmacias insertadas
-    const farmaciasEnBD = await prisma.farmacia.findMany();
-    console.log("Farmacias insertadas:");
-    farmaciasEnBD.forEach(farmacia => {
-      console.log(`- ${farmacia.nombre} (${farmacia.direccion})`);
+    
+    const nombresExistentes = new Set(farmaciasExistentes.map(f => f.nombre));
+    
+    // Filtrar farmacias que ya existen
+    const farmaciasNuevas = farmaciasDominicanas.filter(f => !nombresExistentes.has(f.nombre));
+    
+    if (farmaciasNuevas.length === 0) {
+      console.log("Todas las farmacias ya existen en la base de datos.");
+      return;
+    }
+    
+    console.log(`Se van a insertar ${farmaciasNuevas.length} nuevas farmacias.`);
+    
+    // Insertar nuevas farmacias
+    const resultados = await Promise.all(
+      farmaciasNuevas.map(farmacia => 
+        prisma.farmacia.create({
+          data: farmacia
+        })
+      )
+    );
+    
+    console.log(`Se insertaron ${resultados.length} farmacias:`);
+    resultados.forEach(farmacia => {
+      console.log(`- ${farmacia.nombre} (ID: ${farmacia.id})`);
     });
 
   } catch (error) {
     console.error('Error al insertar farmacias:', error);
+    throw error;
   } finally {
     await prisma.$disconnect();
   }
 }
 
-// Ejecutar la inserción
-insertarFarmacias();
+// Ejecutar la función
+insertarFarmacias()
+  .then(() => {
+    console.log('Proceso completado exitosamente.');
+    process.exit(0);
+  })
+  .catch((error) => {
+    console.error('Error en el proceso:', error);
+    process.exit(1);
+  });

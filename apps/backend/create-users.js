@@ -1,10 +1,32 @@
-// create-users.js
+// apps/backend/scripts/crear-usuarios.js
 const bcrypt = require('bcrypt');
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
-async function createUsers() {
+async function crearUsuarios() {
   try {
+    // Verificar si ya existen usuarios
+    const usuariosExistentes = await prisma.usuario.findMany();
+    
+    if (usuariosExistentes.length > 0) {
+      console.log('Ya existen usuarios en la base de datos:');
+      usuariosExistentes.forEach(usuario => {
+        console.log(`- ${usuario.nombre} (${usuario.email}) [${usuario.rol}]`);
+      });
+      
+      const adminUser = usuariosExistentes.find(u => u.rol === 'ADMIN');
+      const farmaciaUser = usuariosExistentes.find(u => u.rol === 'FARMACIA');
+      
+      if (adminUser && farmaciaUser) {
+        console.log('\nPuedes usar estas credenciales para iniciar sesión:');
+        console.log('- Admin: admin@farmacia.com / admin123');
+        console.log('- Farmacia: farmacia@farmacia.com / farmacia123');
+        return;
+      }
+    }
+    
+    console.log('Creando usuarios iniciales...');
+    
     // Encriptar contraseñas
     const salt = await bcrypt.genSalt(10);
     const adminPassword = await bcrypt.hash('admin123', salt);
@@ -27,13 +49,42 @@ async function createUsers() {
       rol: admin.rol
     });
 
-    // Crear usuario de farmacia
+    // Obtener una farmacia para asignar al usuario de farmacia
+    const farmacias = await prisma.farmacia.findMany({
+      take: 1
+    });
+    
+    // Si no hay farmacias, crear una farmacia por defecto
+    let farmaciaId;
+    if (farmacias.length === 0) {
+      console.log('No se encontraron farmacias. Creando una farmacia por defecto...');
+      const nuevaFarmacia = await prisma.farmacia.create({
+        data: {
+          nombre: "Farmacia Principal",
+          direccion: "Calle Principal #123",
+          latitud: 18.4861,
+          longitud: -69.9312
+        }
+      });
+      farmaciaId = nuevaFarmacia.id;
+      console.log(`Farmacia creada: ${nuevaFarmacia.nombre} (ID: ${farmaciaId})`);
+    } else {
+      farmaciaId = farmacias[0].id;
+    }
+    
+    // Crear usuario de farmacia y asignarle la farmacia
     const farmacia = await prisma.usuario.create({
       data: {
         nombre: 'Encargado Farmacia',
         email: 'farmacia@farmacia.com',
         password: farmaciaPassword,
-        rol: 'FARMACIA'
+        rol: 'FARMACIA',
+        farmacias: {
+          connect: [{ id: farmaciaId }]
+        },
+        farmaciaActiva: {
+          connect: { id: farmaciaId }
+        }
       }
     });
 
@@ -41,7 +92,8 @@ async function createUsers() {
       id: farmacia.id,
       nombre: farmacia.nombre,
       email: farmacia.email,
-      rol: farmacia.rol
+      rol: farmacia.rol,
+      farmaciaActivaId: farmaciaId
     });
 
     console.log('\nUsuarios creados exitosamente. Puedes usar estas credenciales para iniciar sesión:');
@@ -60,4 +112,13 @@ async function createUsers() {
   }
 }
 
-createUsers();
+// Ejecutar la función
+crearUsuarios()
+  .then(() => {
+    console.log('Proceso completado exitosamente.');
+    process.exit(0);
+  })
+  .catch((error) => {
+    console.error('Error en el proceso:', error);
+    process.exit(1);
+  });
