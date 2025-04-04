@@ -43,7 +43,11 @@ exports.registro = async (usuarioData) => {
 exports.login = async (email, password) => {
     // Buscar usuario por email
     const usuario = await prisma.usuario.findUnique({
-        where: { email }
+        where: { email },
+        include: {
+            farmacias: true,
+            farmaciaActiva: true
+        }
     });
 
     if (!usuario) {
@@ -54,6 +58,18 @@ exports.login = async (email, password) => {
     const passwordCorrecta = await bcrypt.compare(password, usuario.password);
     if (!passwordCorrecta) {
         throw new AppError('Email o password incorrectos', 401);
+    }
+
+    // Si es usuario de farmacia y no tiene farmacia activa pero tiene farmacias asignadas
+    if (usuario.rol === 'FARMACIA' && !usuario.farmaciaActivaId && usuario.farmacias.length > 0) {
+        // Establecer la primera farmacia como activa
+        await prisma.usuario.update({
+            where: { id: usuario.id },
+            data: {
+                farmaciaActivaId: usuario.farmacias[0].id
+            }
+        });
+        usuario.farmaciaActiva = usuario.farmacias[0];
     }
 
     // Generar token
@@ -69,11 +85,44 @@ exports.login = async (email, password) => {
     };
 };
 
+exports.seleccionarFarmaciaActiva = async (usuarioId, farmaciaId) => {
+    // Verificar que el usuario existe
+    const usuario = await prisma.usuario.findUnique({
+        where: { id: usuarioId },
+        include: { farmacias: true }
+    });
+
+    if (!usuario) {
+        throw new AppError('Usuario no encontrado', 404);
+    }
+
+    // Verificar que el usuario tiene acceso a esta farmacia
+    const tieneAcceso = usuario.farmacias.some(f => f.id === farmaciaId);
+    if (!tieneAcceso) {
+        throw new AppError('No tienes acceso a esta farmacia', 403);
+    }
+
+    // Actualizar la farmacia activa
+    const usuarioActualizado = await prisma.usuario.update({
+        where: { id: usuarioId },
+        data: { farmaciaActivaId: farmaciaId },
+        include: {
+            farmacias: true,
+            farmaciaActiva: true
+        }
+    });
+
+    // Eliminar la contraseña de la respuesta
+    const { password, ...usuarioSinPassword } = usuarioActualizado;
+    return usuarioSinPassword;
+};
+
 exports.getMe = async (id) => {
     const usuario = await prisma.usuario.findUnique({
         where: { id },
         include: {
-            farmacias: true
+            farmacias: true,
+            farmaciaActiva: true
         }
     });
 

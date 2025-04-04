@@ -5,13 +5,15 @@ const SimpleStatistics = require('simple-statistics');
 
 exports.predecirDemanda = async (medicamentoId, diasFuturos = 30) => {
   // Obtener datos históricos de ventas
-  const ventasHistoricas = await prisma.venta.findMany({
-    where: {
-      medicamentoId
-    },
-    orderBy: {
-      fecha: 'asc'
-    }
+  const inventarios = await prisma.inventario.findMany({
+    where: { medicamentoId },
+    include: { ventas: true }
+  });
+
+  // Consolidar todas las ventas
+  const ventasHistoricas = [];
+  inventarios.forEach(inv => {
+    ventasHistoricas.push(...inv.ventas);
   });
 
   // Si no hay datos suficientes, devolver un error
@@ -104,40 +106,92 @@ exports.calcularNivelOptimoInventario = async (medicamentoId) => {
 };
 
 exports.obtenerRecomendacionesReabastecimiento = async (farmaciaId) => {
-  // Obtener todos los medicamentos de la farmacia
-  const medicamentos = await prisma.medicamento.findMany({
+  // Obtener todos los inventarios de la farmacia con sus medicamentos
+  const inventarios = await prisma.inventario.findMany({
     where: {
       farmaciaId
+    },
+    include: {
+      medicamento: true
     }
   });
   
   const recomendaciones = [];
   
-  for (const medicamento of medicamentos) {
+  for (const inventario of inventarios) {
     try {
       // Calcular nivel óptimo
-      const { nivelOptimo, demandaMensual } = await this.calcularNivelOptimoInventario(medicamento.id);
+      const { nivelOptimo, demandaMensual } = await this.calcularNivelOptimoInventario(inventario.medicamento.id);
+      
+      // Verificar si hay una sugerencia editada por la farmacia
+      const sugerenciaEditada = await prisma.sugerenciaInventario.findFirst({
+        where: {
+          medicamentoId: inventario.medicamento.id,
+          editadoPorFarmacia: true
+        },
+        orderBy: {
+          id: 'desc'
+        }
+      });
+      
+      // Usar el nivel óptimo editado si existe
+      const nivelOptimoFinal = sugerenciaEditada ? sugerenciaEditada.demandaProyectada : nivelOptimo;
       
       // Si el stock es menor que el nivel óptimo, recomendar reabastecer
-      if (medicamento.stock < nivelOptimo) {
+      if (inventario.stock < nivelOptimoFinal) {
         recomendaciones.push({
-          medicamentoId: medicamento.id,
-          nombre: medicamento.nombre,
-          stockActual: medicamento.stock,
-          nivelOptimo,
-          cantidadRecomendada: nivelOptimo - medicamento.stock,
-          porcentajeStock: Math.round((medicamento.stock / nivelOptimo) * 100),
-          demandaMensualEstimada: demandaMensual
+          medicamentoId: inventario.medicamento.id,
+          inventarioId: inventario.id,
+          codigo: inventario.medicamento.codigo,
+          nombre: inventario.medicamento.nombre,
+          stockActual: inventario.stock,
+          nivelOptimo: nivelOptimoFinal,
+          cantidadRecomendada: nivelOptimoFinal - inventario.stock,
+          porcentajeStock: Math.round((inventario.stock / nivelOptimoFinal) * 100),
+          demandaMensualEstimada: demandaMensual,
+          editadoPorFarmacia: !!sugerenciaEditada
         });
       }
     } catch (error) {
       // Si no hay suficientes datos, continuar con el siguiente medicamento
-      console.error(`Error al procesar medicamento ${medicamento.id}:`, error.message);
+      console.error(`Error al procesar medicamento ${inventario.medicamento.id}:`, error.message);
     }
   }
   
   // Ordenar por prioridad (menor porcentaje de stock primero)
   return recomendaciones.sort((a, b) => a.porcentajeStock - b.porcentajeStock);
+};
+
+exports.editarRecomendacion = async (medicamentoId, nuevaDemanda, usuarioId, farmaciaId) => {
+  // Verificar que el medicamento existe
+  const medicamento = await prisma.medicamento.findUnique({
+    where: { id: medicamentoId }
+  });
+
+  if (!medicamento) {
+    throw new AppError('Medicamento no encontrado', 404);
+  }
+
+  // Obtener recomendación existente
+  const recomendacionExistente = await prisma.sugerenciaInventario.findFirst({
+    where: { medicamentoId },
+    orderBy: { id: 'desc' }
+  });
+
+  // Crear nueva sugerencia editada
+  const sugerencia = await prisma.sugerenciaInventario.create({
+    data: {
+      medicamentoId,
+      stockActual: recomendacionExistente?.stockActual || 0,
+      ventasDiarias: recomendacionExistente?.ventasDiarias || 0,
+      demandaProyectada: nuevaDemanda,
+      diasSinVenta: recomendacionExistente?.diasSinVenta || 0,
+      recomendacion: `Editado por usuario de farmacia ${farmaciaId}`,
+      editadoPorFarmacia: true
+    }
+  });
+
+  return sugerencia;
 };
 
 exports.analizarEstacionalidad = async (categoriaId) => {
@@ -181,7 +235,28 @@ exports.calcularYGuardarPredicciones = async (medicamentoId) => {
   try {
     const { nivelOptimo } = await this.calcularNivelOptimoInventario(medicamentoId);
     
-    // Aquí podrías guardar las predicciones en una tabla si lo deseas
+    // Buscar inventarios de este medicamento
+    const inventarios = await prisma.inventario.findMany({
+      where: { medicamentoId },
+      include: { farmacia: true }
+    });
+    
+    // Para cada inventario, guardar una sugerencia
+    for (const inventario of inventarios) {
+      await prisma.sugerenciaInventario.create({
+        data: {
+          medicamentoId,
+          stockActual: inventario.stock,
+          ventasDiarias: nivelOptimo / 30, // Aproximado
+          demandaProyectada: nivelOptimo,
+          diasSinVenta: 0,
+          recomendacion: inventario.stock < nivelOptimo ? 
+            'Reabastecer pronto' : 'Stock adecuado',
+          editadoPorFarmacia: false
+        }
+      });
+    }
+    
     console.log(`Predicción actualizada para medicamento ${medicamentoId}: Nivel óptimo = ${nivelOptimo}`);
     
     return { success: true, medicamentoId, nivelOptimo };
@@ -192,10 +267,15 @@ exports.calcularYGuardarPredicciones = async (medicamentoId) => {
 };
 
 exports.generarRecomendacionesReabastecimiento = async (farmaciaId) => {
-  const recomendaciones = await this.obtenerRecomendacionesReabastecimiento(farmaciaId);
-  
-  // Aquí podrías guardar las recomendaciones o enviar notificaciones
-  console.log(`Generadas ${recomendaciones.length} recomendaciones de reabastecimiento para farmacia ${farmaciaId}`);
-  
-  return { success: true, farmaciaId, cantidadRecomendaciones: recomendaciones.length };
+  try {
+    const recomendaciones = await this.obtenerRecomendacionesReabastecimiento(farmaciaId);
+    
+    // Notificar a través de algún sistema si es necesario
+    console.log(`Generadas ${recomendaciones.length} recomendaciones de reabastecimiento para farmacia ${farmaciaId}`);
+    
+    return { success: true, farmaciaId, cantidadRecomendaciones: recomendaciones.length };
+  } catch (error) {
+    console.error(`Error al generar recomendaciones para farmacia ${farmaciaId}:`, error.message);
+    return { success: false, farmaciaId, error: error.message };
+  }
 };

@@ -8,32 +8,38 @@ datasource db {
 }
 
 model Usuario {
-  id          String                 @id @default(uuid())
-  nombre      String
-  email       String                 @unique
-  password    String
-  rol         Rol
-  movimientos MovimientoInventario[]
-  ventas      Venta[]
-  farmacias   Farmacia[]             @relation("UsuarioFarmacia")
+  id               String                 @id @default(uuid())
+  nombre           String
+  email            String                 @unique
+  password         String
+  rol              Rol
+  movimientos      MovimientoInventario[]
+  ventas           Venta[]
+  farmacias        Farmacia[]             @relation("UsuarioFarmacia")
+  // Añadimos el campo para la farmacia activa
+  farmaciaActivaId String?
+  farmaciaActiva   Farmacia?              @relation("UsuarioFarmaciaActiva", fields: [farmaciaActivaId], references: [id])
 }
 
 model Farmacia {
-  id           String                 @id @default(uuid())
-  nombre       String
-  direccion    String
-  latitud      Float
-  longitud     Float
-  devoluciones Devolucion[]
-  inventarios  Inventario[]
-  movimientos  MovimientoInventario[]
-  reservas     Reserva[]
-  ventas       Venta[]
-  usuarios     Usuario[]              @relation("UsuarioFarmacia")
+  id              String                 @id @default(uuid())
+  nombre          String
+  direccion       String
+  latitud         Float
+  longitud        Float
+  devoluciones    Devolucion[]
+  inventarios     Inventario[]
+  movimientos     MovimientoInventario[]
+  reservas        Reserva[]
+  ventas          Venta[]
+  usuarios        Usuario[]              @relation("UsuarioFarmacia")
+  // Añadimos la relación de farmacia activa
+  usuariosActivos Usuario[]              @relation("UsuarioFarmaciaActiva")
 }
 
 model Medicamento {
   id              String       @id @default(uuid())
+  codigo          String       @unique // Añadimos el código único
   nombre          String
   categoria       String
   descripcion     String?
@@ -77,14 +83,15 @@ model Venta {
 }
 
 model Devolucion {
-  id           String     @id @default(uuid())
+  id           String           @id @default(uuid())
   cantidad     Int
-  fecha        DateTime   @default(now())
+  fecha        DateTime         @default(now())
   motivo       String
   farmaciaId   String
   inventarioId String
-  farmacia     Farmacia   @relation(fields: [farmaciaId], references: [id])
-  inventario   Inventario @relation(fields: [inventarioId], references: [id])
+  estado       EstadoDevolucion @default(PENDIENTE) // Añadimos estado para aprobación
+  farmacia     Farmacia         @relation(fields: [farmaciaId], references: [id])
+  inventario   Inventario       @relation(fields: [inventarioId], references: [id])
 }
 
 model MovimientoInventario {
@@ -113,14 +120,15 @@ model Reserva {
 }
 
 model SugerenciaInventario {
-  id               String   @id @default(uuid())
-  medicamentoId    String
-  medicamento      Medicamento @relation(fields: [medicamentoId], references: [id])
-  stockActual      Int
-  ventasDiarias    Float
-  demandaProyectada Int
-  diasSinVenta     Int
-  recomendacion    String
+  id                 String      @id @default(uuid())
+  medicamentoId      String
+  medicamento        Medicamento @relation(fields: [medicamentoId], references: [id])
+  stockActual        Int
+  ventasDiarias      Float
+  demandaProyectada  Int
+  diasSinVenta       Int
+  recomendacion      String
+  editadoPorFarmacia Boolean     @default(false) // Para identificar si fue editado por el encargado
 }
 
 enum Rol {
@@ -139,4 +147,10 @@ enum EstadoReserva {
   CONFIRMADA
   CANCELADA
   COMPLETADA
+}
+
+enum EstadoDevolucion {
+  PENDIENTE
+  APROBADA
+  RECHAZADA
 }

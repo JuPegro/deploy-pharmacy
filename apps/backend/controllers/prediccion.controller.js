@@ -26,7 +26,13 @@ exports.predecirDemanda = async (req, res, next) => {
 exports.obtenerTendenciaVentas = async (req, res, next) => {
   try {
     const { farmaciaId } = req.params;
-    const tendencia = await prediccionService.obtenerTendenciaVentas(farmaciaId);
+    
+    // Para usuarios de farmacia, usar siempre su farmacia activa
+    const farmaciaIdFinal = req.usuario?.rol === 'FARMACIA' && req.usuario?.farmaciaActivaId
+      ? req.usuario.farmaciaActivaId
+      : farmaciaId;
+    
+    const tendencia = await prediccionService.obtenerTendenciaVentas(farmaciaIdFinal);
     
     res.status(200).json({
       status: 'success',
@@ -56,7 +62,14 @@ exports.obtenerNivelOptimoInventario = async (req, res, next) => {
 
 exports.obtenerRecomendacionesReabastecimiento = async (req, res, next) => {
   try {
-    const { farmaciaId } = req.params;
+    // Para usuarios de farmacia, usar siempre su farmacia activa
+    const farmaciaId = req.usuario?.rol === 'FARMACIA' && req.usuario?.farmaciaActivaId
+      ? req.usuario.farmaciaActivaId
+      : req.params.farmaciaId;
+    
+    if (!farmaciaId) {
+      return next(new AppError('Se requiere un ID de farmacia válido', 400));
+    }
     
     const recomendaciones = await prediccionService.obtenerRecomendacionesReabastecimiento(farmaciaId);
     
@@ -65,6 +78,37 @@ exports.obtenerRecomendacionesReabastecimiento = async (req, res, next) => {
       data: {
         recomendaciones
       }
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+exports.editarRecomendacion = async (req, res, next) => {
+  try {
+    const { medicamentoId } = req.params;
+    const { nuevaDemanda } = req.body;
+    
+    // Validar datos
+    if (!medicamentoId || !nuevaDemanda || isNaN(nuevaDemanda) || nuevaDemanda <= 0) {
+      return next(new AppError('Se requiere un valor válido de demanda proyectada', 400));
+    }
+    
+    // Solo usuarios de farmacia pueden editar recomendaciones
+    if (req.usuario?.rol !== 'FARMACIA' || !req.usuario?.farmaciaActivaId) {
+      return next(new AppError('Solo usuarios de farmacia pueden editar recomendaciones', 403));
+    }
+    
+    const resultado = await prediccionService.editarRecomendacion(
+      medicamentoId,
+      parseInt(nuevaDemanda),
+      req.usuario.id,
+      req.usuario.farmaciaActivaId
+    );
+    
+    res.status(200).json({
+      status: 'success',
+      data: resultado
     });
   } catch (error) {
     next(error);

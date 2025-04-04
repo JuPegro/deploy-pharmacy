@@ -1,6 +1,24 @@
 const { prisma } = require('../config');
 const AppError = require('../utils/errorHandler');
 
+// Función para generar un código único para medicamentos
+const generarCodigoMedicamento = async () => {
+  // Prefijo MED seguido de 8 dígitos aleatorios
+  const codigo = 'MED' + Math.floor(10000000 + Math.random() * 90000000);
+  
+  // Verificar que el código no existe
+  const medicamentoExistente = await prisma.medicamento.findUnique({
+    where: { codigo }
+  });
+  
+  // Si ya existe, generar otro recursivamente
+  if (medicamentoExistente) {
+    return generarCodigoMedicamento();
+  }
+  
+  return codigo;
+};
+
 // Obtener todos los medicamentos del catálogo global
 exports.obtenerCatalogoMedicamentos = async () => {
   try {
@@ -57,8 +75,23 @@ exports.obtenerMedicamentoPorId = async (id) => {
 // Crear un nuevo medicamento en el catálogo
 exports.crearMedicamento = async (medicamentoData) => {
   try {
+    // Generar código único si no se proporciona
+    const codigo = medicamentoData.codigo || await generarCodigoMedicamento();
+    
+    // Verificar si el código ya existe
+    if (medicamentoData.codigo) {
+      const medicamentoExistente = await prisma.medicamento.findUnique({
+        where: { codigo }
+      });
+      
+      if (medicamentoExistente) {
+        throw new AppError('El código de medicamento ya está en uso', 400);
+      }
+    }
+    
     return await prisma.medicamento.create({
       data: {
+        codigo,
         nombre: medicamentoData.nombre,
         categoria: medicamentoData.categoria,
         descripcion: medicamentoData.descripcion,
@@ -69,6 +102,11 @@ exports.crearMedicamento = async (medicamentoData) => {
     });
   } catch (error) {
     console.error('Error al crear medicamento:', error);
+    
+    if (error instanceof AppError) {
+      throw error;
+    }
+    
     throw new AppError('No se pudo crear el medicamento', 500);
   }
 };
@@ -76,6 +114,17 @@ exports.crearMedicamento = async (medicamentoData) => {
 // Actualizar un medicamento existente
 exports.actualizarMedicamento = async (id, medicamentoData) => {
   try {
+    // Verificar que el código no esté siendo usado por otro medicamento si se intenta actualizar
+    if (medicamentoData.codigo) {
+      const medicamentoExistente = await prisma.medicamento.findUnique({
+        where: { codigo: medicamentoData.codigo }
+      });
+      
+      if (medicamentoExistente && medicamentoExistente.id !== id) {
+        throw new AppError('El código de medicamento ya está en uso por otro medicamento', 400);
+      }
+    }
+    
     return await prisma.medicamento.update({
       where: { id },
       data: {
@@ -84,11 +133,16 @@ exports.actualizarMedicamento = async (id, medicamentoData) => {
         descripcion: medicamentoData.descripcion,
         principioActivo: medicamentoData.principioActivo,
         presentacion: medicamentoData.presentacion,
-        requiereReceta: medicamentoData.requiereReceta
+        requiereReceta: medicamentoData.requiereReceta,
+        codigo: medicamentoData.codigo // Solo actualiza si se proporciona
       }
     });
   } catch (error) {
     console.error('Error al actualizar medicamento:', error);
+    
+    if (error instanceof AppError) {
+      throw error;
+    }
     
     if (error.code === 'P2025') {
       throw new AppError('Medicamento no encontrado', 404);
@@ -115,6 +169,10 @@ exports.eliminarMedicamento = async (id) => {
     });
   } catch (error) {
     console.error('Error al eliminar medicamento:', error);
+    
+    if (error instanceof AppError) {
+      throw error;
+    }
     
     if (error.code === 'P2025') {
       throw new AppError('Medicamento no encontrado', 404);

@@ -1,7 +1,7 @@
 // src/controllers/auth.controller.js
 const authService = require('../services/auth.service');
 const AppError = require('../utils/errorHandler');
-const jwt = require('jsonwebtoken'); // Añadido import de jwt
+const jwt = require('jsonwebtoken');
 
 exports.registro = async (req, res, next) => {
     try {
@@ -53,6 +53,30 @@ exports.login = async (req, res, next) => {
         }
     } catch (error) {
         console.error('Error general en login:', error);
+        next(error);
+    }
+};
+
+// Endpoint para seleccionar farmacia activa
+exports.seleccionarFarmaciaActiva = async (req, res, next) => {
+    try {
+        const { farmaciaId } = req.body;
+        const usuarioId = req.usuario.id;
+
+        if (!farmaciaId) {
+            return next(new AppError('Se requiere un ID de farmacia válido', 400));
+        }
+
+        // Verificar que el usuario tenga acceso a esta farmacia
+        const resultado = await authService.seleccionarFarmaciaActiva(usuarioId, farmaciaId);
+
+        res.status(200).json({
+            status: 'success',
+            data: {
+                usuario: resultado
+            }
+        });
+    } catch (error) {
         next(error);
     }
 };

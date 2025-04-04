@@ -14,67 +14,27 @@ exports.crearDevolucion = async (devolucionData) => {
     throw new AppError('Datos de devolución incompletos', 400);
   }
 
-  // Crear transacción para garantizar integridad de datos
-  return await prisma.$transaction(async (tx) => {
-    // Verificar el inventario
-    const inventario = await tx.inventario.findUnique({
-      where: { id: inventarioId },
-      include: { 
-        medicamento: true,
-        farmacia: true 
-      }
-    });
-
-    if (!inventario) {
-      throw new AppError('Inventario no encontrado', 404);
-    }
-
-    // Validar que la cantidad de devolución no supere la venta original
-    if (cantidad <= 0) {
-      throw new AppError('La cantidad de devolución debe ser mayor a cero', 400);
-    }
-
-    // Registrar la devolución
-    const devolucion = await tx.devolucion.create({
-      data: {
-        cantidad,
-        motivo,
-        farmaciaId,
-        inventarioId,
-        fecha: new Date()
-      },
-      include: {
-        farmacia: true,
-        inventario: {
-          include: {
-            medicamento: true
-          }
+  // Crear la devolución con estado PENDIENTE por defecto
+  const devolucion = await prisma.devolucion.create({
+    data: {
+      cantidad,
+      motivo,
+      farmaciaId,
+      inventarioId,
+      estado: 'PENDIENTE', // Estado por defecto
+      fecha: new Date()
+    },
+    include: {
+      farmacia: true,
+      inventario: {
+        include: {
+          medicamento: true
         }
       }
-    });
-
-    // Actualizar stock del inventario
-    await tx.inventario.update({
-      where: { id: inventarioId },
-      data: {
-        stock: {
-          increment: cantidad
-        }
-      }
-    });
-
-    // Registrar movimiento de inventario
-    await tx.movimientoInventario.create({
-      data: {
-        tipo: 'INGRESO',
-        cantidad,
-        inventarioId,
-        farmaciaId
-      }
-    });
-
-    return devolucion;
+    }
   });
+
+  return devolucion;
 };
 
 exports.obtenerDevoluciones = async (opciones = {}) => {
@@ -83,7 +43,8 @@ exports.obtenerDevoluciones = async (opciones = {}) => {
     limite = 10, 
     farmaciaId,
     fechaInicio,
-    fechaFin
+    fechaFin,
+    estado
   } = opciones;
 
   // Preparar condiciones de búsqueda
@@ -98,6 +59,10 @@ exports.obtenerDevoluciones = async (opciones = {}) => {
       gte: new Date(fechaInicio),
       lte: new Date(fechaFin)
     };
+  }
+
+  if (estado) {
+    where.estado = estado;
   }
 
   // Calcular offset para paginación
@@ -121,6 +86,8 @@ exports.obtenerDevoluciones = async (opciones = {}) => {
           include: {
             medicamento: {
               select: {
+                id: true,
+                codigo: true,
                 nombre: true,
                 categoria: true
               }
@@ -168,11 +135,98 @@ exports.obtenerDevolucion = async (id) => {
   return devolucion;
 };
 
+exports.aprobarDevolucion = async (id) => {
+  // Verificar que la devolución existe y está en estado PENDIENTE
+  const devolucion = await prisma.devolucion.findUnique({
+    where: { id },
+    include: {
+      inventario: true
+    }
+  });
+
+  if (!devolucion) {
+    throw new AppError('Devolución no encontrada', 404);
+  }
+
+  if (devolucion.estado !== 'PENDIENTE') {
+    throw new AppError(`La devolución ya ha sido ${devolucion.estado.toLowerCase()}`, 400);
+  }
+
+  // Crear transacción para garantizar integridad de datos
+  return await prisma.$transaction(async (tx) => {
+    // Actualizar estado de la devolución
+    const devolucionActualizada = await tx.devolucion.update({
+      where: { id },
+      data: { estado: 'APROBADA' },
+      include: {
+        farmacia: true,
+        inventario: {
+          include: {
+            medicamento: true
+          }
+        }
+      }
+    });
+
+    // Incrementar el stock del inventario
+    await tx.inventario.update({
+      where: { id: devolucion.inventarioId },
+      data: {
+        stock: {
+          increment: devolucion.cantidad
+        }
+      }
+    });
+
+    // Registrar movimiento de inventario
+    await tx.movimientoInventario.create({
+      data: {
+        tipo: 'INGRESO',
+        cantidad: devolucion.cantidad,
+        inventarioId: devolucion.inventarioId,
+        farmaciaId: devolucion.farmaciaId
+      }
+    });
+
+    return devolucionActualizada;
+  });
+};
+
+exports.rechazarDevolucion = async (id) => {
+  // Verificar que la devolución existe y está en estado PENDIENTE
+  const devolucion = await prisma.devolucion.findUnique({
+    where: { id }
+  });
+
+  if (!devolucion) {
+    throw new AppError('Devolución no encontrada', 404);
+  }
+
+  if (devolucion.estado !== 'PENDIENTE') {
+    throw new AppError(`La devolución ya ha sido ${devolucion.estado.toLowerCase()}`, 400);
+  }
+
+  // Actualizar estado de la devolución
+  return await prisma.devolucion.update({
+    where: { id },
+    data: { estado: 'RECHAZADA' },
+    include: {
+      farmacia: true,
+      inventario: {
+        include: {
+          medicamento: true
+        }
+      }
+    }
+  });
+};
+
 exports.obtenerResumenDevoluciones = async (opciones = {}) => {
   const { 
     farmaciaId,
     fechaInicio,
-    fechaFin
+    fechaFin,
+    estado
   } = opciones;
 
   const where = {};
@@ -188,6 +242,10 @@ exports.obtenerResumenDevoluciones = async (opciones = {}) => {
     };
   }
 
+  if (estado) {
+    where.estado = estado;
+  }
+
   // Calcular resumen de devoluciones
   const resumen = await prisma.devolucion.aggregate({
     where,
@@ -199,8 +257,17 @@ exports.obtenerResumenDevoluciones = async (opciones = {}) => {
     }
   });
 
+  // Obtener resumen por estado
+  const resumenPorEstado = await prisma.$queryRaw`
+    SELECT estado, COUNT(*) as cantidad
+    FROM "Devolucion"
+    WHERE ${farmaciaId ? prisma.sql`"farmaciaId" = ${farmaciaId}` : prisma.sql`1=1`}
+    GROUP BY estado
+  `;
+
   return {
     totalDevoluciones: resumen._count.id,
-    cantidadTotal: resumen._sum.cantidad || 0
+    cantidadTotal: resumen._sum.cantidad || 0,
+    estadisticas: resumenPorEstado
   };
 };
