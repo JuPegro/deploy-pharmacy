@@ -19,6 +19,10 @@ model Usuario {
   // Añadimos el campo para la farmacia activa
   farmaciaActivaId String?
   farmaciaActiva   Farmacia?              @relation("UsuarioFarmaciaActiva", fields: [farmaciaActivaId], references: [id])
+  
+  // Nuevas relaciones para devoluciones
+  devolucionesCreadas   Devolucion[] @relation("UsuarioCreadorDevolucion")
+  devolucionesAprobadas Devolucion[] @relation("UsuarioAprobadorDevolucion")
 }
 
 model Farmacia {
@@ -39,7 +43,7 @@ model Farmacia {
 
 model Medicamento {
   id              String       @id @default(uuid())
-  codigo          String       @unique // Añadimos el código único
+  codigo          String       @unique // Código único para cada medicamento
   nombre          String
   categoria       String
   descripcion     String?
@@ -73,6 +77,8 @@ model Venta {
   id             String     @id @default(uuid())
   cantidad       Int
   fecha          DateTime   @default(now())
+  mes            Int        // Nuevo campo para el mes (1-12)
+  anio           Int        // Nuevo campo para el año
   farmaciaId     String
   precioUnitario Decimal    @db.Decimal(10, 2)
   inventarioId   String
@@ -83,28 +89,43 @@ model Venta {
 }
 
 model Devolucion {
-  id           String           @id @default(uuid())
-  cantidad     Int
-  fecha        DateTime         @default(now())
-  motivo       String
-  farmaciaId   String
-  inventarioId String
-  estado       EstadoDevolucion @default(PENDIENTE) // Añadimos estado para aprobación
-  farmacia     Farmacia         @relation(fields: [farmaciaId], references: [id])
-  inventario   Inventario       @relation(fields: [inventarioId], references: [id])
+  id             String           @id @default(uuid())
+  cantidad       Int
+  fecha          DateTime         @default(now())
+  mes            Int              // Nuevo campo para el mes (1-12)
+  anio           Int              // Nuevo campo para el año
+  motivo         String
+  farmaciaId     String
+  inventarioId   String
+  estado         EstadoDevolucion @default(PENDIENTE)
+  
+  // Usuario que creó la devolución
+  usuarioId      String?
+  usuario        Usuario?         @relation("UsuarioCreadorDevolucion", fields: [usuarioId], references: [id])
+  
+  // Administrador que aprobó/rechazó la devolución
+  aprobadoPorId  String?
+  aprobadoPor    Usuario?         @relation("UsuarioAprobadorDevolucion", fields: [aprobadoPorId], references: [id])
+  
+  fechaAprobacion DateTime?
+  motivoRechazo   String?
+  
+  farmacia      Farmacia         @relation(fields: [farmaciaId], references: [id])
+  inventario    Inventario       @relation(fields: [inventarioId], references: [id])
 }
 
 model MovimientoInventario {
-  id            String         @id @default(uuid())
-  tipo          MovimientoTipo
-  cantidad      Int
-  fecha         DateTime       @default(now())
-  farmaciaId    String
-  inventarioId  String
-  usuarioId     String?
-  farmacia      Farmacia       @relation(fields: [farmaciaId], references: [id])
-  inventario    Inventario     @relation(fields: [inventarioId], references: [id])
-  registradoPor Usuario?       @relation(fields: [usuarioId], references: [id])
+  id           String         @id @default(uuid())
+  tipo         MovimientoTipo
+  cantidad     Int
+  fecha        DateTime       @default(now())
+  farmaciaId   String
+  inventarioId String
+  usuarioId    String?
+  observacion  String?
+  farmacia     Farmacia       @relation(fields: [farmaciaId], references: [id])
+  inventario   Inventario     @relation(fields: [inventarioId], references: [id])
+  registradoPor Usuario?      @relation(fields: [usuarioId], references: [id])
 }
 
 model Reserva {
@@ -129,6 +150,7 @@ model SugerenciaInventario {
   diasSinVenta       Int
   recomendacion      String
   editadoPorFarmacia Boolean     @default(false) // Para identificar si fue editado por el encargado
+  usuarioEditorId    String?     // ID del usuario que editó la sugerencia
 }
 
 enum Rol {

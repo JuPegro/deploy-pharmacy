@@ -1,3 +1,4 @@
+// apps/backend/controllers/devolucion.controller.js - versión actualizada
 const devolucionService = require('../services/devolucion.service');
 const AppError = require('../utils/errorHandler');
 
@@ -31,7 +32,9 @@ exports.obtenerDevoluciones = async (req, res, next) => {
       limite: parseInt(req.query.limite) || 10,
       fechaInicio: req.query.fechaInicio,
       fechaFin: req.query.fechaFin,
-      estado: req.query.estado
+      estado: req.query.estado,
+      mes: req.query.mes,
+      anio: req.query.anio
     };
 
     // Para usuario de farmacia, filtrar solo por su farmacia activa
@@ -84,7 +87,7 @@ exports.aprobarDevolucion = async (req, res, next) => {
       return next(new AppError('No tienes permisos para aprobar devoluciones', 403));
     }
 
-    const devolucion = await devolucionService.aprobarDevolucion(req.params.id);
+    const devolucion = await devolucionService.aprobarDevolucion(req.params.id, req.usuario.id);
     
     res.status(200).json({
       status: 'success',
@@ -104,7 +107,12 @@ exports.rechazarDevolucion = async (req, res, next) => {
       return next(new AppError('No tienes permisos para rechazar devoluciones', 403));
     }
 
-    const devolucion = await devolucionService.rechazarDevolucion(req.params.id);
+    const { motivo } = req.body;
+    if (!motivo) {
+      return next(new AppError('Se requiere especificar un motivo de rechazo', 400));
+    }
+
+    const devolucion = await devolucionService.rechazarDevolucion(req.params.id, motivo, req.usuario.id);
     
     res.status(200).json({
       status: 'success',
@@ -122,7 +130,9 @@ exports.obtenerResumenDevoluciones = async (req, res, next) => {
     const opciones = {
       fechaInicio: req.query.fechaInicio,
       fechaFin: req.query.fechaFin,
-      estado: req.query.estado
+      estado: req.query.estado,
+      mes: req.query.mes,
+      anio: req.query.anio
     };
 
     // Para usuario de farmacia, filtrar solo por su farmacia activa
@@ -138,6 +148,33 @@ exports.obtenerResumenDevoluciones = async (req, res, next) => {
       status: 'success',
       data: {
         resumen
+      }
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+// Nuevo endpoint para obtener devoluciones agrupadas por mes y año
+exports.obtenerDevolucionesPorMesAnio = async (req, res, next) => {
+  try {
+    const { farmaciaId } = req.params;
+    
+    // Para usuario de farmacia, usar siempre su farmacia activa
+    const farmaciaIdFinal = req.usuario?.rol === 'FARMACIA' && req.usuario?.farmaciaActivaId
+      ? req.usuario.farmaciaActivaId
+      : farmaciaId;
+    
+    if (!farmaciaIdFinal) {
+      return next(new AppError('Se requiere un ID de farmacia válido', 400));
+    }
+    
+    const devolucionesPorMesAnio = await devolucionService.obtenerDevolucionesPorMesAnio(farmaciaIdFinal);
+    
+    res.status(200).json({
+      status: 'success',
+      data: {
+        devolucionesPorMesAnio
       }
     });
   } catch (error) {

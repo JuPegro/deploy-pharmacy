@@ -68,6 +68,15 @@ function agruparVentasPorDia(ventas) {
 }
 
 exports.obtenerTendenciaVentas = async (farmaciaId) => {
+  // Verificar que la farmacia existe
+  const farmacia = await prisma.farmacia.findUnique({
+    where: { id: farmaciaId }
+  });
+
+  if (!farmacia) {
+    throw new AppError('Farmacia no encontrada', 404);
+  }
+
   // Obtener todas las ventas de la farmacia
   const ventas = await prisma.venta.findMany({
     where: {
@@ -106,6 +115,15 @@ exports.calcularNivelOptimoInventario = async (medicamentoId) => {
 };
 
 exports.obtenerRecomendacionesReabastecimiento = async (farmaciaId) => {
+  // Verificar que la farmacia existe
+  const farmacia = await prisma.farmacia.findUnique({
+    where: { id: farmaciaId }
+  });
+
+  if (!farmacia) {
+    throw new AppError('Farmacia no encontrada', 404);
+  }
+
   // Obtener todos los inventarios de la farmacia con sus medicamentos
   const inventarios = await prisma.inventario.findMany({
     where: {
@@ -121,12 +139,12 @@ exports.obtenerRecomendacionesReabastecimiento = async (farmaciaId) => {
   for (const inventario of inventarios) {
     try {
       // Calcular nivel óptimo
-      const { nivelOptimo, demandaMensual } = await this.calcularNivelOptimoInventario(inventario.medicamento.id);
+      const { nivelOptimo, demandaMensual } = await this.calcularNivelOptimoInventario(inventario.medicamentoId);
       
-      // Verificar si hay una sugerencia editada por la farmacia
+      // Verificar si hay una sugerencia editada
       const sugerenciaEditada = await prisma.sugerenciaInventario.findFirst({
         where: {
-          medicamentoId: inventario.medicamento.id,
+          medicamentoId: inventario.medicamentoId,
           editadoPorFarmacia: true
         },
         orderBy: {
@@ -140,7 +158,7 @@ exports.obtenerRecomendacionesReabastecimiento = async (farmaciaId) => {
       // Si el stock es menor que el nivel óptimo, recomendar reabastecer
       if (inventario.stock < nivelOptimoFinal) {
         recomendaciones.push({
-          medicamentoId: inventario.medicamento.id,
+          medicamentoId: inventario.medicamentoId,
           inventarioId: inventario.id,
           codigo: inventario.medicamento.codigo,
           nombre: inventario.medicamento.nombre,
@@ -154,7 +172,7 @@ exports.obtenerRecomendacionesReabastecimiento = async (farmaciaId) => {
       }
     } catch (error) {
       // Si no hay suficientes datos, continuar con el siguiente medicamento
-      console.error(`Error al procesar medicamento ${inventario.medicamento.id}:`, error.message);
+      console.error(`Error al procesar medicamento ${inventario.medicamentoId}:`, error.message);
     }
   }
   
@@ -162,7 +180,7 @@ exports.obtenerRecomendacionesReabastecimiento = async (farmaciaId) => {
   return recomendaciones.sort((a, b) => a.porcentajeStock - b.porcentajeStock);
 };
 
-exports.editarRecomendacion = async (medicamentoId, nuevaDemanda, usuarioId, farmaciaId) => {
+exports.editarRecomendacion = async (medicamentoId, nuevaDemanda, usuarioId, farmaciaId = null) => {
   // Verificar que el medicamento existe
   const medicamento = await prisma.medicamento.findUnique({
     where: { id: medicamentoId }
@@ -170,6 +188,20 @@ exports.editarRecomendacion = async (medicamentoId, nuevaDemanda, usuarioId, far
 
   if (!medicamento) {
     throw new AppError('Medicamento no encontrado', 404);
+  }
+
+  // Si es un usuario de farmacia, verificar que tiene acceso al inventario
+  if (farmaciaId) {
+    const inventario = await prisma.inventario.findFirst({
+      where: { 
+        medicamentoId,
+        farmaciaId
+      }
+    });
+
+    if (!inventario) {
+      throw new AppError('No tiene acceso a este inventario', 403);
+    }
   }
 
   // Obtener recomendación existente
@@ -186,12 +218,18 @@ exports.editarRecomendacion = async (medicamentoId, nuevaDemanda, usuarioId, far
       ventasDiarias: recomendacionExistente?.ventasDiarias || 0,
       demandaProyectada: nuevaDemanda,
       diasSinVenta: recomendacionExistente?.diasSinVenta || 0,
-      recomendacion: `Editado por usuario de farmacia ${farmaciaId}`,
-      editadoPorFarmacia: true
+      recomendacion: `Editado por usuario`,
+      editadoPorFarmacia: true,
+      usuarioEditorId: usuarioId
     }
   });
 
-  return sugerencia;
+  return {
+    id: sugerencia.id,
+    medicamentoId: sugerencia.medicamentoId,
+    demandaProyectada: sugerencia.demandaProyectada,
+    mensaje: "Recomendación actualizada exitosamente"
+  };
 };
 
 exports.analizarEstacionalidad = async (categoriaId) => {
@@ -278,4 +316,81 @@ exports.generarRecomendacionesReabastecimiento = async (farmaciaId) => {
     console.error(`Error al generar recomendaciones para farmacia ${farmaciaId}:`, error.message);
     return { success: false, farmaciaId, error: error.message };
   }
+};
+
+// Nuevo método para obtener medicamentos más vendidos
+exports.obtenerMedicamentosMasVendidos = async (farmaciaId, periodo = 'mes') => {
+  // Verificar que la farmacia existe
+  const farmacia = await prisma.farmacia.findUnique({
+    where: { id: farmaciaId }
+  });
+
+  if (!farmacia) {
+    throw new AppError('Farmacia no encontrada', 404);
+  }
+
+  // Determinar fecha de inicio según el periodo
+  const fechaInicio = new Date();
+  switch (periodo) {
+    case 'semana':
+      fechaInicio.setDate(fechaInicio.getDate() - 7);
+      break;
+    case 'mes':
+      fechaInicio.setMonth(fechaInicio.getMonth() - 1);
+      break;
+    case 'trimestre':
+      fechaInicio.setMonth(fechaInicio.getMonth() - 3);
+      break;
+    default:
+      fechaInicio.setMonth(fechaInicio.getMonth() - 1); // Por defecto un mes
+  }
+
+  // Obtener ventas del periodo
+  const ventas = await prisma.venta.findMany({
+    where: {
+      farmaciaId,
+      fecha: {
+        gte: fechaInicio
+      }
+    },
+    include: {
+      inventario: {
+        include: {
+          medicamento: true
+        }
+      }
+    }
+  });
+
+  // Agrupar ventas por medicamento
+  const ventasPorMedicamento = {};
+  ventas.forEach(venta => {
+    const medicamento = venta.inventario.medicamento;
+    const medicamentoId = medicamento.id;
+    
+    if (!ventasPorMedicamento[medicamentoId]) {
+      ventasPorMedicamento[medicamentoId] = {
+        id: medicamentoId,
+        codigo: medicamento.codigo,
+        nombre: medicamento.nombre,
+        categoria: medicamento.categoria,
+        cantidadVendida: 0,
+        montoTotal: 0
+      };
+    }
+    
+    ventasPorMedicamento[medicamentoId].cantidadVendida += venta.cantidad;
+    ventasPorMedicamento[medicamentoId].montoTotal += parseFloat(venta.cantidad) * parseFloat(venta.precioUnitario);
+  });
+
+  // Convertir a array y ordenar por cantidad vendida
+  const resultado = Object.values(ventasPorMedicamento)
+    .sort((a, b) => b.cantidadVendida - a.cantidadVendida)
+    .slice(0, 10); // Top 10
+
+  return {
+    farmaciaId,
+    periodo,
+    medicamentos: resultado
+  };
 };

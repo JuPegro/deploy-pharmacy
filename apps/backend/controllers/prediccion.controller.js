@@ -32,6 +32,10 @@ exports.obtenerTendenciaVentas = async (req, res, next) => {
       ? req.usuario.farmaciaActivaId
       : farmaciaId;
     
+    if (!farmaciaIdFinal) {
+      return next(new AppError('Se requiere un ID de farmacia válido', 400));
+    }
+    
     const tendencia = await prediccionService.obtenerTendenciaVentas(farmaciaIdFinal);
     
     res.status(200).json({
@@ -63,9 +67,15 @@ exports.obtenerNivelOptimoInventario = async (req, res, next) => {
 exports.obtenerRecomendacionesReabastecimiento = async (req, res, next) => {
   try {
     // Para usuarios de farmacia, usar siempre su farmacia activa
-    const farmaciaId = req.usuario?.rol === 'FARMACIA' && req.usuario?.farmaciaActivaId
-      ? req.usuario.farmaciaActivaId
-      : req.params.farmaciaId;
+    let farmaciaId;
+    if (req.usuario?.rol === 'FARMACIA') {
+      if (!req.usuario.farmaciaActivaId) {
+        return next(new AppError('No tiene una farmacia activa asignada', 400));
+      }
+      farmaciaId = req.usuario.farmaciaActivaId;
+    } else {
+      farmaciaId = req.params.farmaciaId;
+    }
     
     if (!farmaciaId) {
       return next(new AppError('Se requiere un ID de farmacia válido', 400));
@@ -94,16 +104,16 @@ exports.editarRecomendacion = async (req, res, next) => {
       return next(new AppError('Se requiere un valor válido de demanda proyectada', 400));
     }
     
-    // Solo usuarios de farmacia pueden editar recomendaciones
-    if (req.usuario?.rol !== 'FARMACIA' || !req.usuario?.farmaciaActivaId) {
-      return next(new AppError('Solo usuarios de farmacia pueden editar recomendaciones', 403));
+    // Tanto administradores como usuarios de farmacia pueden editar recomendaciones
+    if (req.usuario?.rol === 'FARMACIA' && !req.usuario?.farmaciaActivaId) {
+      return next(new AppError('No tiene una farmacia activa asignada', 400));
     }
     
     const resultado = await prediccionService.editarRecomendacion(
       medicamentoId,
       parseInt(nuevaDemanda),
       req.usuario.id,
-      req.usuario.farmaciaActivaId
+      req.usuario?.rol === 'FARMACIA' ? req.usuario.farmaciaActivaId : null
     );
     
     res.status(200).json({
@@ -140,6 +150,40 @@ exports.analizarCorrelaciones = async (req, res, next) => {
       status: 'success',
       data: {
         correlaciones
+      }
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+// Nuevo endpoint para obtener estadísticas de medicamentos más vendidos
+exports.obtenerMedicamentosMasVendidos = async (req, res, next) => {
+  try {
+    // Para usuarios de farmacia, usar siempre su farmacia activa
+    let farmaciaId;
+    
+    if (req.usuario?.rol === 'FARMACIA') {
+      if (!req.usuario.farmaciaActivaId) {
+        return next(new AppError('No tiene una farmacia activa asignada', 400));
+      }
+      farmaciaId = req.usuario.farmaciaActivaId;
+    } else {
+      farmaciaId = req.params.farmaciaId;
+    }
+    
+    if (!farmaciaId) {
+      return next(new AppError('Se requiere un ID de farmacia válido', 400));
+    }
+    
+    const { periodo } = req.query; // 'semana', 'mes', 'trimestre'
+    
+    const medicamentosMasVendidos = await prediccionService.obtenerMedicamentosMasVendidos(farmaciaId, periodo);
+    
+    res.status(200).json({
+      status: 'success',
+      data: {
+        medicamentosMasVendidos
       }
     });
   } catch (error) {

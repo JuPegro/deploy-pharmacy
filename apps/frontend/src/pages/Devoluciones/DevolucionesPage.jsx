@@ -4,7 +4,6 @@ const Devoluciones = () => {
   // Estados principales
   const [devoluciones, setDevoluciones] = useState([]);
   const [inventarios, setInventarios] = useState([]);
-  const [farmacias, setFarmacias] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,7 +18,16 @@ const Devoluciones = () => {
 
   // Estados de paginación
   const [paginaActual, setPaginaActual] = useState(1);
-  const [devolucionesPorPagina] = useState(10);
+  const [totalPaginas, setTotalPaginas] = useState(1);
+  const [totalDevoluciones, setTotalDevoluciones] = useState(0);
+  const [limitePorPagina, setLimitePorPagina] = useState(10);
+
+  // Estado de filtros
+  const [filtros, setFiltros] = useState({
+    fechaInicio: '',
+    fechaFin: '',
+    estado: ''
+  });
 
   // Motivos de devolución predefinidos
   const motivosDevoluciones = [
@@ -32,6 +40,14 @@ const Devoluciones = () => {
     'Deterioro del empaque'
   ];
 
+  // Estados de devolución
+  const estadosDevoluciones = [
+    { valor: '', texto: 'Todos' },
+    { valor: 'PENDIENTE', texto: 'Pendiente' },
+    { valor: 'APROBADA', texto: 'Aprobada' },
+    { valor: 'RECHAZADA', texto: 'Rechazada' }
+  ];
+
   // Recuperar datos
   const fetchDatos = async () => {
     setLoading(true);
@@ -42,6 +58,15 @@ const Devoluciones = () => {
       if (!token) {
         throw new Error('No se encontró token de autenticación');
       }
+
+      // Construir query params para filtros
+      const queryParams = new URLSearchParams();
+      queryParams.append('pagina', paginaActual);
+      queryParams.append('limite', limitePorPagina);
+      
+      if (filtros.fechaInicio) queryParams.append('fechaInicio', filtros.fechaInicio);
+      if (filtros.fechaFin) queryParams.append('fechaFin', filtros.fechaFin);
+      if (filtros.estado) queryParams.append('estado', filtros.estado);
 
       // Función para manejar fetch con mejor error handling
       const fetchConManejo = async (url) => {
@@ -71,26 +96,34 @@ const Devoluciones = () => {
       // Solicitudes en paralelo
       const [
         devolucionesResponse, 
-        inventariosResponse, 
-        farmaciasResponse
+        inventariosResponse
       ] = await Promise.all([
-        fetchConManejo('/api/devoluciones'),
-        fetchConManejo('/api/inventarios'),
-        fetchConManejo('/api/farmacias')
+        fetchConManejo(`/api/devoluciones?${queryParams}`),
+        fetchConManejo('/api/inventarios')
       ]);
 
-      // Extraer datos con validación
-      const extraerDatos = (datos, clavesPosibles) => {
-        for (let clave of clavesPosibles) {
-          const valor = clave.split('.').reduce((obj, key) => obj && obj[key], datos);
-          if (Array.isArray(valor)) return valor;
+      // Verificar estructura de la respuesta para devoluciones
+      if (devolucionesResponse?.data?.devoluciones) {
+        setDevoluciones(devolucionesResponse.data.devoluciones);
+        
+        // Actualizar datos de paginación
+        const paginacion = devolucionesResponse.data.paginacion;
+        if (paginacion) {
+          setTotalPaginas(paginacion.totalPaginas || 1);
+          setTotalDevoluciones(paginacion.totalDevoluciones || 0);
+          setLimitePorPagina(paginacion.limitePorPagina || 10);
         }
-        return [];
-      };
+      } else {
+        setDevoluciones([]);
+        setTotalPaginas(1);
+      }
 
-      setDevoluciones(extraerDatos(devolucionesResponse, ['data.devoluciones', 'devoluciones', 'data']) || []);
-      setInventarios(extraerDatos(inventariosResponse, ['data.inventarios', 'inventarios', 'data']) || []);
-      setFarmacias(extraerDatos(farmaciasResponse, ['data.farmacias', 'farmacias', 'data']) || []);
+      // Verificar estructura de la respuesta para inventarios
+      if (inventariosResponse?.data?.inventarios) {
+        setInventarios(inventariosResponse.data.inventarios);
+      } else {
+        setInventarios([]);
+      }
 
       setLoading(false);
     } catch (err) {
@@ -100,10 +133,10 @@ const Devoluciones = () => {
     }
   };
 
-  // Cargar datos al inicio
+  // Cargar datos al inicio y cuando cambian los filtros o la paginación
   useEffect(() => {
     fetchDatos();
-  }, []);
+  }, [paginaActual, filtros]);
 
   // Manejar cambios en el formulario de nueva devolución
   const handleInputChange = (e) => {
@@ -112,103 +145,136 @@ const Devoluciones = () => {
     // Limpiar errores de modal
     setModalError(null);
     
-    // Lógica especial para inventario
-    if (name === 'inventarioId') {
-      // Encontrar el inventario seleccionado
-      const inventarioSeleccionado = inventarios.find(inv => inv.id === value);
+    setNuevaDevolucion(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  // Manejar cambios en filtros
+  const handleFiltroChange = (e) => {
+    const { name, value } = e.target;
+    
+    setFiltros(prev => ({
+      ...prev,
+      [name]: value
+    }));
+    
+    // Resetear a la primera página al cambiar filtros
+    setPaginaActual(1);
+  };
+
+  // Aplicar filtros
+  const aplicarFiltros = (e) => {
+    e.preventDefault();
+    fetchDatos();
+  };
+
+  // Limpiar filtros
+  const limpiarFiltros = () => {
+    setFiltros({
+      fechaInicio: '',
+      fechaFin: '',
+      estado: ''
+    });
+    setPaginaActual(1);
+  };
+
+  // Enviar nueva devolución
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    // Validar que todos los campos estén completos
+    if (!nuevaDevolucion.inventarioId) {
+      setModalError('Debe seleccionar un medicamento');
+      return;
+    }
+
+    // Validar stock disponible antes de enviar
+    const inventarioSeleccionado = inventarios.find(inv => inv.id === nuevaDevolucion.inventarioId);
+    
+    if (!inventarioSeleccionado) {
+      setModalError('Medicamento no encontrado');
+      return;
+    }
+    
+    const cantidadDevolucion = parseInt(nuevaDevolucion.cantidad);
+    
+    if (!cantidadDevolucion || cantidadDevolucion <= 0) {
+      setModalError('La cantidad de devolución debe ser mayor a cero');
+      return;
+    }
+
+    if (!nuevaDevolucion.motivo) {
+      setModalError('Debe seleccionar un motivo de devolución');
+      return;
+    }
+
+    try {
+      const token = localStorage.getItem('token');
       
-      setNuevaDevolucion(prev => ({
-        ...prev,
-        [name]: value
-      }));
-    } else {
-      setNuevaDevolucion(prev => ({
-        ...prev,
-        [name]: value
-      }));
+      // Preparar datos de la devolución
+      const datosDevolucion = {
+        inventarioId: nuevaDevolucion.inventarioId,
+        farmaciaId: inventarioSeleccionado.farmaciaId,
+        cantidad: cantidadDevolucion,
+        motivo: nuevaDevolucion.motivo
+      };
+
+      console.log('Datos de devolución a enviar:', datosDevolucion);
+
+      const response = await fetch('/api/devoluciones', {
+        method: 'POST',
+        headers: { 
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(datosDevolucion)
+      });
+
+      // Logging de respuesta completa
+      const responseBody = await response.text();
+      console.log('Respuesta del servidor:', response.status, responseBody);
+
+      if (!response.ok) {
+        try {
+          const errorData = JSON.parse(responseBody);
+          throw new Error(errorData.message || 'Error al crear devolución');
+        } catch {
+          throw new Error(`Error HTTP ${response.status}: ${responseBody}`);
+        }
+      }
+
+      // Resetear formulario y cerrar modal
+      setNuevaDevolucion({
+        inventarioId: '',
+        cantidad: '',
+        motivo: ''
+      });
+      setIsModalOpen(false);
+      
+      // Actualizar lista
+      fetchDatos();
+    } catch (err) {
+      console.error('Error completo al crear devolución:', err);
+      setModalError(err.message || 'Error al crear devolución');
     }
   };
 
-// Enviar nueva devolución
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  
-  // Validar que todos los campos estén completos
-  if (!nuevaDevolucion.inventarioId) {
-    setModalError('Debe seleccionar un medicamento');
-    return;
-  }
-
-  // Validar stock disponible antes de enviar
-  const inventarioSeleccionado = inventarios.find(inv => inv.id === nuevaDevolucion.inventarioId);
-  
-  if (!inventarioSeleccionado) {
-    setModalError('Medicamento no encontrado');
-    return;
-  }
-  
-  const cantidadDevolucion = parseInt(nuevaDevolucion.cantidad);
-  
-  if (!cantidadDevolucion || cantidadDevolucion <= 0) {
-    setModalError('La cantidad de devolución debe ser mayor a cero');
-    return;
-  }
-
-  if (!nuevaDevolucion.motivo) {
-    setModalError('Debe seleccionar un motivo de devolución');
-    return;
-  }
-
-  try {
-    const token = localStorage.getItem('token');
-    
-    // Preparar datos de la devolución
-    const datosDevolucion = {
-      inventarioId: nuevaDevolucion.inventarioId,
-      farmaciaId: inventarioSeleccionado.farmaciaId, // Usar farmaciaId del inventario
-      cantidad: cantidadDevolucion,
-      motivo: nuevaDevolucion.motivo
-    };
-
-    console.log('Datos de devolución a enviar:', datosDevolucion);
-
-    const response = await fetch('/api/devoluciones', {
-      method: 'POST',
-      headers: { 
-        'Authorization': `Bearer ${token}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(datosDevolucion)
-    });
-
-    // Logging de respuesta completa
-    const responseBody = await response.text();
-    console.log('Respuesta del servidor:', response.status, responseBody);
-
-    if (!response.ok) {
-      try {
-        const errorData = JSON.parse(responseBody);
-        throw new Error(errorData.message || 'Error al crear devolución');
-      } catch {
-        throw new Error(`Error HTTP ${response.status}: ${responseBody}`);
-      }
+  // Formatear el estado con color
+  const formatearEstado = (estado) => {
+    switch(estado) {
+      case 'PENDIENTE':
+        return <span className="px-2 py-1 text-xs rounded-full bg-yellow-100 text-yellow-800">Pendiente</span>;
+      case 'APROBADA':
+        return <span className="px-2 py-1 text-xs rounded-full bg-green-100 text-green-800">Aprobada</span>;
+      case 'RECHAZADA':
+        return <span className="px-2 py-1 text-xs rounded-full bg-red-100 text-red-800">Rechazada</span>;
+      default:
+        return <span className="px-2 py-1 text-xs rounded-full bg-gray-100 text-gray-800">{estado}</span>;
     }
+  };
 
-    // Resetear formulario y cerrar modal
-    setNuevaDevolucion({
-      inventarioId: '',
-      cantidad: '',
-      motivo: ''
-    });
-    setIsModalOpen(false);
-    
-    // Actualizar lista
-    fetchDatos();
-  } catch (err) {
-    console.error('Error completo al crear devolución:', err);
-    setModalError(err.message || 'Error al crear devolución');
-  }
-};
   // Cerrar modal
   const cerrarModal = () => {
     setIsModalOpen(false);
@@ -220,19 +286,11 @@ const handleSubmit = async (e) => {
     });
   };
 
-  // Lógica de paginación
-  const indexUltimaDireccion = paginaActual * devolucionesPorPagina;
-  const indexPrimeraDireccion = indexUltimaDireccion - devolucionesPorPagina;
-  const devolucionesActuales = devoluciones.slice(indexPrimeraDireccion, indexUltimaDireccion);
-
-  // Calcular número de páginas
-  const numeroPaginas = Math.ceil(devoluciones.length / devolucionesPorPagina);
-
   // Cambiar página
   const cambiarPagina = (numeroPagina) => setPaginaActual(numeroPagina);
 
   // Estado de carga
-  if (loading) {
+  if (loading && !devoluciones.length) {
     return (
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mb-4"></div>
@@ -242,7 +300,7 @@ const handleSubmit = async (e) => {
   }
 
   // Estado de error
-  if (error) {
+  if (error && !devoluciones.length) {
     return (
       <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
         <div className="bg-red-50 border border-red-500 text-red-700 px-4 py-3 rounded-lg max-w-md w-full">
@@ -275,59 +333,140 @@ const handleSubmit = async (e) => {
           </button>
         </div>
 
-        {/* Tabla de Devoluciones */}
-        {devolucionesActuales.length > 0 ? (
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
-            <table className="min-w-full divide-y divide-gray-200">
-              <thead className="bg-gray-50">
-                <tr>
-                  {[
-                    'Fecha', 
-                    'Farmacia', 
-                    'Medicamento', 
-                    'Cantidad', 
-                    'Motivo'
-                  ].map((header) => (
-                    <th 
-                      key={header}
-                      className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                    >
-                      {header}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody className="bg-white divide-y divide-gray-200">
-                {devolucionesActuales.map((devolucion) => (
-                  <tr key={devolucion.id} className="hover:bg-gray-50 transition">
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {new Date(devolucion.fecha).toLocaleDateString()}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                      {devolucion.farmacia?.nombre || 'N/A'}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {devolucion.inventario?.medicamento?.nombre || 'N/A'}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {devolucion.cantidad}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {devolucion.motivo}
-                    </td>
-                  </tr>
+        {/* Filtros */}
+        <div className="bg-white shadow-md rounded-lg p-4 mb-6">
+          <form onSubmit={aplicarFiltros} className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div>
+              <label htmlFor="fechaInicio" className="block text-sm font-medium text-gray-700 mb-1">
+                Fecha Inicio
+              </label>
+              <input
+                type="date"
+                id="fechaInicio"
+                name="fechaInicio"
+                value={filtros.fechaInicio}
+                onChange={handleFiltroChange}
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              />
+            </div>
+            
+            <div>
+              <label htmlFor="fechaFin" className="block text-sm font-medium text-gray-700 mb-1">
+                Fecha Fin
+              </label>
+              <input
+                type="date"
+                id="fechaFin"
+                name="fechaFin"
+                value={filtros.fechaFin}
+                onChange={handleFiltroChange}
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              />
+            </div>
+            
+            <div>
+              <label htmlFor="estado" className="block text-sm font-medium text-gray-700 mb-1">
+                Estado
+              </label>
+              <select
+                id="estado"
+                name="estado"
+                value={filtros.estado}
+                onChange={handleFiltroChange}
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              >
+                {estadosDevoluciones.map(estado => (
+                  <option key={estado.valor} value={estado.valor}>
+                    {estado.texto}
+                  </option>
                 ))}
-              </tbody>
-            </table>
+              </select>
+            </div>
+            
+            <div className="flex items-end space-x-2">
+              <button
+                type="submit"
+                className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition"
+              >
+                Filtrar
+              </button>
+              <button
+                type="button"
+                onClick={limpiarFiltros}
+                className="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition"
+              >
+                Limpiar
+              </button>
+            </div>
+          </form>
+        </div>
+
+        {/* Resumen */}
+        <div className="mb-6">
+          <p className="text-gray-600">
+            Mostrando {devoluciones.length} de {totalDevoluciones} devoluciones.
+          </p>
+        </div>
+
+        {/* Tabla de Devoluciones */}
+        {devoluciones.length > 0 ? (
+          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-200">
+                <thead className="bg-gray-50">
+                  <tr>
+                    {[
+                      'Fecha', 
+                      'Farmacia', 
+                      'Medicamento', 
+                      'Cantidad', 
+                      'Motivo',
+                      'Estado'
+                    ].map((header) => (
+                      <th 
+                        key={header}
+                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      >
+                        {header}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-gray-200">
+                  {devoluciones.map((devolucion) => (
+                    <tr key={devolucion.id} className="hover:bg-gray-50 transition">
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        {new Date(devolucion.fecha).toLocaleDateString()}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        {devolucion.farmacia?.nombre || 'N/A'}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        {devolucion.inventario?.medicamento?.nombre || 'N/A'}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        {devolucion.cantidad}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        {devolucion.motivo}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        {formatearEstado(devolucion.estado)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         ) : (
           <div className="bg-white shadow-md rounded-lg p-6 text-center">
-            <p className="text-gray-500">No hay devoluciones registradas</p>
+            <p className="text-gray-500">No hay devoluciones registradas con los filtros actuales</p>
           </div>
         )}
 
         {/* Paginación */}
-        {numeroPaginas > 1 && (
+        {totalPaginas > 1 && (
           <div className="flex justify-center mt-4 space-x-2">
             <button
               onClick={() => cambiarPagina(paginaActual - 1)}
@@ -337,7 +476,7 @@ const handleSubmit = async (e) => {
               Anterior
             </button>
 
-            {Array.from({ length: numeroPaginas }, (_, i) => i + 1).map(numero => (
+            {Array.from({ length: totalPaginas }, (_, i) => i + 1).map(numero => (
               <button
                 key={numero}
                 onClick={() => cambiarPagina(numero)}
@@ -353,7 +492,7 @@ const handleSubmit = async (e) => {
 
             <button
               onClick={() => cambiarPagina(paginaActual + 1)}
-              disabled={paginaActual === numeroPaginas}
+              disabled={paginaActual === totalPaginas}
               className="px-4 py-2 bg-gray-200 text-gray-700 rounded-md disabled:opacity-50 disabled:cursor-not-allowed"
             >
               Siguiente

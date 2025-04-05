@@ -5,13 +5,11 @@ const { prisma } = require('../config');
 const AppError = require('../utils/errorHandler');
 
 const signToken = (id) => {
-    // Usa un valor predeterminado para JWT_SECRET si no está definido
     const secret = process.env.JWT_SECRET || 'tu_secreto_super_seguro_aqui';
     return jwt.sign({ id }, secret, {
         expiresIn: process.env.JWT_EXPIRES_IN || '90d'
     });
 };
-
 
 exports.registro = async (usuarioData) => {
     // Verificar si el usuario ya existe
@@ -23,6 +21,17 @@ exports.registro = async (usuarioData) => {
         throw new AppError('Este email ya está registrado', 400);
     }
 
+    // Verificar farmacia
+    if (usuarioData.farmaciaId) {
+        const farmacia = await prisma.farmacia.findUnique({
+            where: { id: usuarioData.farmaciaId }
+        });
+
+        if (!farmacia) {
+            throw new AppError('La farmacia especificada no existe', 404);
+        }
+    }
+
     // Encriptar la contraseña
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(usuarioData.password, salt);
@@ -31,7 +40,9 @@ exports.registro = async (usuarioData) => {
     const usuario = await prisma.usuario.create({
         data: {
             ...usuarioData,
-            password: hashedPassword
+            password: hashedPassword,
+            farmaciaActiva: usuarioData.farmaciaId ? 
+                { connect: { id: usuarioData.farmaciaId } } : undefined
         }
     });
 
@@ -45,7 +56,7 @@ exports.login = async (email, password) => {
     const usuario = await prisma.usuario.findUnique({
         where: { email },
         include: {
-            farmacias: true,
+            farmacia: true,
             farmaciaActiva: true
         }
     });
@@ -60,16 +71,16 @@ exports.login = async (email, password) => {
         throw new AppError('Email o password incorrectos', 401);
     }
 
-    // Si es usuario de farmacia y no tiene farmacia activa pero tiene farmacias asignadas
-    if (usuario.rol === 'FARMACIA' && !usuario.farmaciaActivaId && usuario.farmacias.length > 0) {
-        // Establecer la primera farmacia como activa
+    // Si es usuario de farmacia y no tiene farmacia activa
+    if (usuario.rol === 'FARMACIA' && !usuario.farmaciaActivaId && usuario.farmaciaId) {
+        // Establecer su farmacia principal como activa
         await prisma.usuario.update({
             where: { id: usuario.id },
             data: {
-                farmaciaActivaId: usuario.farmacias[0].id
+                farmaciaActivaId: usuario.farmaciaId
             }
         });
-        usuario.farmaciaActiva = usuario.farmacias[0];
+        usuario.farmaciaActiva = usuario.farmacia;
     }
 
     // Generar token
@@ -78,7 +89,6 @@ exports.login = async (email, password) => {
     // Eliminar la contraseña de la respuesta
     const { password: _, ...usuarioSinPassword } = usuario;
 
-    // Asegurarse de devolver un objeto con la estructura correcta
     return {
         usuario: usuarioSinPassword,
         token
@@ -88,26 +98,30 @@ exports.login = async (email, password) => {
 exports.seleccionarFarmaciaActiva = async (usuarioId, farmaciaId) => {
     // Verificar que el usuario existe
     const usuario = await prisma.usuario.findUnique({
-        where: { id: usuarioId },
-        include: { farmacias: true }
+        where: { id: usuarioId }
     });
 
     if (!usuario) {
         throw new AppError('Usuario no encontrado', 404);
     }
 
-    // Verificar que el usuario tiene acceso a esta farmacia
-    const tieneAcceso = usuario.farmacias.some(f => f.id === farmaciaId);
-    if (!tieneAcceso) {
-        throw new AppError('No tienes acceso a esta farmacia', 403);
+    // Verificar que la farmacia existe y pertenece al usuario
+    const farmacia = await prisma.farmacia.findUnique({
+        where: { id: farmaciaId }
+    });
+
+    if (!farmacia) {
+        throw new AppError('Farmacia no encontrada', 404);
     }
 
     // Actualizar la farmacia activa
     const usuarioActualizado = await prisma.usuario.update({
         where: { id: usuarioId },
-        data: { farmaciaActivaId: farmaciaId },
+        data: { 
+            farmaciaActivaId: farmaciaId 
+        },
         include: {
-            farmacias: true,
+            farmacia: true,
             farmaciaActiva: true
         }
     });
@@ -121,7 +135,7 @@ exports.getMe = async (id) => {
     const usuario = await prisma.usuario.findUnique({
         where: { id },
         include: {
-            farmacias: true,
+            farmacia: true,
             farmaciaActiva: true
         }
     });

@@ -1,3 +1,4 @@
+// apps/backend/services/venta.service.js - versión actualizada
 const { prisma } = require('../config');
 const AppError = require('../utils/errorHandler');
 
@@ -14,6 +15,13 @@ exports.crearVenta = async (ventaData) => {
   if (!cantidad || !farmaciaId || !precioUnitario || !inventarioId) {
     throw new AppError('Datos de venta incompletos', 400);
   }
+
+  // Crear fecha actual
+  const fechaActual = new Date();
+  
+  // Extraer mes y año para facilitar las consultas
+  const mes = fechaActual.getMonth() + 1; // getMonth() devuelve 0-11
+  const anio = fechaActual.getFullYear();
 
   // Crear transacción para garantizar integridad de datos
   return await prisma.$transaction(async (tx) => {
@@ -32,7 +40,7 @@ exports.crearVenta = async (ventaData) => {
       throw new AppError('No hay suficiente stock disponible', 400);
     }
 
-    // Registrar la venta
+    // Registrar la venta con mes y año explícitos
     const venta = await tx.venta.create({
       data: {
         cantidad,
@@ -40,7 +48,9 @@ exports.crearVenta = async (ventaData) => {
         precioUnitario,
         inventarioId,
         usuarioId: usuarioId || undefined,
-        fecha: new Date()
+        fecha: fechaActual,
+        mes,
+        anio
       },
       include: {
         farmacia: true,
@@ -70,7 +80,8 @@ exports.crearVenta = async (ventaData) => {
         cantidad,
         inventarioId,
         farmaciaId,
-        usuarioId: usuarioId || undefined
+        usuarioId: usuarioId || undefined,
+        fecha: fechaActual
       }
     });
 
@@ -84,7 +95,9 @@ exports.obtenerVentas = async (opciones = {}) => {
     limite = 10, 
     farmaciaId,
     fechaInicio,
-    fechaFin
+    fechaFin,
+    mes,
+    anio
   } = opciones;
 
   // Preparar condiciones de búsqueda
@@ -94,11 +107,21 @@ exports.obtenerVentas = async (opciones = {}) => {
     where.farmaciaId = farmaciaId;
   }
 
+  // Filtrar por fecha si se especifica
   if (fechaInicio && fechaFin) {
     where.fecha = {
       gte: new Date(fechaInicio),
       lte: new Date(fechaFin)
     };
+  }
+  
+  // Filtrar por mes y año si se especifican
+  if (mes) {
+    where.mes = parseInt(mes);
+  }
+  
+  if (anio) {
+    where.anio = parseInt(anio);
   }
 
   // Calcular offset para paginación
@@ -122,6 +145,8 @@ exports.obtenerVentas = async (opciones = {}) => {
           include: {
             medicamento: {
               select: {
+                id: true,
+                codigo: true,
                 nombre: true,
                 categoria: true
               }
@@ -180,7 +205,9 @@ exports.obtenerResumenVentas = async (opciones = {}) => {
   const { 
     farmaciaId,
     fechaInicio,
-    fechaFin
+    fechaFin,
+    mes,
+    anio
   } = opciones;
 
   const where = {};
@@ -195,6 +222,15 @@ exports.obtenerResumenVentas = async (opciones = {}) => {
       lte: new Date(fechaFin)
     };
   }
+  
+  // Filtrar por mes y año si se especifican
+  if (mes) {
+    where.mes = parseInt(mes);
+  }
+  
+  if (anio) {
+    where.anio = parseInt(anio);
+  }
 
   // Calcular resumen de ventas
   const resumen = await prisma.venta.aggregate({
@@ -207,10 +243,53 @@ exports.obtenerResumenVentas = async (opciones = {}) => {
       id: true
     }
   });
+  
+  // Obtener resumen por mes si se solicita un año específico
+  let ventasPorMes = [];
+  if (anio && !mes) {
+    // Consulta agrupada por mes para el año especificado
+    ventasPorMes = await prisma.$queryRaw`
+      SELECT mes, SUM(cantidad) as cantidad_total, SUM(cantidad * "precioUnitario") as monto_total
+      FROM "Venta"
+      WHERE anio = ${parseInt(anio)}
+      ${farmaciaId ? prisma.sql`AND "farmaciaId" = ${farmaciaId}` : prisma.sql``}
+      GROUP BY mes
+      ORDER BY mes
+    `;
+  }
 
   return {
     totalVentas: resumen._count.id,
-    cantidadTotal: resumen._sum.cantidad,
-    ingresoTotal: resumen._sum.precioUnitario
+    cantidadTotal: resumen._sum.cantidad || 0,
+    ingresoTotal: resumen._sum.precioUnitario || 0,
+    ventasPorMes: ventasPorMes.length > 0 ? ventasPorMes : undefined
   };
+};
+
+// Nuevo método para obtener ventas agrupadas por mes y año
+exports.obtenerVentasPorMesAnio = async (farmaciaId) => {
+  // Verificar que la farmacia existe
+  const farmacia = await prisma.farmacia.findUnique({
+    where: { id: farmaciaId }
+  });
+
+  if (!farmacia) {
+    throw new AppError('Farmacia no encontrada', 404);
+  }
+
+  // Obtener resumen de ventas agrupadas por mes y año
+  const ventasPorMesAnio = await prisma.$queryRaw`
+    SELECT 
+      anio, 
+      mes, 
+      COUNT(*) as total_ventas,
+      SUM(cantidad) as unidades_vendidas,
+      SUM(cantidad * "precioUnitario") as monto_total
+    FROM "Venta"
+    WHERE "farmaciaId" = ${farmaciaId}
+    GROUP BY anio, mes
+    ORDER BY anio DESC, mes DESC
+  `;
+
+  return ventasPorMesAnio;
 };

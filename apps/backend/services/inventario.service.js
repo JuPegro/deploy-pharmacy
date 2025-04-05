@@ -1,3 +1,4 @@
+// apps/backend/services/inventario.service.js
 const { prisma } = require('../config');
 const AppError = require('../utils/errorHandler');
 
@@ -74,7 +75,7 @@ exports.obtenerInventarios = async (opciones = {}) => {
 
   if (bajoStock) {
     where.stock = {
-      lte: prisma.inventario.fields.stockMinimo
+      lte: prisma.raw('stock_minimo') // Usar expresión raw para comparar con la columna stockMinimo
     };
   }
 
@@ -98,8 +99,12 @@ exports.obtenerInventarios = async (opciones = {}) => {
         medicamento: {
           select: {
             id: true,
+            codigo: true,
             nombre: true,
-            categoria: true
+            categoria: true,
+            principioActivo: true,
+            presentacion: true,
+            requiereReceta: true
           }
         }
       },
@@ -112,8 +117,14 @@ exports.obtenerInventarios = async (opciones = {}) => {
   // Calcular total de páginas
   const totalPaginas = Math.ceil(totalInventarios / limite);
 
+  // Agregar una bandera para indicar si el stock está por debajo del mínimo
+  const inventariosConAlerta = inventarios.map(inv => ({
+    ...inv,
+    bajoStock: inv.stock <= inv.stockMinimo
+  }));
+
   return {
-    inventarios,
+    inventarios: inventariosConAlerta,
     paginacion: {
       paginaActual: pagina,
       totalPaginas,
@@ -133,12 +144,29 @@ exports.obtenerInventario = async (id) => {
         orderBy: {
           fecha: 'desc'
         },
-        take: 10 // Últimos 10 movimientos
+        take: 10, // Últimos 10 movimientos
+        include: {
+          registradoPor: {
+            select: {
+              id: true,
+              nombre: true,
+              email: true
+            }
+          }
+        }
       },
       ventas: {
         take: 5, // Últimas 5 ventas
         orderBy: {
           fecha: 'desc'
+        },
+        include: {
+          vendedor: {
+            select: {
+              id: true,
+              nombre: true
+            }
+          }
         }
       }
     }
@@ -161,15 +189,18 @@ exports.actualizarInventario = async (id, inventarioData) => {
     throw new AppError('Inventario no encontrado', 404);
   }
 
+  // Filtrar campos permitidos para la actualización
+  const dataToUpdate = {};
+  
+  if (inventarioData.stock !== undefined) dataToUpdate.stock = inventarioData.stock;
+  if (inventarioData.stockMinimo !== undefined) dataToUpdate.stockMinimo = inventarioData.stockMinimo;
+  if (inventarioData.precio !== undefined) dataToUpdate.precio = inventarioData.precio;
+  if (inventarioData.vencimiento) dataToUpdate.vencimiento = new Date(inventarioData.vencimiento);
+
   // Actualizar inventario
   return await prisma.inventario.update({
     where: { id },
-    data: {
-      stock: inventarioData.stock,
-      stockMinimo: inventarioData.stockMinimo,
-      precio: inventarioData.precio,
-      vencimiento: inventarioData.vencimiento ? new Date(inventarioData.vencimiento) : undefined
-    },
+    data: dataToUpdate,
     include: {
       farmacia: true,
       medicamento: true
@@ -203,10 +234,13 @@ exports.eliminarInventario = async (id) => {
   });
 };
 
-exports.ajustarStock = async (id, cantidad, tipoMovimiento) => {
+exports.ajustarStock = async (id, cantidad, tipoMovimiento, usuarioId) => {
   // Verificar existencia del inventario
   const inventario = await prisma.inventario.findUnique({
-    where: { id }
+    where: { id },
+    include: {
+      medicamento: true
+    }
   });
 
   if (!inventario) {
@@ -248,7 +282,8 @@ exports.ajustarStock = async (id, cantidad, tipoMovimiento) => {
         tipo: tipoMovimiento,
         cantidad,
         inventarioId: id,
-        farmaciaId: inventario.farmaciaId
+        farmaciaId: inventario.farmaciaId,
+        usuarioId: usuarioId || undefined // Registrar quién hizo el movimiento
       }
     });
 
@@ -266,5 +301,5 @@ exports.ajustarStock = async (id, cantidad, tipoMovimiento) => {
       inventario: inventarioActualizado,
       movimiento
     };
-  });
+  })
 };

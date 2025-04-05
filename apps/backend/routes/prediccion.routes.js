@@ -13,13 +13,14 @@ router.get('/tendencia-ventas/:farmaciaId', prediccionController.obtenerTendenci
 router.get('/inventario-optimo/:medicamentoId', prediccionController.obtenerNivelOptimoInventario);
 router.get('/recomendaciones-reabastecimiento/:farmaciaId', prediccionController.obtenerRecomendacionesReabastecimiento);
 
-// Nueva ruta para editar recomendaciones (solo usuarios de farmacia)
-router.post('/editar-recomendacion/:medicamentoId', 
-  authMiddleware.restringirA('FARMACIA'),
-  prediccionController.editarRecomendacion);
+// Ruta para editar recomendaciones (usuarios de farmacia y admin)
+router.post('/editar-recomendacion/:medicamentoId', prediccionController.editarRecomendacion);
 
 // Rutas de análisis predictivo
 router.get('/estacionalidad/:categoriaId', prediccionController.analizarEstacionalidad);
 router.get('/correlaciones', prediccionController.analizarCorrelaciones);
+
+// Ruta para medicamentos más vendidos
+router.get('/medicamentos-mas-vendidos/:farmaciaId', prediccionController.obtenerMedicamentosMasVendidos);
 
 module.exports = router;

@@ -1,3 +1,4 @@
+// apps/backend/services/devolucion.service.js - versión actualizada
 const { prisma } = require('../config');
 const AppError = require('../utils/errorHandler');
 
@@ -7,12 +8,37 @@ exports.crearDevolucion = async (devolucionData) => {
     cantidad, 
     motivo, 
     farmaciaId, 
-    inventarioId 
+    inventarioId,
+    usuarioId
   } = devolucionData;
 
   if (!cantidad || !motivo || !farmaciaId || !inventarioId) {
     throw new AppError('Datos de devolución incompletos', 400);
   }
+
+  // Verificar que el inventario existe
+  const inventario = await prisma.inventario.findUnique({
+    where: { id: inventarioId },
+    include: {
+      medicamento: true
+    }
+  });
+
+  if (!inventario) {
+    throw new AppError('Inventario no encontrado', 404);
+  }
+
+  // Verificar que el inventario pertenece a la farmacia
+  if (inventario.farmaciaId !== farmaciaId) {
+    throw new AppError('El inventario no pertenece a esta farmacia', 400);
+  }
+
+  // Fecha actual
+  const fechaActual = new Date();
+  
+  // Extraer mes y año
+  const mes = fechaActual.getMonth() + 1; // getMonth() devuelve 0-11
+  const anio = fechaActual.getFullYear();
 
   // Crear la devolución con estado PENDIENTE por defecto
   const devolucion = await prisma.devolucion.create({
@@ -22,13 +48,23 @@ exports.crearDevolucion = async (devolucionData) => {
       farmaciaId,
       inventarioId,
       estado: 'PENDIENTE', // Estado por defecto
-      fecha: new Date()
+      fecha: fechaActual,
+      mes,
+      anio,
+      usuarioId: usuarioId || undefined // Registrar quién hizo la devolución
     },
     include: {
       farmacia: true,
       inventario: {
         include: {
           medicamento: true
+        }
+      },
+      usuario: {
+        select: {
+          id: true,
+          nombre: true,
+          email: true
         }
       }
     }
@@ -44,7 +80,9 @@ exports.obtenerDevoluciones = async (opciones = {}) => {
     farmaciaId,
     fechaInicio,
     fechaFin,
-    estado
+    estado,
+    mes,
+    anio
   } = opciones;
 
   // Preparar condiciones de búsqueda
@@ -63,6 +101,15 @@ exports.obtenerDevoluciones = async (opciones = {}) => {
 
   if (estado) {
     where.estado = estado;
+  }
+  
+  // Filtrar por mes y año si se especifican
+  if (mes) {
+    where.mes = parseInt(mes);
+  }
+  
+  if (anio) {
+    where.anio = parseInt(anio);
   }
 
   // Calcular offset para paginación
@@ -92,6 +139,20 @@ exports.obtenerDevoluciones = async (opciones = {}) => {
                 categoria: true
               }
             }
+          }
+        },
+        usuario: {
+          select: {
+            id: true,
+            nombre: true,
+            email: true
+          }
+        },
+        aprobadoPor: {
+          select: {
+            id: true,
+            nombre: true,
+            email: true
           }
         }
       },
@@ -124,6 +185,20 @@ exports.obtenerDevolucion = async (id) => {
         include: {
           medicamento: true
         }
+      },
+      usuario: {
+        select: {
+          id: true,
+          nombre: true,
+          email: true
+        }
+      },
+      aprobadoPor: {
+        select: {
+          id: true,
+          nombre: true,
+          email: true
+        }
       }
     }
   });
@@ -135,7 +210,7 @@ exports.obtenerDevolucion = async (id) => {
   return devolucion;
 };
 
-exports.aprobarDevolucion = async (id) => {
+exports.aprobarDevolucion = async (id, adminId) => {
   // Verificar que la devolución existe y está en estado PENDIENTE
   const devolucion = await prisma.devolucion.findUnique({
     where: { id },
@@ -152,17 +227,38 @@ exports.aprobarDevolucion = async (id) => {
     throw new AppError(`La devolución ya ha sido ${devolucion.estado.toLowerCase()}`, 400);
   }
 
+  // Fecha de aprobación
+  const fechaAprobacion = new Date();
+
   // Crear transacción para garantizar integridad de datos
   return await prisma.$transaction(async (tx) => {
     // Actualizar estado de la devolución
     const devolucionActualizada = await tx.devolucion.update({
       where: { id },
-      data: { estado: 'APROBADA' },
+      data: { 
+        estado: 'APROBADA',
+        aprobadoPorId: adminId,
+        fechaAprobacion
+      },
       include: {
         farmacia: true,
         inventario: {
           include: {
             medicamento: true
+          }
+        },
+        usuario: {
+          select: {
+            id: true,
+            nombre: true,
+            email: true
+          }
+        },
+        aprobadoPor: {
+          select: {
+            id: true,
+            nombre: true,
+            email: true
           }
         }
       }
@@ -184,7 +280,10 @@ exports.aprobarDevolucion = async (id) => {
         tipo: 'INGRESO',
         cantidad: devolucion.cantidad,
         inventarioId: devolucion.inventarioId,
-        farmaciaId: devolucion.farmaciaId
+        farmaciaId: devolucion.farmaciaId,
+        usuarioId: adminId,
+        observacion: `Devolución #${id} aprobada`,
+        fecha: fechaAprobacion
       }
     });
 
@@ -192,7 +291,7 @@ exports.aprobarDevolucion = async (id) => {
   });
 };
 
-exports.rechazarDevolucion = async (id) => {
+exports.rechazarDevolucion = async (id, motivo, adminId) => {
   // Verificar que la devolución existe y está en estado PENDIENTE
   const devolucion = await prisma.devolucion.findUnique({
     where: { id }
@@ -206,15 +305,37 @@ exports.rechazarDevolucion = async (id) => {
     throw new AppError(`La devolución ya ha sido ${devolucion.estado.toLowerCase()}`, 400);
   }
 
+  // Fecha de rechazo
+  const fechaAprobacion = new Date();
+
   // Actualizar estado de la devolución
   return await prisma.devolucion.update({
     where: { id },
-    data: { estado: 'RECHAZADA' },
+    data: { 
+      estado: 'RECHAZADA',
+      aprobadoPorId: adminId,
+      fechaAprobacion,
+      motivoRechazo: motivo
+    },
     include: {
       farmacia: true,
       inventario: {
         include: {
           medicamento: true
+        }
+      },
+      usuario: {
+        select: {
+          id: true,
+          nombre: true,
+          email: true
+        }
+      },
+      aprobadoPor: {
+        select: {
+          id: true,
+          nombre: true,
+          email: true
         }
       }
     }
@@ -226,7 +347,9 @@ exports.obtenerResumenDevoluciones = async (opciones = {}) => {
     farmaciaId,
     fechaInicio,
     fechaFin,
-    estado
+    estado,
+    mes,
+    anio
   } = opciones;
 
   const where = {};
@@ -245,6 +368,15 @@ exports.obtenerResumenDevoluciones = async (opciones = {}) => {
   if (estado) {
     where.estado = estado;
   }
+  
+  // Filtrar por mes y año si se especifican
+  if (mes) {
+    where.mes = parseInt(mes);
+  }
+  
+  if (anio) {
+    where.anio = parseInt(anio);
+  }
 
   // Calcular resumen de devoluciones
   const resumen = await prisma.devolucion.aggregate({
@@ -261,13 +393,58 @@ exports.obtenerResumenDevoluciones = async (opciones = {}) => {
   const resumenPorEstado = await prisma.$queryRaw`
     SELECT estado, COUNT(*) as cantidad
     FROM "Devolucion"
-    WHERE ${farmaciaId ? prisma.sql`"farmaciaId" = ${farmaciaId}` : prisma.sql`1=1`}
+    WHERE ${where ? `"farmaciaId" = ${farmaciaId}` : `1=1`}
+    ${mes ? `AND mes = ${parseInt(mes)}` : ``}
+    ${anio ? `AND anio = ${parseInt(anio)}` : ``}
     GROUP BY estado
   `;
+  
+  // Obtener resumen por mes si se solicita un año específico
+  let devolucionesPorMes = [];
+  if (anio && !mes) {
+    // Consulta agrupada por mes para el año especificado
+    devolucionesPorMes = await prisma.$queryRaw`
+      SELECT mes, estado, COUNT(*) as cantidad
+      FROM "Devolucion"
+      WHERE anio = ${parseInt(anio)}
+      ${farmaciaId ? `AND "farmaciaId" = ${farmaciaId}` : ``}
+      GROUP BY mes, estado
+      ORDER BY mes, estado
+    `;
+  }
 
   return {
     totalDevoluciones: resumen._count.id,
     cantidadTotal: resumen._sum.cantidad || 0,
-    estadisticas: resumenPorEstado
+    estadisticas: resumenPorEstado,
+    devolucionesPorMes: devolucionesPorMes.length > 0 ? devolucionesPorMes : undefined
   };
+};
+
+// Nuevo método para obtener devoluciones agrupadas por mes y año
+exports.obtenerDevolucionesPorMesAnio = async (farmaciaId) => {
+  // Verificar que la farmacia existe
+  const farmacia = await prisma.farmacia.findUnique({
+    where: { id: farmaciaId }
+  });
+
+  if (!farmacia) {
+    throw new AppError('Farmacia no encontrada', 404);
+  }
+
+  // Obtener resumen de devoluciones agrupadas por mes y año
+  const devolucionesPorMesAnio = await prisma.$queryRaw`
+    SELECT 
+      anio, 
+      mes, 
+      estado,
+      COUNT(*) as total_devoluciones,
+      SUM(cantidad) as unidades_devueltas
+    FROM "Devolucion"
+    WHERE "farmaciaId" = ${farmaciaId}
+    GROUP BY anio, mes, estado
+    ORDER BY anio DESC, mes DESC, estado
+  `;
+
+  return devolucionesPorMesAnio;
 };
