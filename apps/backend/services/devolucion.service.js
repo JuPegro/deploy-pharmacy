@@ -343,6 +343,8 @@ exports.rechazarDevolucion = async (id, motivo, adminId) => {
   });
 };
 
+
+// Corrección para el método obtenerResumenDevoluciones en devolucion.service.js
 exports.obtenerResumenDevoluciones = async (opciones = {}) => {
   const {
     farmaciaId,
@@ -353,6 +355,7 @@ exports.obtenerResumenDevoluciones = async (opciones = {}) => {
     anio
   } = opciones;
 
+  // Preparar condiciones de búsqueda
   const where = {};
 
   if (farmaciaId) {
@@ -370,81 +373,213 @@ exports.obtenerResumenDevoluciones = async (opciones = {}) => {
     where.estado = estado;
   }
 
-  // Calcular resumen de devoluciones
-  const resumen = await prisma.devolucion.aggregate({
-    where,
-    _sum: {
-      cantidad: true
-    },
-    _count: {
-      id: true
-    }
-  });
-
-  // Construcción segura del WHERE para resumen por estado
-  const condicionesEstado = [];
-  if (farmaciaId) {
-    condicionesEstado.push(sql`"farmaciaId" = ${farmaciaId}`);
-  }
+  // Filtrar por mes y año si se especifican
   if (mes) {
-    condicionesEstado.push(sql`mes = ${parseInt(mes)}`);
+    where.mes = parseInt(mes);
   }
+
   if (anio) {
-    condicionesEstado.push(sql`anio = ${parseInt(anio)}`);
+    where.anio = parseInt(anio);
   }
 
-  const whereSqlEstado = condicionesEstado.length > 0
-    ? sql`WHERE ${sql.join(condicionesEstado, sql` AND `)}`
-    : sql``;
+  try {
+    // Calcular resumen de devoluciones
+    const resumen = await prisma.devolucion.aggregate({
+      where,
+      _sum: {
+        cantidad: true
+      },
+      _count: {
+        id: true
+      }
+    });
 
-  let resumenPorEstado = await prisma.$queryRaw(
-    sql`
-      SELECT estado, COUNT(*) as cantidad
-      FROM "Devolucion"
-      ${whereSqlEstado}
-      GROUP BY estado
-    `
-  );
+    // Asegurarse de que los valores numéricos no sean nulos
+    const totalDevoluciones = Number(resumen._count.id || 0);
+    const cantidadTotal = Number(resumen._sum.cantidad || 0);
 
-  // Convertir BigInt a Number en resumenPorEstado
-  resumenPorEstado = resumenPorEstado.map(item => ({
-    ...item,
-    cantidad: Number(item.cantidad)
-  }));
-
-  // Obtener resumen por mes si se solicita un año específico y no un mes
-  let devolucionesPorMes = [];
-
-  if (anio && !mes) {
-    const condicionesMes = [sql`anio = ${parseInt(anio)}`];
+    // Construcción segura del WHERE para resumen por estado - CORREGIDO
+    let whereSqlEstado = '';
+    
+    // Crear un array para las condiciones
+    const condicionesEstado = [];
+    
     if (farmaciaId) {
-      condicionesMes.push(sql`"farmaciaId" = ${farmaciaId}`);
+      condicionesEstado.push(`"farmaciaId" = '${farmaciaId}'`);
+    }
+    if (mes) {
+      condicionesEstado.push(`mes = ${parseInt(mes)}`);
+    }
+    if (anio) {
+      condicionesEstado.push(`anio = ${parseInt(anio)}`);
+    }
+    
+    // Construir la cláusula WHERE manualmente
+    if (condicionesEstado.length > 0) {
+      whereSqlEstado = `WHERE ${condicionesEstado.join(' AND ')}`;
     }
 
-    devolucionesPorMes = await prisma.$queryRaw(
-      sql`
-        SELECT mes, estado, COUNT(*) as cantidad
-        FROM "Devolucion"
-        WHERE ${sql.join(condicionesMes, sql` AND `)}
-        GROUP BY mes, estado
-        ORDER BY mes, estado
-      `
+    let resumenPorEstado = await prisma.$queryRawUnsafe(
+      `SELECT estado, COUNT(*) as cantidad
+       FROM "Devolucion"
+       ${whereSqlEstado}
+       GROUP BY estado`
     );
 
-    // Convertir BigInt a Number
-    devolucionesPorMes = devolucionesPorMes.map(item => ({
+    // Si no hay resultados, devolver un array vacío
+    if (!resumenPorEstado) resumenPorEstado = [];
+
+    // Convertir BigInt a Number en resumenPorEstado
+    resumenPorEstado = resumenPorEstado.map(item => ({
       ...item,
       cantidad: Number(item.cantidad)
     }));
-  }
 
-  return {
-    totalDevoluciones: Number(resumen._count.id),
-    cantidadTotal: Number(resumen._sum.cantidad || 0),
-    estadisticas: resumenPorEstado,
-    devolucionesPorMes: devolucionesPorMes.length > 0 ? devolucionesPorMes : undefined
-  };
+    // Obtener resumen por mes si se solicita un año específico y no un mes
+    let devolucionesPorMes = [];
+
+    if (anio && !mes) {
+      // Construir la consulta para devolucionesPorMes manualmente también
+      const condicionesMes = [`anio = ${parseInt(anio)}`];
+      
+      if (farmaciaId) {
+        condicionesMes.push(`"farmaciaId" = '${farmaciaId}'`);
+      }
+      
+      const whereMes = `WHERE ${condicionesMes.join(' AND ')}`;
+
+      devolucionesPorMes = await prisma.$queryRawUnsafe(
+        `SELECT mes, estado, COUNT(*) as cantidad
+         FROM "Devolucion"
+         ${whereMes}
+         GROUP BY mes, estado
+         ORDER BY mes, estado`
+      );
+
+      // Si no hay resultados, usar array vacío
+      if (!devolucionesPorMes) devolucionesPorMes = [];
+
+      // Convertir BigInt a Number
+      devolucionesPorMes = devolucionesPorMes.map(item => ({
+        ...item,
+        cantidad: Number(item.cantidad)
+      }));
+    }
+
+    return {
+      totalDevoluciones,
+      cantidadTotal,
+      estadisticas: resumenPorEstado,
+      devolucionesPorMes: devolucionesPorMes.length > 0 ? devolucionesPorMes : undefined
+    };
+  } catch (error) {
+    console.error('Error en obtenerResumenDevoluciones:', error);
+    throw new AppError('Error al obtener el resumen de devoluciones: ' + error.message, 500);
+  }
 };
+
+// exports.obtenerResumenDevoluciones = async (opciones = {}) => {
+//   const {
+//     farmaciaId,
+//     fechaInicio,
+//     fechaFin,
+//     estado,
+//     mes,
+//     anio
+//   } = opciones;
+
+//   const where = {};
+
+//   if (farmaciaId) {
+//     where.farmaciaId = farmaciaId;
+//   }
+
+//   if (fechaInicio && fechaFin) {
+//     where.fecha = {
+//       gte: new Date(fechaInicio),
+//       lte: new Date(fechaFin)
+//     };
+//   }
+
+//   if (estado) {
+//     where.estado = estado;
+//   }
+
+//   // Calcular resumen de devoluciones
+//   const resumen = await prisma.devolucion.aggregate({
+//     where,
+//     _sum: {
+//       cantidad: true
+//     },
+//     _count: {
+//       id: true
+//     }
+//   });
+
+//   // Construcción segura del WHERE para resumen por estado
+//   const condicionesEstado = [];
+//   if (farmaciaId) {
+//     condicionesEstado.push(sql`"farmaciaId" = ${farmaciaId}`);
+//   }
+//   if (mes) {
+//     condicionesEstado.push(sql`mes = ${parseInt(mes)}`);
+//   }
+//   if (anio) {
+//     condicionesEstado.push(sql`anio = ${parseInt(anio)}`);
+//   }
+
+//   const whereSqlEstado = condicionesEstado.length > 0
+//     ? sql`WHERE ${sql.join(condicionesEstado, sql` AND `)}`
+//     : sql``;
+
+//   let resumenPorEstado = await prisma.$queryRaw(
+//     sql`
+//       SELECT estado, COUNT(*) as cantidad
+//       FROM "Devolucion"
+//       ${whereSqlEstado}
+//       GROUP BY estado
+//     `
+//   );
+
+//   // Convertir BigInt a Number en resumenPorEstado
+//   resumenPorEstado = resumenPorEstado.map(item => ({
+//     ...item,
+//     cantidad: Number(item.cantidad)
+//   }));
+
+//   // Obtener resumen por mes si se solicita un año específico y no un mes
+//   let devolucionesPorMes = [];
+
+//   if (anio && !mes) {
+//     const condicionesMes = [sql`anio = ${parseInt(anio)}`];
+//     if (farmaciaId) {
+//       condicionesMes.push(sql`"farmaciaId" = ${farmaciaId}`);
+//     }
+
+//     devolucionesPorMes = await prisma.$queryRaw(
+//       sql`
+//         SELECT mes, estado, COUNT(*) as cantidad
+//         FROM "Devolucion"
+//         WHERE ${sql.join(condicionesMes, sql` AND `)}
+//         GROUP BY mes, estado
+//         ORDER BY mes, estado
+//       `
+//     );
+
+//     // Convertir BigInt a Number
+//     devolucionesPorMes = devolucionesPorMes.map(item => ({
+//       ...item,
+//       cantidad: Number(item.cantidad)
+//     }));
+//   }
+
+//   return {
+//     totalDevoluciones: Number(resumen._count.id),
+//     cantidadTotal: Number(resumen._sum.cantidad || 0),
+//     estadisticas: resumenPorEstado,
+//     devolucionesPorMes: devolucionesPorMes.length > 0 ? devolucionesPorMes : undefined
+//   };
+// };
 
 // Nuevo método para obtener devoluciones agrupadas por mes y año
 exports.obtenerDevolucionesPorMesAnio = async (farmaciaId) => {

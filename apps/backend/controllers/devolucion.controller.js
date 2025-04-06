@@ -1,6 +1,7 @@
 // apps/backend/controllers/devolucion.controller.js - versión actualizada
 const devolucionService = require('../services/devolucion.service');
 const AppError = require('../utils/errorHandler');
+const { prisma } = require('../config');
 
 exports.crearDevolucion = async (req, res, next) => {
   try {
@@ -125,6 +126,7 @@ exports.rechazarDevolucion = async (req, res, next) => {
   }
 };
 
+// Modificación para el método obtenerResumenDevoluciones en devolucion.controller.js
 exports.obtenerResumenDevoluciones = async (req, res, next) => {
   try {
     const opciones = {
@@ -135,9 +137,14 @@ exports.obtenerResumenDevoluciones = async (req, res, next) => {
       anio: req.query.anio
     };
 
-    // Para usuario de farmacia, filtrar solo por su farmacia activa
-    if (req.usuario?.rol === 'FARMACIA' && req.usuario?.farmaciaActivaId) {
-      opciones.farmaciaId = req.usuario.farmaciaActivaId;
+    // Para usuario de farmacia, verificar que exista farmaciaActivaId antes de usarlo
+    if (req.usuario?.rol === 'FARMACIA') {
+      if (req.usuario?.farmaciaActivaId) {
+        opciones.farmaciaId = req.usuario.farmaciaActivaId;
+      } else {
+        // Si el usuario es de farmacia pero no tiene farmacia activa, devolver un error
+        return next(new AppError('Usuario de farmacia sin farmacia activa asignada', 400));
+      }
     } else if (req.query.farmaciaId) {
       opciones.farmaciaId = req.query.farmaciaId;
     }
@@ -155,7 +162,6 @@ exports.obtenerResumenDevoluciones = async (req, res, next) => {
   }
 };
 
-// Nuevo endpoint para obtener devoluciones agrupadas por mes y año
 exports.obtenerDevolucionesPorMesAnio = async (req, res, next) => {
   try {
     const { farmaciaId } = req.params;
@@ -166,15 +172,36 @@ exports.obtenerDevolucionesPorMesAnio = async (req, res, next) => {
       : farmaciaId;
     
     if (!farmaciaIdFinal) {
-      return next(new AppError('Se requiere un ID de farmacia válido', 400));
+      return next(new AppError('Farmacia no encontrada', 404));
     }
-    
-    const devolucionesPorMesAnio = await devolucionService.obtenerDevolucionesPorMesAnio(farmaciaIdFinal);
+
+    // Obtener resumen de devoluciones agrupadas por mes y año
+    const devolucionesPorMesAnio = await prisma.$queryRaw`
+      SELECT 
+        anio, 
+        mes, 
+        estado,
+        COUNT(*) as total_devoluciones,
+        SUM(cantidad) as unidades_devueltas
+      FROM "Devolucion"
+      WHERE "farmaciaId" = ${farmaciaIdFinal}
+      GROUP BY anio, mes, estado
+      ORDER BY anio DESC, mes DESC, estado
+    `;
+
+    // Convertir BigInt a Number antes de enviar la respuesta
+    const devolucionesFormateadas = devolucionesPorMesAnio.map(dev => ({
+      anio: Number(dev.anio),
+      mes: Number(dev.mes),
+      estado: dev.estado,
+      total_devoluciones: Number(dev.total_devoluciones),
+      unidades_devueltas: Number(dev.unidades_devueltas)
+    }));
     
     res.status(200).json({
       status: 'success',
       data: {
-        devolucionesPorMesAnio
+        devolucionesPorMesAnio: devolucionesFormateadas
       }
     });
   } catch (error) {

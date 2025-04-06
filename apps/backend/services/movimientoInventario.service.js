@@ -39,11 +39,25 @@ exports.crearMovimientoInventario = async (movimientoData) => {
   });
 };
 
+// exports.obtenerMovimientosInventario = async () => {
+//   return await prisma.movimientoInventario.findMany({
+//     include: {
+//       medicamento: true,
+//       farmacia: true
+//     }
+//   });
+// };
+
 exports.obtenerMovimientosInventario = async () => {
   return await prisma.movimientoInventario.findMany({
     include: {
-      medicamento: true,
-      farmacia: true
+      farmacia: true,
+      inventario: {
+        include: {
+          medicamento: true  // Incluir medicamento a través del inventario
+        }
+      },
+      registradoPor: true
     }
   });
 };

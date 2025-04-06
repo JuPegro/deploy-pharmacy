@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, Outlet, useNavigate, useLocation } from 'react-router-dom';
 
 const Layout = () => {
@@ -6,6 +6,8 @@ const Layout = () => {
     const location = useLocation();
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const [farmaciaActiva, setFarmaciaActiva] = useState(null);
+    const initialRenderRef = useRef(true);
+    const prevPathRef = useRef(location.pathname);
     
     // Obtener el usuario del localStorage con manejo de errores
     let user;
@@ -13,7 +15,7 @@ const Layout = () => {
         const userString = localStorage.getItem('user');
         user = JSON.parse(userString || '{}');
     } catch (error) {
-        console.error("Error parsing user from localStorage:", error);
+        console.error("Error parsing user data:", error);
         user = {};
     }
     
@@ -27,30 +29,38 @@ const Layout = () => {
     // Obtener la farmacia activa si el usuario es de tipo FARMACIA
     useEffect(() => {
         if (isFarmacia && user.farmaciaActivaId) {
-            // Podríamos hacer una llamada a la API para obtener más detalles de la farmacia activa
             setFarmaciaActiva({
                 id: user.farmaciaActivaId,
                 nombre: user.farmaciaActiva?.nombre || 'Farmacia actual'
             });
         }
-    }, [isFarmacia, user]);
+    }, [isFarmacia, user.farmaciaActivaId, user.farmaciaActiva?.nombre]);
 
-    // Redirigir según el rol
+    // Manejar redirecciones basadas en roles usando useEffect con useRef para evitar loops
     useEffect(() => {
-        // Si no es admin, redirigir desde dashboard a ventas
-        if (!isAdmin && location.pathname === '/dashboard') {
-            navigate('/ventas');
+        // Solo ejecutar este código en el primer renderizado
+        if (initialRenderRef.current) {
+            initialRenderRef.current = false;
+            
+            // Redireccionar si es necesario
+            if (!isAdmin && location.pathname === '/dashboard') {
+                navigate('/ventas', { replace: true });
+                return;
+            }
+            
+            if (isFarmacia && (
+                location.pathname === '/farmacias' || 
+                location.pathname.startsWith('/usuarios') ||
+                location.pathname === '/predicciones/dashboard'
+            )) {
+                navigate('/ventas', { replace: true });
+                return;
+            }
         }
         
-        // Si es usuario de farmacia y accede a rutas solo para admin
-        if (isFarmacia && (
-            location.pathname === '/farmacias' || 
-            location.pathname.startsWith('/usuarios') ||
-            location.pathname === '/predicciones/dashboard'
-        )) {
-            navigate('/ventas');
-        }
-    }, [isAdmin, isFarmacia, location.pathname, navigate]);
+        // Actualizar la referencia a la ruta actual
+        prevPathRef.current = location.pathname;
+    }, []);
 
     const handleLogout = () => {
         localStorage.removeItem('token');
@@ -141,16 +151,16 @@ const Layout = () => {
             )
         },
 
-        // Predicciones - Versión completa para ADMIN, versión limitada para FARMACIA
-        {
-            name: 'Predicciones',
-            path: isAdmin ? '/predicciones/dashboard' : '/predicciones/recomendaciones',
-            icon: (active) => (
-                <svg className={`${active ? 'text-indigo-500' : 'text-gray-400 group-hover:text-gray-500'} mr-3 h-6 w-6`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
-            )
-        }
+        // // Predicciones - Versión completa para ADMIN, versión limitada para FARMACIA
+        // {
+        //     name: 'Predicciones',
+        //     path: isAdmin ? '/predicciones/dashboard' : '/predicciones/recomendaciones',
+        //     icon: (active) => (
+        //         <svg className={`${active ? 'text-indigo-500' : 'text-gray-400 group-hover:text-gray-500'} mr-3 h-6 w-6`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        //             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+        //         </svg>
+        //     )
+        // }
     ].filter(Boolean); // Filtra los elementos nulos (los elementos condicionados por roles)
 
     return (

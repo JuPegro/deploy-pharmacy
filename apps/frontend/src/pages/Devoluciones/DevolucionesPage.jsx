@@ -65,19 +65,30 @@ const Devoluciones = () => {
     { valor: 'RECHAZADA', texto: 'Rechazada' }
   ];
 
-  // Obtener usuario del local storage
+  // Obtener usuario del local storage con mejor manejo de errores
   const getUsuario = () => {
-    const usuarioJSON = localStorage.getItem('usuario');
-    if (usuarioJSON) {
-      return JSON.parse(usuarioJSON);
+    try {
+      const usuarioJSON = localStorage.getItem('user');
+      if (!usuarioJSON) {
+        console.log('No se encontró información de usuario en localStorage');
+        return null;
+      }
+      
+      const usuario = JSON.parse(usuarioJSON);
+      console.log('Usuario recuperado del localStorage:', usuario);
+      return usuario;
+    } catch (error) {
+      console.error('Error al recuperar usuario del localStorage:', error);
+      return null;
     }
-    return null;
   };
 
-  // Verificar si el usuario es admin
+  // Verificar si el usuario es admin con más validaciones
   const esAdmin = () => {
     const usuario = getUsuario();
-    return usuario && usuario.rol === 'ADMIN';
+    const esAdminResult = usuario && usuario.rol === 'ADMIN';
+    console.log('¿El usuario es admin?', esAdminResult, 'Rol del usuario:', usuario?.rol);
+    return esAdminResult;
   };
 
   // Recuperar datos
@@ -106,48 +117,67 @@ const Devoluciones = () => {
       if (filtros.fechaFin) queryParams.append('fechaFin', filtros.fechaFin);
       if (filtros.estado) queryParams.append('estado', filtros.estado);
 
-      // Solicitudes en paralelo
-      const [
-        devolucionesResponse, 
-        inventariosResponse,
-        resumenResponse
-      ] = await Promise.all([
-        axios.get(`/api/devoluciones?${queryParams}`, { headers }),
-        axios.get('/api/inventarios', { headers }),
-        axios.get('/api/devoluciones/resumen', { headers })
-      ]);
-
-      // Procesar devoluciones
-      if (devolucionesResponse.data?.data?.devoluciones) {
-        setDevoluciones(devolucionesResponse.data.data.devoluciones);
+      // Solicitudes en paralelo con manejo de errores específicos
+      try {
+        const devolucionesResponse = await axios.get(`/api/devoluciones?${queryParams}`, { headers });
         
-        // Actualizar datos de paginación
-        const paginacion = devolucionesResponse.data.data.paginacion;
-        if (paginacion) {
-          setTotalPaginas(paginacion.totalPaginas || 1);
-          setTotalDevoluciones(paginacion.totalDevoluciones || 0);
-          setLimitePorPagina(paginacion.limitePorPagina || 10);
+        // Procesar devoluciones
+        if (devolucionesResponse.data?.data?.devoluciones) {
+          setDevoluciones(devolucionesResponse.data.data.devoluciones);
+          
+          // Actualizar datos de paginación
+          const paginacion = devolucionesResponse.data.data.paginacion;
+          if (paginacion) {
+            setTotalPaginas(paginacion.totalPaginas || 1);
+            setTotalDevoluciones(paginacion.totalDevoluciones || 0);
+            setLimitePorPagina(paginacion.limitePorPagina || 10);
+          }
+        } else {
+          setDevoluciones([]);
+          setTotalPaginas(1);
         }
-      } else {
+      } catch (err) {
+        console.error('Error al obtener devoluciones:', err);
         setDevoluciones([]);
-        setTotalPaginas(1);
+        setError(err.response?.data?.message || err.message || 'Error al cargar devoluciones');
       }
 
-      // Procesar inventarios
-      if (inventariosResponse.data?.data?.inventarios) {
-        setInventarios(inventariosResponse.data.data.inventarios);
-      } else {
+      try {
+        const inventariosResponse = await axios.get('/api/inventarios', { headers });
+        
+        // Procesar inventarios
+        if (inventariosResponse.data?.data?.inventarios) {
+          setInventarios(inventariosResponse.data.data.inventarios);
+        } else {
+          setInventarios([]);
+        }
+      } catch (err) {
+        console.error('Error al obtener inventarios:', err);
         setInventarios([]);
+        // No establecer error global para no bloquear toda la página
       }
 
-      // Procesar resumen si está disponible
-      if (resumenResponse.data?.data?.resumen) {
-        setResumen(resumenResponse.data.data.resumen);
+      try {
+        const resumenResponse = await axios.get('/api/devoluciones/resumen', { headers });
+        
+        // Procesar resumen si está disponible
+        if (resumenResponse.data?.data?.resumen) {
+          setResumen(resumenResponse.data.data.resumen);
+        }
+      } catch (err) {
+        console.error('Error al obtener resumen:', err);
+        // Establecer un resumen vacío predeterminado
+        setResumen({
+          totalDevoluciones: 0,
+          cantidadTotal: 0,
+          estadisticas: []
+        });
+        // No establecer error global para no bloquear toda la página
       }
 
       setLoading(false);
     } catch (err) {
-      console.error('Error al obtener datos:', err);
+      console.error('Error general al obtener datos:', err);
       setError(err.response?.data?.message || err.message || 'Error desconocido al cargar datos');
       setLoading(false);
     }
@@ -299,12 +329,16 @@ const Devoluciones = () => {
       setAccionPendiente(true);
       const token = localStorage.getItem('token');
       
-      await axios.patch(`/api/devoluciones/${id}/aprobar`, {}, {
+      console.log('Intentando aprobar devolución:', id);
+      
+      const response = await axios.patch(`/api/devoluciones/${id}/aprobar`, {}, {
         headers: { 
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'application/json'
         }
       });
+      
+      console.log('Respuesta al aprobar devolución:', response.data);
       
       // Mostrar notificación de éxito
       toast.success('Devolución aprobada exitosamente');
@@ -314,6 +348,7 @@ const Devoluciones = () => {
       fetchDatos();
     } catch (err) {
       console.error('Error al aprobar devolución:', err);
+      console.error('Detalle del error:', err.response?.data);
       toast.error(err.response?.data?.message || 'Error al aprobar devolución');
     } finally {
       setAccionPendiente(false);
@@ -338,7 +373,10 @@ const Devoluciones = () => {
       setAccionPendiente(true);
       const token = localStorage.getItem('token');
       
-      await axios.patch(`/api/devoluciones/${devolucionSeleccionada.id}/rechazar`, 
+      console.log('Intentando rechazar devolución:', devolucionSeleccionada.id, 'Motivo:', motivoRechazo);
+      
+      const response = await axios.patch(
+        `/api/devoluciones/${devolucionSeleccionada.id}/rechazar`, 
         { motivo: motivoRechazo }, 
         {
           headers: { 
@@ -347,6 +385,8 @@ const Devoluciones = () => {
           }
         }
       );
+      
+      console.log('Respuesta al rechazar devolución:', response.data);
       
       // Mostrar notificación de éxito
       toast.success('Devolución rechazada exitosamente');
@@ -357,6 +397,7 @@ const Devoluciones = () => {
       fetchDatos();
     } catch (err) {
       console.error('Error al rechazar devolución:', err);
+      console.error('Detalle del error:', err.response?.data);
       toast.error(err.response?.data?.message || 'Error al rechazar devolución');
     } finally {
       setAccionPendiente(false);
@@ -403,28 +444,61 @@ const Devoluciones = () => {
   // Cambiar página
   const cambiarPagina = (numeroPagina) => setPaginaActual(numeroPagina);
 
-  // Estado de carga
+  // Estado de carga inicial
   if (loading && !devoluciones.length) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mb-4"></div>
-        <p className="text-gray-600 text-xl">Cargando devoluciones...</p>
+      <div className="min-h-screen bg-gray-100 p-6">
+        <div className="container mx-auto max-w-7xl">
+          <div className="flex justify-between items-center mb-6">
+            <h1 className="text-3xl font-bold text-gray-900">Devoluciones</h1>
+            <button 
+              onClick={() => setIsModalOpen(true)}
+              className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition flex items-center space-x-2"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clipRule="evenodd" />
+              </svg>
+              <span>Nueva Devolución</span>
+            </button>
+          </div>
+          
+          {/* Indicador de carga */}
+          <div className="flex flex-col items-center justify-center py-10">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mb-4"></div>
+            <p className="text-gray-600 text-xl">Cargando devoluciones...</p>
+          </div>
+        </div>
       </div>
     );
   }
 
-  // Estado de error
+  // Estado de error inicial
   if (error && !devoluciones.length) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
-        <div className="bg-red-50 border border-red-500 text-red-700 px-4 py-3 rounded-lg max-w-md w-full">
-          <p className="text-center">{error}</p>
-          <button 
-            onClick={fetchDatos} 
-            className="mt-4 w-full px-4 py-2 bg-red-500 text-white rounded-md"
-          >
-            Reintentar
-          </button>
+      <div className="min-h-screen bg-gray-100 p-6">
+        <div className="container mx-auto max-w-7xl">
+          <div className="flex justify-between items-center mb-6">
+            <h1 className="text-3xl font-bold text-gray-900">Devoluciones</h1>
+            <button 
+              onClick={() => setIsModalOpen(true)}
+              className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition flex items-center space-x-2"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clipRule="evenodd" />
+              </svg>
+              <span>Nueva Devolución</span>
+            </button>
+          </div>
+          
+          <div className="bg-red-50 border border-red-500 text-red-700 px-4 py-3 rounded-lg max-w-md mx-auto">
+            <p className="text-center">{error}</p>
+            <button 
+              onClick={fetchDatos} 
+              className="mt-4 w-full px-4 py-2 bg-red-500 text-white rounded-md"
+            >
+              Reintentar
+            </button>
+          </div>
         </div>
       </div>
     );
@@ -552,32 +626,40 @@ const Devoluciones = () => {
         </div>
 
         {/* Tabla de Devoluciones */}
-        {devoluciones.length > 0 ? (
+        {loading ? (
+          <div className="flex justify-center my-8">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
+          </div>
+        ) : error ? (
+          <div className="bg-red-50 border border-red-500 text-red-700 px-4 py-3 rounded-lg my-4">
+            <p className="text-center">{error}</p>
+          </div>
+        ) : devoluciones.length > 0 ? (
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-200">
                 <thead className="bg-gray-50">
                   <tr>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Fecha
+                      FECHA
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Farmacia
+                      FARMACIA
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Medicamento
+                      MEDICAMENTO
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Cantidad
+                      CANTIDAD
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Motivo
+                      MOTIVO
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Estado
+                      ESTADO
                     </th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Acciones
+                      ACCIONES
                     </th>
                   </tr>
                 </thead>
@@ -602,23 +684,24 @@ const Devoluciones = () => {
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                         {formatearEstado(devolucion.estado)}
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                      <td className="px-6 py-4 whitespace-nowrap text-sm flex space-x-2">
                         <button
                           onClick={() => verDetalle(devolucion.id)}
-                          className="text-indigo-600 hover:text-indigo-900 mr-3"
+                          className="text-indigo-600 hover:text-indigo-900"
                         >
                           Ver detalle
                         </button>
                         
-                        {/* Mostrar botones de aprobar/rechazar solo a administradores y si está pendiente */}
-                        {esAdmin() && devolucion.estado === 'PENDIENTE' && (
+                        {devolucion.estado === 'PENDIENTE' && getUsuario()?.rol === 'ADMIN' && (
                           <>
+                            <span className="text-gray-300">|</span>
                             <button
                               onClick={() => aprobarDevolucion(devolucion.id)}
-                              className="text-green-600 hover:text-green-900 mr-3"
+                              className="text-green-600 hover:text-green-900"
                             >
                               Aprobar
                             </button>
+                            <span className="text-gray-300">|</span>
                             <button
                               onClick={() => abrirModalRechazo(devolucion)}
                               className="text-red-600 hover:text-red-900"
@@ -878,7 +961,7 @@ const Devoluciones = () => {
               </div>
 
               {/* Botones de acción para admin si está pendiente */}
-              {esAdmin() && detalleDevolucion.estado === 'PENDIENTE' && (
+              {detalleDevolucion.estado === 'PENDIENTE' && getUsuario()?.rol === 'ADMIN' && (
                 <div className="flex justify-end space-x-3 mt-6">
                   <button
                     onClick={() => aprobarDevolucion(detalleDevolucion.id)}

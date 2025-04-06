@@ -1,4 +1,5 @@
 // apps/backend/controllers/venta.controller.js - versión actualizada
+const { prisma } = require('../config');
 const ventaService = require('../services/venta.service');
 const AppError = require('../utils/errorHandler');
 
@@ -122,7 +123,6 @@ exports.obtenerResumenVentas = async (req, res, next) => {
   }
 };
 
-// Nuevo endpoint para obtener ventas agrupadas por mes y año
 exports.obtenerVentasPorMesAnio = async (req, res, next) => {
   try {
     const { farmaciaId } = req.params;
@@ -136,12 +136,33 @@ exports.obtenerVentasPorMesAnio = async (req, res, next) => {
       return next(new AppError('Se requiere un ID de farmacia válido', 400));
     }
     
-    const ventasPorMesAnio = await ventaService.obtenerVentasPorMesAnio(farmaciaIdFinal);
+    // Obtener ventas por mes y año
+    const ventasPorMesAnio = await prisma.$queryRaw`
+      SELECT 
+        anio, 
+        mes, 
+        COUNT(*) as total_ventas,
+        SUM(cantidad) as unidades_vendidas,
+        SUM(cantidad * "precioUnitario") as monto_total
+      FROM "Venta"
+      WHERE "farmaciaId" = ${farmaciaIdFinal}
+      GROUP BY anio, mes
+      ORDER BY anio DESC, mes DESC
+    `;
+    
+    // Convertir BigInt a Number antes de enviar la respuesta
+    const ventasFormateadas = ventasPorMesAnio.map(venta => ({
+      anio: Number(venta.anio),
+      mes: Number(venta.mes),
+      total_ventas: Number(venta.total_ventas),
+      unidades_vendidas: Number(venta.unidades_vendidas),
+      monto_total: Number(venta.monto_total)
+    }));
     
     res.status(200).json({
       status: 'success',
       data: {
-        ventasPorMesAnio
+        ventasPorMesAnio: ventasFormateadas
       }
     });
   } catch (error) {
