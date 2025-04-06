@@ -1,4 +1,4 @@
-// apps/frontend/src/contexts/AuthContext.js
+// apps/frontend/src/contexts/AuthContext.js - MEJORADO
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import axios from 'axios';
 
@@ -44,7 +44,11 @@ export const AuthProvider = ({ children }) => {
       const response = await axios.get('/api/auth/me');
       
       if (response.data && response.data.data && response.data.data.usuario) {
-        setUser(response.data.data.usuario);
+        const userData = response.data.data.usuario;
+        setUser(userData);
+        
+        // También almacenamos el usuario en localStorage para acceso offline
+        localStorage.setItem('user', JSON.stringify(userData));
       } else {
         // Si no hay datos de usuario válidos, limpiar
         logout();
@@ -68,15 +72,20 @@ export const AuthProvider = ({ children }) => {
       const response = await axios.post('/api/auth/login', { email, password });
       
       // Verificar respuesta
-      if (response.data && response.data.data && response.data.data.token) {
+      if (response.data && response.data.data) {
         // Guardar el token en localStorage
-        localStorage.setItem('token', response.data.data.token);
+        if (response.data.data.token) {
+          localStorage.setItem('token', response.data.data.token);
+          
+          // Configurar el token en los headers para futuras peticiones
+          axios.defaults.headers.common['Authorization'] = `Bearer ${response.data.data.token}`;
+        }
         
-        // Configurar el token en los headers para futuras peticiones
-        axios.defaults.headers.common['Authorization'] = `Bearer ${response.data.data.token}`;
-        
-        // Guardar información del usuario en el estado
-        setUser(response.data.data.usuario);
+        // Guardar información del usuario en el estado y localStorage
+        if (response.data.data.usuario) {
+          setUser(response.data.data.usuario);
+          localStorage.setItem('user', JSON.stringify(response.data.data.usuario));
+        }
         
         return true;
       } else {
@@ -96,6 +105,9 @@ export const AuthProvider = ({ children }) => {
     // Eliminar el token del localStorage
     localStorage.removeItem('token');
     
+    // Eliminar datos de usuario del localStorage
+    localStorage.removeItem('user');
+    
     // Limpiar el token de los headers
     delete axios.defaults.headers.common['Authorization'];
     
@@ -114,7 +126,12 @@ export const AuthProvider = ({ children }) => {
       
       // Actualizar el usuario con la farmacia activa
       if (response.data && response.data.data && response.data.data.usuario) {
-        setUser(response.data.data.usuario);
+        const userData = response.data.data.usuario;
+        setUser(userData);
+        
+        // También actualizamos en localStorage
+        localStorage.setItem('user', JSON.stringify(userData));
+        
         return true;
       } else {
         throw new Error('Respuesta del servidor inválida');
@@ -135,7 +152,12 @@ export const AuthProvider = ({ children }) => {
     error,
     login,
     logout,
-    seleccionarFarmaciaActiva
+    seleccionarFarmaciaActiva,
+    isAuthenticated: !!user,
+    // Helper para verificar si el usuario es admin
+    isAdmin: user && user.rol === 'ADMIN',
+    // Helper para verificar el rol del usuario
+    hasRole: (role) => user && user.rol === role
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

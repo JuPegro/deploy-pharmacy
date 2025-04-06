@@ -13,22 +13,28 @@ const Login = () => {
         e.preventDefault();
         setError('');
         setLoading(true);
-
+    
         try {
             // Usar el servicio de autenticación
-            await AuthService.login(email, password);
+            const response = await AuthService.login(email, password);
             
-            // Si llegamos aquí, la autenticación fue exitosa
-            navigate('/dashboard');
+            // Verificar si necesita seleccionar farmacia
+            if (response.usuario.rol === 'FARMACIA' && !response.usuario.farmaciaActivaId) {
+                navigate('/seleccionar-farmacia');
+            } else {
+                // Si ya tiene farmacia activa, ir al dashboard
+                navigate('/dashboard');
+            }
         } catch (err) {
             console.error('Error en login:', err);
             
-            // Mostrar mensaje de error específico si está disponible
-            const errorMessage = err.response?.data?.message || 'Error al conectar con el servidor';
-            setError(errorMessage);
+            // Mostrar mensaje de error específico
+            const errorMessage = 
+                err.response?.data?.message || 
+                err.message || 
+                'Error al conectar con el servidor';
             
-            // Si el error es del servidor, intentar con el endpoint de prueba
-           
+            setError(errorMessage);
         } finally {
             setLoading(false);
         }

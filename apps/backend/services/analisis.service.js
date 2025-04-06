@@ -1,4 +1,4 @@
-// src/services/analisis.service.js
+// src/services/analisis.service.js - CORREGIDO
 const { prisma } = require('../config');
 const AppError = require('../utils/errorHandler');
 
@@ -20,7 +20,7 @@ exports.obtenerDashboard = async (farmaciaId) => {
   const hace30Dias = new Date(hoy);
   hace30Dias.setDate(hoy.getDate() - 30);
 
-  // Obtener ventas del último mes
+  // Obtener ventas del último mes - CORREGIDO
   const ventas = await prisma.venta.findMany({
     where: {
       farmaciaId,
@@ -29,11 +29,15 @@ exports.obtenerDashboard = async (farmaciaId) => {
       }
     },
     include: {
-      medicamento: true
+      inventario: {
+        include: {
+          medicamento: true
+        }
+      }
     }
   });
 
-  // Obtener devoluciones del último mes
+  // Obtener devoluciones del último mes - CORREGIDO
   const devoluciones = await prisma.devolucion.findMany({
     where: {
       farmaciaId,
@@ -42,7 +46,11 @@ exports.obtenerDashboard = async (farmaciaId) => {
       }
     },
     include: {
-      medicamento: true
+      inventario: {
+        include: {
+          medicamento: true
+        }
+      }
     }
   });
 
@@ -65,11 +73,11 @@ exports.obtenerDashboard = async (farmaciaId) => {
     cantidad
   })).sort((a, b) => new Date(a.fecha) - new Date(b.fecha));
 
-  // Medicamentos más vendidos
+  // Medicamentos más vendidos - CORREGIDO
   const ventasPorMedicamento = {};
   ventas.forEach(venta => {
-    const medicamentoId = venta.medicamentoId;
-    const medicamentoNombre = venta.medicamento.nombre;
+    const medicamentoId = venta.inventario.medicamentoId;
+    const medicamentoNombre = venta.inventario.medicamento.nombre;
     ventasPorMedicamento[medicamentoId] = ventasPorMedicamento[medicamentoId] || {
       id: medicamentoId,
       nombre: medicamentoNombre,
@@ -114,20 +122,24 @@ exports.obtenerVentasPorCategoria = async (farmaciaId) => {
     throw new AppError('No se encontró la farmacia', 404);
   }
 
-  // Obtener todas las ventas con información del medicamento
+  // Obtener todas las ventas con información del medicamento - CORREGIDO
   const ventas = await prisma.venta.findMany({
     where: {
       farmaciaId
     },
     include: {
-      medicamento: true
+      inventario: {
+        include: {
+          medicamento: true
+        }
+      }
     }
   });
 
-  // Agrupar por categoría
+  // Agrupar por categoría - CORREGIDO
   const ventasPorCategoria = {};
   ventas.forEach(venta => {
-    const categoria = venta.medicamento.categoria;
+    const categoria = venta.inventario.medicamento.categoria;
     ventasPorCategoria[categoria] = ventasPorCategoria[categoria] || 0;
     ventasPorCategoria[categoria] += venta.cantidad;
   });
@@ -154,24 +166,28 @@ exports.obtenerMedicamentosPopulares = async (farmaciaId) => {
     throw new AppError('No se encontró la farmacia', 404);
   }
 
-  // Obtener todas las ventas con información del medicamento
+  // Obtener todas las ventas con información del medicamento - CORREGIDO
   const ventas = await prisma.venta.findMany({
     where: {
       farmaciaId
     },
     include: {
-      medicamento: true
+      inventario: {
+        include: {
+          medicamento: true
+        }
+      }
     }
   });
 
-  // Agrupar por medicamento
+  // Agrupar por medicamento - CORREGIDO
   const ventasPorMedicamento = {};
   ventas.forEach(venta => {
-    const medicamentoId = venta.medicamentoId;
+    const medicamentoId = venta.inventario.medicamentoId;
     ventasPorMedicamento[medicamentoId] = ventasPorMedicamento[medicamentoId] || {
       id: medicamentoId,
-      nombre: venta.medicamento.nombre,
-      categoria: venta.medicamento.categoria,
+      nombre: venta.inventario.medicamento.nombre,
+      categoria: venta.inventario.medicamento.categoria,
       cantidad: 0
     };
     ventasPorMedicamento[medicamentoId].cantidad += venta.cantidad;

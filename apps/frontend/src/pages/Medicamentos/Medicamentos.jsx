@@ -79,8 +79,7 @@ const Medicamentos = () => {
 
       const data = await response.json();
       
-      // Extraer datos y paginación
-      if (data.data && data.data.medicamentos) {
+      if (data.status === 'success' && data.data && data.data.medicamentos) {
         setMedicamentos(data.data.medicamentos);
         
         // Extraer datos de paginación si están disponibles
@@ -162,19 +161,9 @@ const Medicamentos = () => {
         body: JSON.stringify(nuevoMedicamento)
       });
 
-      // Log para depuración
-      const responseText = await response.text();
-      console.log('Response:', response.status, responseText);
-
       if (!response.ok) {
-        let errorMessage;
-        try {
-          const errorData = JSON.parse(responseText);
-          errorMessage = errorData.message || 'Error al crear medicamento';
-        } catch {
-          errorMessage = `Error ${response.status}: ${responseText}`;
-        }
-        throw new Error(errorMessage);
+        const responseData = await response.json();
+        throw new Error(responseData.message || 'Error al crear medicamento');
       }
 
       // Resetear formulario y cerrar modal
@@ -301,7 +290,8 @@ const Medicamentos = () => {
                       'Categoría', 
                       'Principio Activo', 
                       'Presentación', 
-                      'Requiere Receta'
+                      'Requiere Receta',
+                      'Inventarios'
                     ].map((header) => (
                       <th 
                         key={header}
@@ -338,6 +328,15 @@ const Medicamentos = () => {
                         }`}>
                           {medicamento.requiereReceta ? 'Sí' : 'No'}
                         </span>
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm">
+                        {medicamento.inventarios && medicamento.inventarios.length > 0 ? (
+                          <span className="text-indigo-600">
+                            {medicamento.inventarios.length} {medicamento.inventarios.length === 1 ? 'farmacia' : 'farmacias'}
+                          </span>
+                        ) : (
+                          <span className="text-gray-400">Sin inventarios</span>
+                        )}
                       </td>
                     </tr>
                   ))}
@@ -443,9 +442,22 @@ const Medicamentos = () => {
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                   >
                     <option value="">Seleccione una categoría</option>
-                    {categoriasPredefinidas.map(cat => (
-                      <option key={cat} value={cat}>{cat}</option>
-                    ))}
+                    {/* Incluir categorías de la base de datos */}
+                    {categorias.length > 0 && (
+                      <optgroup label="Categorías existentes">
+                        {categorias.map(cat => (
+                          <option key={`existing-${cat}`} value={cat}>{cat}</option>
+                        ))}
+                      </optgroup>
+                    )}
+                    {/* Incluir categorías predefinidas */}
+                    <optgroup label="Categorías predefinidas">
+                      {categoriasPredefinidas
+                        .filter(cat => !categorias.includes(cat))
+                        .map(cat => (
+                          <option key={`predefined-${cat}`} value={cat}>{cat}</option>
+                        ))}
+                    </optgroup>
                   </select>
                 </div>
 
@@ -504,6 +516,10 @@ const Medicamentos = () => {
                   <label htmlFor="requiereReceta" className="ml-2 block text-sm text-gray-700">
                     Requiere receta médica
                   </label>
+                </div>
+
+                <div className="pt-4 text-sm text-gray-500">
+                  <p className="mb-2">Nota: Una vez creado el medicamento, podrá asignarlo a los inventarios de las farmacias.</p>
                 </div>
 
                 <div className="flex justify-end space-x-3 pt-4">

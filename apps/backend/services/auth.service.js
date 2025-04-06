@@ -1,4 +1,4 @@
-// src/services/auth.service.js
+// src/services/auth.service.js - CORREGIDO
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { prisma } = require('../config');
@@ -56,7 +56,7 @@ exports.login = async (email, password) => {
     const usuario = await prisma.usuario.findUnique({
         where: { email },
         include: {
-            farmacia: true,
+            farmacias: true, // CORREGIDO: cambio de farmacia a farmacias
             farmaciaActiva: true
         }
     });
@@ -72,15 +72,15 @@ exports.login = async (email, password) => {
     }
 
     // Si es usuario de farmacia y no tiene farmacia activa
-    if (usuario.rol === 'FARMACIA' && !usuario.farmaciaActivaId && usuario.farmaciaId) {
-        // Establecer su farmacia principal como activa
+    if (usuario.rol === 'FARMACIA' && !usuario.farmaciaActivaId && usuario.farmacias && usuario.farmacias.length > 0) {
+        // Establecer su primera farmacia como activa
         await prisma.usuario.update({
             where: { id: usuario.id },
             data: {
-                farmaciaActivaId: usuario.farmaciaId
+                farmaciaActivaId: usuario.farmacias[0].id
             }
         });
-        usuario.farmaciaActiva = usuario.farmacia;
+        usuario.farmaciaActiva = usuario.farmacias[0];
     }
 
     // Generar token
@@ -98,7 +98,10 @@ exports.login = async (email, password) => {
 exports.seleccionarFarmaciaActiva = async (usuarioId, farmaciaId) => {
     // Verificar que el usuario existe
     const usuario = await prisma.usuario.findUnique({
-        where: { id: usuarioId }
+        where: { id: usuarioId },
+        include: {
+            farmacias: true // CORREGIDO: cambio de farmacia a farmacias
+        }
     });
 
     if (!usuario) {
@@ -114,6 +117,12 @@ exports.seleccionarFarmaciaActiva = async (usuarioId, farmaciaId) => {
         throw new AppError('Farmacia no encontrada', 404);
     }
 
+    // Verificar que el usuario tiene acceso a esta farmacia
+    const tieneAcceso = usuario.farmacias.some(f => f.id === farmaciaId);
+    if (!tieneAcceso) {
+        throw new AppError('No tienes acceso a esta farmacia', 403);
+    }
+
     // Actualizar la farmacia activa
     const usuarioActualizado = await prisma.usuario.update({
         where: { id: usuarioId },
@@ -121,7 +130,7 @@ exports.seleccionarFarmaciaActiva = async (usuarioId, farmaciaId) => {
             farmaciaActivaId: farmaciaId 
         },
         include: {
-            farmacia: true,
+            farmacias: true, // CORREGIDO: cambio de farmacia a farmacias
             farmaciaActiva: true
         }
     });
@@ -135,7 +144,7 @@ exports.getMe = async (id) => {
     const usuario = await prisma.usuario.findUnique({
         where: { id },
         include: {
-            farmacia: true,
+            farmacias: true, // CORREGIDO: cambio de farmacia a farmacias
             farmaciaActiva: true
         }
     });

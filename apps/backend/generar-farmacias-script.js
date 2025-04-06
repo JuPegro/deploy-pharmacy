@@ -2,67 +2,37 @@
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
-// Datos de farmacias en República Dominicana
+// Datos de farmacias basados en el barrio del Excel y zonas de República Dominicana
 const farmaciasDominicanas = [
   {
-    nombre: "Farmacia Carol",
-    direccion: "Av. Independencia #305, Santo Domingo",
+    nombre: "Farmacia El Almirante",
+    direccion: "Calle Principal, Barrio El Almirante, Santo Domingo",
     latitud: 18.4861,
     longitud: -69.9312
   },
   {
-    nombre: "Farmacia Alemana",
-    direccion: "Calle Gustavo Mejía Ricart #76, Santo Domingo",
-    latitud: 18.4626,
-    longitud: -69.9494
-  },
-  {
-    nombre: "Farmacia San Martín",
-    direccion: "Av. Charles de Gaulle, Santo Domingo Este",
+    nombre: "Farmacia San Miguel",
+    direccion: "Av. Principal, Santo Domingo Este",
     latitud: 18.5065,
     longitud: -69.8478
   },
   {
-    nombre: "Farmacia Popular",
-    direccion: "Calle Duarte #123, Santiago de los Caballeros",
+    nombre: "Farmacia Central",
+    direccion: "Centro Histórico, Santo Domingo",
+    latitud: 18.4626,
+    longitud: -69.9494
+  },
+  {
+    nombre: "Farmacia del Norte",
+    direccion: "Santiago de los Caballeros",
     latitud: 19.4517,
     longitud: -70.6750
   },
   {
-    nombre: "Farmacia La Cruz",
-    direccion: "Av. Prolongación 27 de Febrero, Santo Domingo",
-    latitud: 18.4626,
-    longitud: -69.9394
-  },
-  {
-    nombre: "Farmacia El Salvador",
-    direccion: "Calle Máximo Gómez #45, Santo Domingo",
-    latitud: 18.4883,
-    longitud: -69.9375
-  },
-  {
-    nombre: "Farmacia San Juan",
-    direccion: "Av. Juan Pablo Duarte, San Juan de la Maguana",
+    nombre: "Farmacia del Sur",
+    direccion: "San Juan de la Maguana",
     latitud: 18.8053,
     longitud: -71.2291
-  },
-  {
-    nombre: "Farmacia del Pueblo",
-    direccion: "Calle Proyecto, La Vega",
-    latitud: 19.2200,
-    longitud: -70.5269
-  },
-  {
-    nombre: "Farmacia Central Higüey",
-    direccion: "Av. Mayor, Higüey",
-    latitud: 18.6163,
-    longitud: -68.7046
-  },
-  {
-    nombre: "Farmacia San Rafael",
-    direccion: "Calle Duarte, San Rafael del Yuma",
-    latitud: 18.4600,
-    longitud: -68.3817
   }
 ];
 

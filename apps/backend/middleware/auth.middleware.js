@@ -1,4 +1,4 @@
-// src/middleware/auth.middleware.js
+// src/middleware/auth.middleware.js - CORREGIDO
 const jwt = require('jsonwebtoken');
 const { prisma } = require('../config');
 const AppError = require('../utils/errorHandler');
@@ -24,9 +24,13 @@ exports.proteger = async (req, res, next) => {
     const secret = process.env.JWT_SECRET || 'default_secret_key_for_development';
     const decoded = jwt.verify(token, secret);
 
-    // 3) Verificar si el usuario todavía existe
+    // 3) Verificar si el usuario todavía existe y cargar sus datos completos
     const usuarioActual = await prisma.usuario.findUnique({
-      where: { id: decoded.id }
+      where: { id: decoded.id },
+      include: {
+        farmacias: true, // CORREGIDO: cargar relación farmacias
+        farmaciaActiva: true
+      }
     });
 
     if (!usuarioActual) {
@@ -59,7 +63,7 @@ exports.proteger = async (req, res, next) => {
 
 exports.restringirA = (...roles) => {
   return (req, res, next) => {
-    // roles es un array: ['admin', 'farmaceutico']
+    // roles es un array: ['ADMIN', 'FARMACIA']
     if (!roles.includes(req.usuario.rol)) {
       return next(
         new AppError('No tiene permiso para realizar esta acción', 403)

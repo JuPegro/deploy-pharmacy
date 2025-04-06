@@ -1,13 +1,14 @@
 // apps/backend/services/devolucion.service.js - versión actualizada
 const { prisma } = require('../config');
+const { sql } = require('@prisma/client');
 const AppError = require('../utils/errorHandler');
 
 exports.crearDevolucion = async (devolucionData) => {
   // Validar datos requeridos
-  const { 
-    cantidad, 
-    motivo, 
-    farmaciaId, 
+  const {
+    cantidad,
+    motivo,
+    farmaciaId,
     inventarioId,
     usuarioId
   } = devolucionData;
@@ -35,7 +36,7 @@ exports.crearDevolucion = async (devolucionData) => {
 
   // Fecha actual
   const fechaActual = new Date();
-  
+
   // Extraer mes y año
   const mes = fechaActual.getMonth() + 1; // getMonth() devuelve 0-11
   const anio = fechaActual.getFullYear();
@@ -74,9 +75,9 @@ exports.crearDevolucion = async (devolucionData) => {
 };
 
 exports.obtenerDevoluciones = async (opciones = {}) => {
-  const { 
-    pagina = 1, 
-    limite = 10, 
+  const {
+    pagina = 1,
+    limite = 10,
     farmaciaId,
     fechaInicio,
     fechaFin,
@@ -87,7 +88,7 @@ exports.obtenerDevoluciones = async (opciones = {}) => {
 
   // Preparar condiciones de búsqueda
   const where = {};
-  
+
   if (farmaciaId) {
     where.farmaciaId = farmaciaId;
   }
@@ -102,12 +103,12 @@ exports.obtenerDevoluciones = async (opciones = {}) => {
   if (estado) {
     where.estado = estado;
   }
-  
+
   // Filtrar por mes y año si se especifican
   if (mes) {
     where.mes = parseInt(mes);
   }
-  
+
   if (anio) {
     where.anio = parseInt(anio);
   }
@@ -235,7 +236,7 @@ exports.aprobarDevolucion = async (id, adminId) => {
     // Actualizar estado de la devolución
     const devolucionActualizada = await tx.devolucion.update({
       where: { id },
-      data: { 
+      data: {
         estado: 'APROBADA',
         aprobadoPorId: adminId,
         fechaAprobacion
@@ -311,7 +312,7 @@ exports.rechazarDevolucion = async (id, motivo, adminId) => {
   // Actualizar estado de la devolución
   return await prisma.devolucion.update({
     where: { id },
-    data: { 
+    data: {
       estado: 'RECHAZADA',
       aprobadoPorId: adminId,
       fechaAprobacion,
@@ -343,7 +344,7 @@ exports.rechazarDevolucion = async (id, motivo, adminId) => {
 };
 
 exports.obtenerResumenDevoluciones = async (opciones = {}) => {
-  const { 
+  const {
     farmaciaId,
     fechaInicio,
     fechaFin,
@@ -353,7 +354,7 @@ exports.obtenerResumenDevoluciones = async (opciones = {}) => {
   } = opciones;
 
   const where = {};
-  
+
   if (farmaciaId) {
     where.farmaciaId = farmaciaId;
   }
@@ -368,15 +369,6 @@ exports.obtenerResumenDevoluciones = async (opciones = {}) => {
   if (estado) {
     where.estado = estado;
   }
-  
-  // Filtrar por mes y año si se especifican
-  if (mes) {
-    where.mes = parseInt(mes);
-  }
-  
-  if (anio) {
-    where.anio = parseInt(anio);
-  }
 
   // Calcular resumen de devoluciones
   const resumen = await prisma.devolucion.aggregate({
@@ -389,33 +381,66 @@ exports.obtenerResumenDevoluciones = async (opciones = {}) => {
     }
   });
 
-  // Obtener resumen por estado
-  const resumenPorEstado = await prisma.$queryRaw`
-    SELECT estado, COUNT(*) as cantidad
-    FROM "Devolucion"
-    WHERE ${where ? `"farmaciaId" = ${farmaciaId}` : `1=1`}
-    ${mes ? `AND mes = ${parseInt(mes)}` : ``}
-    ${anio ? `AND anio = ${parseInt(anio)}` : ``}
-    GROUP BY estado
-  `;
-  
-  // Obtener resumen por mes si se solicita un año específico
-  let devolucionesPorMes = [];
-  if (anio && !mes) {
-    // Consulta agrupada por mes para el año especificado
-    devolucionesPorMes = await prisma.$queryRaw`
-      SELECT mes, estado, COUNT(*) as cantidad
+  // Construcción segura del WHERE para resumen por estado
+  const condicionesEstado = [];
+  if (farmaciaId) {
+    condicionesEstado.push(sql`"farmaciaId" = ${farmaciaId}`);
+  }
+  if (mes) {
+    condicionesEstado.push(sql`mes = ${parseInt(mes)}`);
+  }
+  if (anio) {
+    condicionesEstado.push(sql`anio = ${parseInt(anio)}`);
+  }
+
+  const whereSqlEstado = condicionesEstado.length > 0
+    ? sql`WHERE ${sql.join(condicionesEstado, sql` AND `)}`
+    : sql``;
+
+  let resumenPorEstado = await prisma.$queryRaw(
+    sql`
+      SELECT estado, COUNT(*) as cantidad
       FROM "Devolucion"
-      WHERE anio = ${parseInt(anio)}
-      ${farmaciaId ? `AND "farmaciaId" = ${farmaciaId}` : ``}
-      GROUP BY mes, estado
-      ORDER BY mes, estado
-    `;
+      ${whereSqlEstado}
+      GROUP BY estado
+    `
+  );
+
+  // Convertir BigInt a Number en resumenPorEstado
+  resumenPorEstado = resumenPorEstado.map(item => ({
+    ...item,
+    cantidad: Number(item.cantidad)
+  }));
+
+  // Obtener resumen por mes si se solicita un año específico y no un mes
+  let devolucionesPorMes = [];
+
+  if (anio && !mes) {
+    const condicionesMes = [sql`anio = ${parseInt(anio)}`];
+    if (farmaciaId) {
+      condicionesMes.push(sql`"farmaciaId" = ${farmaciaId}`);
+    }
+
+    devolucionesPorMes = await prisma.$queryRaw(
+      sql`
+        SELECT mes, estado, COUNT(*) as cantidad
+        FROM "Devolucion"
+        WHERE ${sql.join(condicionesMes, sql` AND `)}
+        GROUP BY mes, estado
+        ORDER BY mes, estado
+      `
+    );
+
+    // Convertir BigInt a Number
+    devolucionesPorMes = devolucionesPorMes.map(item => ({
+      ...item,
+      cantidad: Number(item.cantidad)
+    }));
   }
 
   return {
-    totalDevoluciones: resumen._count.id,
-    cantidadTotal: resumen._sum.cantidad || 0,
+    totalDevoluciones: Number(resumen._count.id),
+    cantidadTotal: Number(resumen._sum.cantidad || 0),
     estadisticas: resumenPorEstado,
     devolucionesPorMes: devolucionesPorMes.length > 0 ? devolucionesPorMes : undefined
   };

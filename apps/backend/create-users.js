@@ -1,112 +1,153 @@
 // apps/backend/scripts/crear-usuarios.js
-const bcrypt = require('bcrypt');
 const { PrismaClient } = require('@prisma/client');
+const bcrypt = require('bcrypt');
 const prisma = new PrismaClient();
+
+// Función para generar contraseña segura
+const generarContrasena = async () => {
+  const salt = await bcrypt.genSalt(10);
+  return await bcrypt.hash('farmacia123', salt);
+};
+
+// Definir usuarios base
+const usuariosBase = [
+  {
+    nombre: "Administrador Principal",
+    email: "admin@farmacia.com",
+    rol: "ADMIN"
+  },
+  {
+    nombre: "Juan Pérez",
+    email: "juan.perez@farmacia.com",
+    rol: "FARMACIA"
+  },
+  {
+    nombre: "María González",
+    email: "maria.gonzalez@farmacia.com",
+    rol: "FARMACIA"
+  },
+  {
+    nombre: "Carlos Rodríguez",
+    email: "carlos.rodriguez@farmacia.com",
+    rol: "FARMACIA"
+  },
+  {
+    nombre: "Ana Martínez",
+    email: "ana.martinez@farmacia.com",
+    rol: "FARMACIA"
+  }
+];
 
 async function crearUsuarios() {
   try {
-    // Verificar si ya existen usuarios
-    const usuariosExistentes = await prisma.usuario.findMany();
+    console.log("Iniciando creación de usuarios...");
     
-    if (usuariosExistentes.length > 0) {
-      console.log('Ya existen usuarios en la base de datos:');
-      usuariosExistentes.forEach(usuario => {
-        console.log(`- ${usuario.nombre} (${usuario.email}) [${usuario.rol}]`);
-      });
-      
-      const adminUser = usuariosExistentes.find(u => u.rol === 'ADMIN');
-      const farmaciaUser = usuariosExistentes.find(u => u.rol === 'FARMACIA');
-      
-      if (adminUser && farmaciaUser) {
-        console.log('\nPuedes usar estas credenciales para iniciar sesión:');
-        console.log('- Admin: admin@farmacia.com / admin123');
-        console.log('- Farmacia: farmacia@farmacia.com / farmacia123');
-        return;
-      }
-    }
+    // Obtener farmacias existentes
+    const farmacias = await prisma.farmacia.findMany();
     
-    console.log('Creando usuarios iniciales...');
-    
-    // Encriptar contraseñas
-    const salt = await bcrypt.genSalt(10);
-    const adminPassword = await bcrypt.hash('admin123', salt);
-    const farmaciaPassword = await bcrypt.hash('farmacia123', salt);
-
-    // Crear usuario administrador
-    const admin = await prisma.usuario.create({
-      data: {
-        nombre: 'Administrador Principal',
-        email: 'admin@farmacia.com',
-        password: adminPassword,
-        rol: 'ADMIN'
-      }
-    });
-
-    console.log('Usuario administrador creado:', {
-      id: admin.id,
-      nombre: admin.nombre,
-      email: admin.email,
-      rol: admin.rol
-    });
-
-    // Obtener una farmacia para asignar al usuario de farmacia
-    const farmacias = await prisma.farmacia.findMany({
-      take: 1
-    });
-    
-    // Si no hay farmacias, crear una farmacia por defecto
-    let farmaciaId;
     if (farmacias.length === 0) {
-      console.log('No se encontraron farmacias. Creando una farmacia por defecto...');
-      const nuevaFarmacia = await prisma.farmacia.create({
-        data: {
-          nombre: "Farmacia Principal",
-          direccion: "Calle Principal #123",
-          latitud: 18.4861,
-          longitud: -69.9312
+      throw new Error("No hay farmacias disponibles. Ejecute primero el script de farmacias.");
+    }
+
+    // Verificar usuarios existentes
+    const usuariosExistentes = await prisma.usuario.findMany({
+      select: { email: true }
+    });
+    
+    const emailsExistentes = new Set(usuariosExistentes.map(u => u.email));
+    
+    // Crear contraseña hasheada
+    const contrasenaHasheada = await generarContrasena();
+    
+    // Crear usuarios
+    const usuariosCreados = [];
+    
+    for (const usuarioBase of usuariosBase) {
+      // Saltar si el email ya existe
+      if (emailsExistentes.has(usuarioBase.email)) {
+        console.log(`Usuario con email ${usuarioBase.email} ya existe. Saltando.`);
+        continue;
+      }
+
+      // Para usuarios de farmacia, asignar una farmacia aleatoria
+      const datosUsuario = usuarioBase.rol === 'FARMACIA' 
+        ? {
+            ...usuarioBase,
+            password: contrasenaHasheada,
+            farmacias: {
+              connect: [{ id: farmacias[Math.floor(Math.random() * farmacias.length)].id }]
+            },
+            farmaciaActiva: {
+              connect: { id: farmacias[Math.floor(Math.random() * farmacias.length)].id }
+            }
+          }
+        : {
+            ...usuarioBase,
+            password: contrasenaHasheada
+          };
+
+      // Crear usuario
+      const usuarioCreado = await prisma.usuario.create({
+        data: datosUsuario,
+        include: {
+          farmacias: true,
+          farmaciaActiva: true
         }
       });
-      farmaciaId = nuevaFarmacia.id;
-      console.log(`Farmacia creada: ${nuevaFarmacia.nombre} (ID: ${farmaciaId})`);
-    } else {
-      farmaciaId = farmacias[0].id;
+
+      usuariosCreados.push(usuarioCreado);
+      console.log(`Usuario creado: ${usuarioCreado.nombre} (${usuarioCreado.email})`);
     }
-    
-    // Crear usuario de farmacia y asignarle la farmacia
-    const farmacia = await prisma.usuario.create({
-      data: {
-        nombre: 'Encargado Farmacia',
-        email: 'farmacia@farmacia.com',
-        password: farmaciaPassword,
-        rol: 'FARMACIA',
-        farmacias: {
-          connect: [{ id: farmaciaId }]
-        },
-        farmaciaActiva: {
-          connect: { id: farmaciaId }
-        }
+
+    // Generar usuarios adicionales de farmacia
+    const usuariosAdicionales = [
+      {
+        nombre: "Laura Sánchez",
+        email: "laura.sanchez@farmacia.com",
+        rol: "FARMACIA"
+      },
+      {
+        nombre: "Pedro Ramírez",
+        email: "pedro.ramirez@farmacia.com",
+        rol: "FARMACIA"
       }
-    });
+    ];
 
-    console.log('Usuario de farmacia creado:', {
-      id: farmacia.id,
-      nombre: farmacia.nombre,
-      email: farmacia.email,
-      rol: farmacia.rol,
-      farmaciaActivaId: farmaciaId
-    });
+    for (const usuarioAdicional of usuariosAdicionales) {
+      // Saltar si el email ya existe
+      if (emailsExistentes.has(usuarioAdicional.email)) {
+        console.log(`Usuario con email ${usuarioAdicional.email} ya existe. Saltando.`);
+        continue;
+      }
 
-    console.log('\nUsuarios creados exitosamente. Puedes usar estas credenciales para iniciar sesión:');
-    console.log('- Admin: admin@farmacia.com / admin123');
-    console.log('- Farmacia: farmacia@farmacia.com / farmacia123');
+      const usuarioAdicionalCreado = await prisma.usuario.create({
+        data: {
+          ...usuarioAdicional,
+          password: contrasenaHasheada,
+          farmacias: {
+            connect: [{ id: farmacias[Math.floor(Math.random() * farmacias.length)].id }]
+          },
+          farmaciaActiva: {
+            connect: { id: farmacias[Math.floor(Math.random() * farmacias.length)].id }
+          }
+        },
+        include: {
+          farmacias: true,
+          farmaciaActiva: true
+        }
+      });
+
+      usuariosCreados.push(usuarioAdicionalCreado);
+      console.log(`Usuario adicional creado: ${usuarioAdicionalCreado.nombre} (${usuarioAdicionalCreado.email})`);
+    }
+
+    console.log(`Creación de usuarios completada. Se crearon ${usuariosCreados.length} usuarios.`);
     
+    return usuariosCreados;
+
   } catch (error) {
     console.error('Error al crear usuarios:', error);
-    
-    // Si el error es por usuarios que ya existen, mostrar mensaje amigable
-    if (error.code === 'P2002') {
-      console.log('Los usuarios ya existen en la base de datos. Si quieres recrearlos, elimínalos primero.');
-    }
+    throw error;
   } finally {
     await prisma.$disconnect();
   }

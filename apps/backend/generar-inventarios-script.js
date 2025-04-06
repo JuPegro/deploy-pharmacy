@@ -6,20 +6,29 @@ const prisma = new PrismaClient();
 const generarFechaVencimiento = () => {
   const hoy = new Date();
   // Generar una fecha entre 6 meses y 2 años en el futuro
-  const diasHastaVencimiento = Math.floor(Math.random() * 540) + 180; // Entre 6 meses y 18 meses
+  const diasHastaVencimiento = Math.floor(Math.random() * 540) + 180;
   const fechaVencimiento = new Date(hoy);
   fechaVencimiento.setDate(hoy.getDate() + diasHastaVencimiento);
   return fechaVencimiento;
 };
 
-// Función para generar stock
-const generarStock = () => {
-  return Math.floor(Math.random() * 100) + 10; // Entre 10 y 110
-};
+// Función para generar precio basado en la categoría del medicamento
+const generarPrecio = (categoria) => {
+  const rangos = {
+    'Analgésicos': [500, 2000],
+    'Antibióticos': [2000, 5000],
+    'Antihipertensivos': [1500, 3500],
+    'Antidiabéticos': [2500, 6000],
+    'Inhibidores de bomba de protones': [1000, 3000],
+    'Broncodilatadores': [2000, 4500],
+    'Vitaminas': [500, 1500],
+    'Corticosteroides': [1500, 4000],
+    'Antilipemiantes': [2500, 5500],
+    'default': [1000, 3000]
+  };
 
-// Función para generar precio
-const generarPrecio = () => {
-  return parseFloat((Math.random() * 5000 + 500).toFixed(2)); // Entre 500 y 5500
+  const [min, max] = rangos[categoria] || rangos['default'];
+  return parseFloat((Math.random() * (max - min) + min).toFixed(2));
 };
 
 async function generarInventarios() {
@@ -56,38 +65,37 @@ async function generarInventarios() {
     
     // Crear nuevos inventarios
     let creados = 0;
-    const totalOperaciones = farmacias.length * Math.min(medicamentos.length, 30); // Máximo 30 medicamentos por farmacia
+    const totalOperaciones = farmacias.length * medicamentos.length;
     
     for (const farmacia of farmacias) {
-      // Seleccionar un subconjunto aleatorio de medicamentos para esta farmacia
-      const medicamentosSeleccionados = medicamentos
-        .sort(() => 0.5 - Math.random()) // Mezclar aleatoriamente
-        .slice(0, Math.floor(Math.random() * 20) + 10); // Entre 10 y 30 medicamentos por farmacia
-      
-      console.log(`Generando inventarios para ${farmacia.nombre} (${medicamentosSeleccionados.length} medicamentos)...`);
-      
-      for (const medicamento of medicamentosSeleccionados) {
+      for (const medicamento of medicamentos) {
         // Verificar si ya existe este inventario
         if (claveExistente(farmacia.id, medicamento.id)) {
           continue;
         }
+        
+        // Generar stock basado en la categoría del medicamento
+        const stock = Math.floor(Math.random() * 500) + 50; // Entre 50 y 550
+        const stockMinimo = Math.floor(Math.random() * 30) + 10; // Entre 10 y 40
         
         // Crear un nuevo inventario
         await prisma.inventario.create({
           data: {
             farmaciaId: farmacia.id,
             medicamentoId: medicamento.id,
-            stock: generarStock(),
-            stockMinimo: Math.floor(Math.random() * 10) + 5, // Entre 5 y 15
-            precio: generarPrecio(),
+            stock,
+            stockMinimo,
+            precio: generarPrecio(medicamento.categoria),
             vencimiento: generarFechaVencimiento()
           }
         });
         
         creados++;
+        
+        if (creados % 50 === 0) {
+          console.log(`Progreso: ${creados}/${totalOperaciones} inventarios creados`);
+        }
       }
-      
-      console.log(`Progreso: ${creados}/${totalOperaciones} inventarios creados`);
     }
     
     console.log(`Generación de inventarios completada. Se crearon ${creados} nuevos inventarios.`);
