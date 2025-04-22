@@ -98,29 +98,38 @@ async function generarDevoluciones() {
       devoluciones.push(devolucion);
     }
 
-    // Crear devoluciones en transacción
-    const resultadoDevoluciones = await prisma.$transaction(async (tx) => {
-      const devolucionesCreadas = [];
+    // Crear todas las devoluciones primero sin transacciones anidadas
+    const devolucionesCreadas = await prisma.$transaction(
+      devoluciones.map(devolucion => 
+        prisma.devolucion.create({
+          data: devolucion
+        })
+      )
+    );
+    
+    console.log(`Creadas ${devolucionesCreadas.length} devoluciones.`);
 
-      for (const devolucion of devoluciones) {
-        const devolucionCreada = await tx.devolucion.create({ 
-          data: devolucion 
-        });
-        devolucionesCreadas.push(devolucionCreada);
-
-        // Si la devolución está aprobada, incrementar el stock
-        if (devolucion.estado === 'APROBADA') {
-          await tx.inventario.update({
+    // Ahora procesar las aprobadas en un segundo paso
+    const devolucionesAprobadas = devolucionesCreadas.filter(dev => dev.estado === 'APROBADA');
+    
+    if (devolucionesAprobadas.length > 0) {
+      console.log(`Procesando ${devolucionesAprobadas.length} devoluciones aprobadas...`);
+      
+      // Procesar cada devolución aprobada en transacciones separadas
+      for (const devolucion of devolucionesAprobadas) {
+        await prisma.$transaction([
+          // Actualizar el inventario
+          prisma.inventario.update({
             where: { id: devolucion.inventarioId },
             data: { 
               stock: {
                 increment: devolucion.cantidad
               }
             }
-          });
-
+          }),
+          
           // Registrar movimiento de inventario
-          await tx.movimientoInventario.create({
+          prisma.movimientoInventario.create({
             data: {
               tipo: 'INGRESO',
               cantidad: devolucion.cantidad,
@@ -130,16 +139,14 @@ async function generarDevoluciones() {
               fecha: devolucion.fechaAprobacion,
               observacion: `Devolución de ${devolucion.cantidad} unidades`
             }
-          });
-        }
+          })
+        ]);
       }
+    }
 
-      return devolucionesCreadas;
-    });
+    console.log(`Generación de devoluciones completada. Se crearon ${devolucionesCreadas.length} devoluciones.`);
 
-    console.log(`Generación de devoluciones completada. Se crearon ${resultadoDevoluciones.length} devoluciones.`);
-
-    return resultadoDevoluciones;
+    return devolucionesCreadas;
 
   } catch (error) {
     console.error('Error al generar devoluciones:', error);

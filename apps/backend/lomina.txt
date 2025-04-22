@@ -1,0 +1,5294 @@
+[ 
+{
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7583,
+    "Ventas":7583
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":8778,
+    "Ventas":8778
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":8813,
+    "Ventas":8813
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4125,
+    "Ventas":4125
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4805,
+    "Ventas":4805
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4793,
+    "Ventas":4793
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":7007,
+    "Ventas":7007
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7309,
+    "Ventas":7309
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6797,
+    "Ventas":6797
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4630,
+    "Ventas":4630
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8362,
+    "Ventas":8362
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5213,
+    "Ventas":5213
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":8712,
+    "Ventas":8712
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":9401,
+    "Ventas":9401
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4946,
+    "Ventas":4946
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":7409,
+    "Ventas":7409
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9167,
+    "Ventas":9167
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9776,
+    "Ventas":9776
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":8112,
+    "Ventas":8112
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9041,
+    "Ventas":9041
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8665,
+    "Ventas":8665
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4510,
+    "Ventas":4510
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3183,
+    "Ventas":3183
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":2683,
+    "Ventas":2683
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":9743,
+    "Ventas":9743
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3396,
+    "Ventas":3396
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3018,
+    "Ventas":3018
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Enero",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8064,
+    "Ventas":8064
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":7891,
+    "Ventas":7891
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6422,
+    "Ventas":6422
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6496,
+    "Ventas":6496
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4323,
+    "Ventas":4323
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":9088,
+    "Ventas":9088
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9296,
+    "Ventas":9296
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":2876,
+    "Ventas":2876
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8386,
+    "Ventas":8386
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2225,
+    "Ventas":2225
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2834,
+    "Ventas":2834
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9612,
+    "Ventas":9612
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3466,
+    "Ventas":3466
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7736,
+    "Ventas":7736
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":7453,
+    "Ventas":7453
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5616,
+    "Ventas":5616
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2535,
+    "Ventas":2535
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4738,
+    "Ventas":4738
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":2715,
+    "Ventas":2715
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2896,
+    "Ventas":2896
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":2220,
+    "Ventas":2220
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5606,
+    "Ventas":5606
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4797,
+    "Ventas":4797
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2637,
+    "Ventas":2637
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9587,
+    "Ventas":9587
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":3747,
+    "Ventas":3747
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":7520,
+    "Ventas":7520
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5005,
+    "Ventas":5005
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2937,
+    "Ventas":2937
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8660,
+    "Ventas":8660
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6152,
+    "Ventas":6152
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6814,
+    "Ventas":6814
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3206,
+    "Ventas":3206
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4549,
+    "Ventas":4549
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4386,
+    "Ventas":4386
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Febrero",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4867,
+    "Ventas":4867
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6458,
+    "Ventas":6458
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4459,
+    "Ventas":4459
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3636,
+    "Ventas":3636
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4975,
+    "Ventas":4975
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":7284,
+    "Ventas":7284
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6773,
+    "Ventas":6773
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7525,
+    "Ventas":7525
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4214,
+    "Ventas":4214
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7634,
+    "Ventas":7634
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7862,
+    "Ventas":7862
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6426,
+    "Ventas":6426
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5587,
+    "Ventas":5587
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9431,
+    "Ventas":9431
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6065,
+    "Ventas":6065
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5511,
+    "Ventas":5511
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":7470,
+    "Ventas":7470
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7294,
+    "Ventas":7294
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":9259,
+    "Ventas":9259
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9030,
+    "Ventas":9030
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":9063,
+    "Ventas":9063
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3910,
+    "Ventas":3910
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7759,
+    "Ventas":7759
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9412,
+    "Ventas":9412
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7839,
+    "Ventas":7839
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9290,
+    "Ventas":9290
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8276,
+    "Ventas":8276
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3373,
+    "Ventas":3373
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":8891,
+    "Ventas":8891
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":4212,
+    "Ventas":4212
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8633,
+    "Ventas":8633
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7548,
+    "Ventas":7548
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Marzo",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6778,
+    "Ventas":6778
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3175,
+    "Ventas":3175
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8404,
+    "Ventas":8404
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":5788,
+    "Ventas":5788
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4392,
+    "Ventas":4392
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4158,
+    "Ventas":4158
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7234,
+    "Ventas":7234
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5358,
+    "Ventas":5358
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8660,
+    "Ventas":8660
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7252,
+    "Ventas":7252
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":5307,
+    "Ventas":5307
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8870,
+    "Ventas":8870
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9908,
+    "Ventas":9908
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":3681,
+    "Ventas":3681
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":4371,
+    "Ventas":4371
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":3681,
+    "Ventas":3681
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":7118,
+    "Ventas":7118
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":7471,
+    "Ventas":7471
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":9873,
+    "Ventas":9873
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7681,
+    "Ventas":7681
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":5127,
+    "Ventas":5127
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8816,
+    "Ventas":8816
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":5346,
+    "Ventas":5346
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7738,
+    "Ventas":7738
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5237,
+    "Ventas":5237
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7409,
+    "Ventas":7409
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7144,
+    "Ventas":7144
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5993,
+    "Ventas":5993
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4763,
+    "Ventas":4763
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":2880,
+    "Ventas":2880
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":2203,
+    "Ventas":2203
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8901,
+    "Ventas":8901
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6556,
+    "Ventas":6556
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2150,
+    "Ventas":2150
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Abril",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7044,
+    "Ventas":7044
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9110,
+    "Ventas":9110
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7389,
+    "Ventas":7389
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9488,
+    "Ventas":9488
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9417,
+    "Ventas":9417
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":7598,
+    "Ventas":7598
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3230,
+    "Ventas":3230
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4119,
+    "Ventas":4119
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8283,
+    "Ventas":8283
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8030,
+    "Ventas":8030
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3215,
+    "Ventas":3215
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7260,
+    "Ventas":7260
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":3214,
+    "Ventas":3214
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8865,
+    "Ventas":8865
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2532,
+    "Ventas":2532
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":9450,
+    "Ventas":9450
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":6458,
+    "Ventas":6458
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":2035,
+    "Ventas":2035
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5764,
+    "Ventas":5764
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":4700,
+    "Ventas":4700
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3749,
+    "Ventas":3749
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7590,
+    "Ventas":7590
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4977,
+    "Ventas":4977
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":8815,
+    "Ventas":8815
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4356,
+    "Ventas":4356
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4859,
+    "Ventas":4859
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5389,
+    "Ventas":5389
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7730,
+    "Ventas":7730
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5677,
+    "Ventas":5677
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5948,
+    "Ventas":5948
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":5827,
+    "Ventas":5827
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":4263,
+    "Ventas":4263
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9754,
+    "Ventas":9754
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7038,
+    "Ventas":7038
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4203,
+    "Ventas":4203
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Mayo",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2926,
+    "Ventas":2926
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2490,
+    "Ventas":2490
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7811,
+    "Ventas":7811
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":8364,
+    "Ventas":8364
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":2997,
+    "Ventas":2997
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":7717,
+    "Ventas":7717
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4457,
+    "Ventas":4457
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4528,
+    "Ventas":4528
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":4032,
+    "Ventas":4032
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6902,
+    "Ventas":6902
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6331,
+    "Ventas":6331
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6347,
+    "Ventas":6347
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3906,
+    "Ventas":3906
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2294,
+    "Ventas":2294
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7657,
+    "Ventas":7657
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9769,
+    "Ventas":9769
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9682,
+    "Ventas":9682
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4643,
+    "Ventas":4643
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9611,
+    "Ventas":9611
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":9860,
+    "Ventas":9860
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5233,
+    "Ventas":5233
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4339,
+    "Ventas":4339
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":5213,
+    "Ventas":5213
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6262,
+    "Ventas":6262
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":5103,
+    "Ventas":5103
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6199,
+    "Ventas":6199
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":4198,
+    "Ventas":4198
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":3548,
+    "Ventas":3548
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6727,
+    "Ventas":6727
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7348,
+    "Ventas":7348
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3305,
+    "Ventas":3305
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5207,
+    "Ventas":5207
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":8814,
+    "Ventas":8814
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":8400,
+    "Ventas":8400
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9867,
+    "Ventas":9867
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5057,
+    "Ventas":5057
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7280,
+    "Ventas":7280
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Junio",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2390,
+    "Ventas":2390
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":3276,
+    "Ventas":3276
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7099,
+    "Ventas":7099
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8689,
+    "Ventas":8689
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2062,
+    "Ventas":2062
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3869,
+    "Ventas":3869
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2528,
+    "Ventas":2528
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9175,
+    "Ventas":9175
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8493,
+    "Ventas":8493
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7465,
+    "Ventas":7465
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2633,
+    "Ventas":2633
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":9582,
+    "Ventas":9582
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8785,
+    "Ventas":8785
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2862,
+    "Ventas":2862
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":5177,
+    "Ventas":5177
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":9750,
+    "Ventas":9750
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":3166,
+    "Ventas":3166
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":3915,
+    "Ventas":3915
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9139,
+    "Ventas":9139
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3155,
+    "Ventas":3155
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4994,
+    "Ventas":4994
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2847,
+    "Ventas":2847
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":9134,
+    "Ventas":9134
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":4359,
+    "Ventas":4359
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4620,
+    "Ventas":4620
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8023,
+    "Ventas":8023
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6913,
+    "Ventas":6913
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3984,
+    "Ventas":3984
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3545,
+    "Ventas":3545
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9936,
+    "Ventas":9936
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":9405,
+    "Ventas":9405
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":8902,
+    "Ventas":8902
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7133,
+    "Ventas":7133
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9143,
+    "Ventas":9143
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7144,
+    "Ventas":7144
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Julio",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7166,
+    "Ventas":7166
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6650,
+    "Ventas":6650
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":8377,
+    "Ventas":8377
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5630,
+    "Ventas":5630
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":8964,
+    "Ventas":8964
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9734,
+    "Ventas":9734
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":2021,
+    "Ventas":2021
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2913,
+    "Ventas":2913
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6338,
+    "Ventas":6338
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7741,
+    "Ventas":7741
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9113,
+    "Ventas":9113
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2745,
+    "Ventas":2745
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":10000,
+    "Ventas":10000
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":4815,
+    "Ventas":4815
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":3836,
+    "Ventas":3836
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":3893,
+    "Ventas":3893
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":9113,
+    "Ventas":9113
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6476,
+    "Ventas":6476
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":6984,
+    "Ventas":6984
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9062,
+    "Ventas":9062
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3452,
+    "Ventas":3452
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6542,
+    "Ventas":6542
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":7597,
+    "Ventas":7597
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6048,
+    "Ventas":6048
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9283,
+    "Ventas":9283
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7300,
+    "Ventas":7300
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8112,
+    "Ventas":8112
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7610,
+    "Ventas":7610
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7066,
+    "Ventas":7066
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6116,
+    "Ventas":6116
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":8663,
+    "Ventas":8663
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":4825,
+    "Ventas":4825
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4080,
+    "Ventas":4080
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6843,
+    "Ventas":6843
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3466,
+    "Ventas":3466
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Agosto",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5116,
+    "Ventas":5116
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6465,
+    "Ventas":6465
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":4710,
+    "Ventas":4710
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3260,
+    "Ventas":3260
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4797,
+    "Ventas":4797
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6180,
+    "Ventas":6180
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":3568,
+    "Ventas":3568
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2872,
+    "Ventas":2872
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3504,
+    "Ventas":3504
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8846,
+    "Ventas":8846
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8886,
+    "Ventas":8886
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8797,
+    "Ventas":8797
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2623,
+    "Ventas":2623
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9763,
+    "Ventas":9763
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":9188,
+    "Ventas":9188
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9893,
+    "Ventas":9893
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4742,
+    "Ventas":4742
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5895,
+    "Ventas":5895
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":8430,
+    "Ventas":8430
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":5666,
+    "Ventas":5666
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5616,
+    "Ventas":5616
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":7931,
+    "Ventas":7931
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":5695,
+    "Ventas":5695
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4015,
+    "Ventas":4015
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7472,
+    "Ventas":7472
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":2775,
+    "Ventas":2775
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2243,
+    "Ventas":2243
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2136,
+    "Ventas":2136
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2707,
+    "Ventas":2707
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":8861,
+    "Ventas":8861
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":7861,
+    "Ventas":7861
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4231,
+    "Ventas":4231
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4804,
+    "Ventas":4804
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5787,
+    "Ventas":5787
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6258,
+    "Ventas":6258
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6748,
+    "Ventas":6748
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4075,
+    "Ventas":4075
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9035,
+    "Ventas":9035
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4253,
+    "Ventas":4253
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6856,
+    "Ventas":6856
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Septiembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7149,
+    "Ventas":7149
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9300,
+    "Ventas":9300
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4767,
+    "Ventas":4767
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2101,
+    "Ventas":2101
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9894,
+    "Ventas":9894
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6661,
+    "Ventas":6661
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3077,
+    "Ventas":3077
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":6478,
+    "Ventas":6478
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9629,
+    "Ventas":9629
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3561,
+    "Ventas":3561
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6193,
+    "Ventas":6193
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2056,
+    "Ventas":2056
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4078,
+    "Ventas":4078
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8737,
+    "Ventas":8737
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4938,
+    "Ventas":4938
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8465,
+    "Ventas":8465
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":4562,
+    "Ventas":4562
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4823,
+    "Ventas":4823
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":9351,
+    "Ventas":9351
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":7138,
+    "Ventas":7138
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6960,
+    "Ventas":6960
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":5007,
+    "Ventas":5007
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4602,
+    "Ventas":4602
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7982,
+    "Ventas":7982
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5520,
+    "Ventas":5520
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6393,
+    "Ventas":6393
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":9166,
+    "Ventas":9166
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6920,
+    "Ventas":6920
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6307,
+    "Ventas":6307
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6766,
+    "Ventas":6766
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8715,
+    "Ventas":8715
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":9237,
+    "Ventas":9237
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":8079,
+    "Ventas":8079
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7502,
+    "Ventas":7502
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7821,
+    "Ventas":7821
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Octubre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8454,
+    "Ventas":8454
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6981,
+    "Ventas":6981
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6554,
+    "Ventas":6554
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9974,
+    "Ventas":9974
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4397,
+    "Ventas":4397
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3514,
+    "Ventas":3514
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":8733,
+    "Ventas":8733
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6870,
+    "Ventas":6870
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":5995,
+    "Ventas":5995
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2752,
+    "Ventas":2752
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4669,
+    "Ventas":4669
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2027,
+    "Ventas":2027
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6523,
+    "Ventas":6523
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2231,
+    "Ventas":2231
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":9318,
+    "Ventas":9318
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3753,
+    "Ventas":3753
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4029,
+    "Ventas":4029
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7089,
+    "Ventas":7089
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":8520,
+    "Ventas":8520
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":6831,
+    "Ventas":6831
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":6254,
+    "Ventas":6254
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":3097,
+    "Ventas":3097
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":4823,
+    "Ventas":4823
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6834,
+    "Ventas":6834
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7601,
+    "Ventas":7601
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":2779,
+    "Ventas":2779
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8625,
+    "Ventas":8625
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9298,
+    "Ventas":9298
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":8918,
+    "Ventas":8918
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":8929,
+    "Ventas":8929
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5335,
+    "Ventas":5335
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4257,
+    "Ventas":4257
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3195,
+    "Ventas":3195
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5684,
+    "Ventas":5684
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7073,
+    "Ventas":7073
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6530,
+    "Ventas":6530
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Noviembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7269,
+    "Ventas":7269
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5299,
+    "Ventas":5299
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":5133,
+    "Ventas":5133
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6478,
+    "Ventas":6478
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":8662,
+    "Ventas":8662
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":9218,
+    "Ventas":9218
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9019,
+    "Ventas":9019
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6178,
+    "Ventas":6178
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2890,
+    "Ventas":2890
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2286,
+    "Ventas":2286
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2541,
+    "Ventas":2541
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7800,
+    "Ventas":7800
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":5607,
+    "Ventas":5607
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":3829,
+    "Ventas":3829
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5056,
+    "Ventas":5056
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":4090,
+    "Ventas":4090
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":8147,
+    "Ventas":8147
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":7783,
+    "Ventas":7783
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3955,
+    "Ventas":3955
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3556,
+    "Ventas":3556
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":8680,
+    "Ventas":8680
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":9151,
+    "Ventas":9151
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2549,
+    "Ventas":2549
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5440,
+    "Ventas":5440
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8077,
+    "Ventas":8077
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9807,
+    "Ventas":9807
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6223,
+    "Ventas":6223
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6805,
+    "Ventas":6805
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":9626,
+    "Ventas":9626
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4497,
+    "Ventas":4497
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2309,
+    "Ventas":2309
+  },
+  {
+    "Barrio":"Los Mina",
+    "Mes":"Diciembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4375,
+    "Ventas":4375
+  }
+]

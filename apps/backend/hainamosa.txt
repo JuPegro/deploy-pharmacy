@@ -1,0 +1,5292 @@
+[{
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9496,
+    "Ventas":9496
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4204,
+    "Ventas":4204
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2410,
+    "Ventas":2410
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":7412,
+    "Ventas":7412
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7766,
+    "Ventas":7766
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5905,
+    "Ventas":5905
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":7505,
+    "Ventas":7505
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9525,
+    "Ventas":9525
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9539,
+    "Ventas":9539
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2665,
+    "Ventas":2665
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8574,
+    "Ventas":8574
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8650,
+    "Ventas":8650
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":2408,
+    "Ventas":2408
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3471,
+    "Ventas":3471
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2036,
+    "Ventas":2036
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":4881,
+    "Ventas":4881
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2868,
+    "Ventas":2868
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":6466,
+    "Ventas":6466
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":7673,
+    "Ventas":7673
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6000,
+    "Ventas":6000
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":6533,
+    "Ventas":6533
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3256,
+    "Ventas":3256
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7730,
+    "Ventas":7730
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":5200,
+    "Ventas":5200
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4520,
+    "Ventas":4520
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9699,
+    "Ventas":9699
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9602,
+    "Ventas":9602
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7983,
+    "Ventas":7983
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":7900,
+    "Ventas":7900
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":4346,
+    "Ventas":4346
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3699,
+    "Ventas":3699
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8797,
+    "Ventas":8797
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6478,
+    "Ventas":6478
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Enero",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4940,
+    "Ventas":4940
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4805,
+    "Ventas":4805
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3970,
+    "Ventas":3970
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":4350,
+    "Ventas":4350
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4862,
+    "Ventas":4862
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9724,
+    "Ventas":9724
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3026,
+    "Ventas":3026
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4582,
+    "Ventas":4582
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6390,
+    "Ventas":6390
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3514,
+    "Ventas":3514
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8674,
+    "Ventas":8674
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":9935,
+    "Ventas":9935
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2160,
+    "Ventas":2160
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":5262,
+    "Ventas":5262
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":2048,
+    "Ventas":2048
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9024,
+    "Ventas":9024
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":3475,
+    "Ventas":3475
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5150,
+    "Ventas":5150
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9997,
+    "Ventas":9997
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":8960,
+    "Ventas":8960
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2964,
+    "Ventas":2964
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8894,
+    "Ventas":8894
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3254,
+    "Ventas":3254
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3705,
+    "Ventas":3705
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6792,
+    "Ventas":6792
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7175,
+    "Ventas":7175
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":7678,
+    "Ventas":7678
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3476,
+    "Ventas":3476
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6435,
+    "Ventas":6435
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Febrero",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7442,
+    "Ventas":7442
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6383,
+    "Ventas":6383
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2437,
+    "Ventas":2437
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3119,
+    "Ventas":3119
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":2671,
+    "Ventas":2671
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7377,
+    "Ventas":7377
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":9206,
+    "Ventas":9206
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6025,
+    "Ventas":6025
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5622,
+    "Ventas":5622
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6370,
+    "Ventas":6370
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7639,
+    "Ventas":7639
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6734,
+    "Ventas":6734
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":6858,
+    "Ventas":6858
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2825,
+    "Ventas":2825
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7415,
+    "Ventas":7415
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":6852,
+    "Ventas":6852
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":7622,
+    "Ventas":7622
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4775,
+    "Ventas":4775
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":5426,
+    "Ventas":5426
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6939,
+    "Ventas":6939
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":2804,
+    "Ventas":2804
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8381,
+    "Ventas":8381
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":7193,
+    "Ventas":7193
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2114,
+    "Ventas":2114
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":7704,
+    "Ventas":7704
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":3048,
+    "Ventas":3048
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5598,
+    "Ventas":5598
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3627,
+    "Ventas":3627
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8499,
+    "Ventas":8499
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6873,
+    "Ventas":6873
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5322,
+    "Ventas":5322
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7406,
+    "Ventas":7406
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Marzo",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4665,
+    "Ventas":4665
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2415,
+    "Ventas":2415
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8110,
+    "Ventas":8110
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":5108,
+    "Ventas":5108
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2183,
+    "Ventas":2183
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":2237,
+    "Ventas":2237
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4513,
+    "Ventas":4513
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3858,
+    "Ventas":3858
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":6267,
+    "Ventas":6267
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6423,
+    "Ventas":6423
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6646,
+    "Ventas":6646
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4086,
+    "Ventas":4086
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9215,
+    "Ventas":9215
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4151,
+    "Ventas":4151
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":2660,
+    "Ventas":2660
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4523,
+    "Ventas":4523
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4840,
+    "Ventas":4840
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":6884,
+    "Ventas":6884
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":7500,
+    "Ventas":7500
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4328,
+    "Ventas":4328
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":2580,
+    "Ventas":2580
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":7860,
+    "Ventas":7860
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":9270,
+    "Ventas":9270
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4382,
+    "Ventas":4382
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2878,
+    "Ventas":2878
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9673,
+    "Ventas":9673
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8496,
+    "Ventas":8496
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":4542,
+    "Ventas":4542
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":6260,
+    "Ventas":6260
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4449,
+    "Ventas":4449
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6101,
+    "Ventas":6101
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9988,
+    "Ventas":9988
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9871,
+    "Ventas":9871
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2467,
+    "Ventas":2467
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9783,
+    "Ventas":9783
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":3172,
+    "Ventas":3172
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3724,
+    "Ventas":3724
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3795,
+    "Ventas":3795
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Abril",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9214,
+    "Ventas":9214
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7310,
+    "Ventas":7310
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3075,
+    "Ventas":3075
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":5838,
+    "Ventas":5838
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6570,
+    "Ventas":6570
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":7184,
+    "Ventas":7184
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7587,
+    "Ventas":7587
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7661,
+    "Ventas":7661
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5329,
+    "Ventas":5329
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2516,
+    "Ventas":2516
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6472,
+    "Ventas":6472
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2235,
+    "Ventas":2235
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5380,
+    "Ventas":5380
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":8821,
+    "Ventas":8821
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":3607,
+    "Ventas":3607
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":9070,
+    "Ventas":9070
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6597,
+    "Ventas":6597
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3791,
+    "Ventas":3791
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6691,
+    "Ventas":6691
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9716,
+    "Ventas":9716
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6253,
+    "Ventas":6253
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5358,
+    "Ventas":5358
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2983,
+    "Ventas":2983
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":6120,
+    "Ventas":6120
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":8902,
+    "Ventas":8902
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9793,
+    "Ventas":9793
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8842,
+    "Ventas":8842
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7420,
+    "Ventas":7420
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4689,
+    "Ventas":4689
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8470,
+    "Ventas":8470
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3541,
+    "Ventas":3541
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Mayo",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9522,
+    "Ventas":9522
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7808,
+    "Ventas":7808
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":7234,
+    "Ventas":7234
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8126,
+    "Ventas":8126
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5879,
+    "Ventas":5879
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8456,
+    "Ventas":8456
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":8126,
+    "Ventas":8126
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3801,
+    "Ventas":3801
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2258,
+    "Ventas":2258
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7046,
+    "Ventas":7046
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5095,
+    "Ventas":5095
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9654,
+    "Ventas":9654
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8541,
+    "Ventas":8541
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":7927,
+    "Ventas":7927
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6799,
+    "Ventas":6799
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5184,
+    "Ventas":5184
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":9874,
+    "Ventas":9874
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":7533,
+    "Ventas":7533
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":5012,
+    "Ventas":5012
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9283,
+    "Ventas":9283
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9093,
+    "Ventas":9093
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6783,
+    "Ventas":6783
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":6540,
+    "Ventas":6540
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":2910,
+    "Ventas":2910
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3345,
+    "Ventas":3345
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5455,
+    "Ventas":5455
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5963,
+    "Ventas":5963
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5631,
+    "Ventas":5631
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7933,
+    "Ventas":7933
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7152,
+    "Ventas":7152
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":7017,
+    "Ventas":7017
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2582,
+    "Ventas":2582
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8698,
+    "Ventas":8698
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Junio",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6028,
+    "Ventas":6028
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":2008,
+    "Ventas":2008
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7585,
+    "Ventas":7585
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3507,
+    "Ventas":3507
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":7031,
+    "Ventas":7031
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5083,
+    "Ventas":5083
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5430,
+    "Ventas":5430
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6021,
+    "Ventas":6021
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4308,
+    "Ventas":4308
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":6266,
+    "Ventas":6266
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3370,
+    "Ventas":3370
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5090,
+    "Ventas":5090
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":7160,
+    "Ventas":7160
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":6966,
+    "Ventas":6966
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":9808,
+    "Ventas":9808
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9611,
+    "Ventas":9611
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6181,
+    "Ventas":6181
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6179,
+    "Ventas":6179
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":8786,
+    "Ventas":8786
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8814,
+    "Ventas":8814
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":5444,
+    "Ventas":5444
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":5811,
+    "Ventas":5811
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8288,
+    "Ventas":8288
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7403,
+    "Ventas":7403
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2208,
+    "Ventas":2208
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7810,
+    "Ventas":7810
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8347,
+    "Ventas":8347
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3957,
+    "Ventas":3957
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":4578,
+    "Ventas":4578
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5097,
+    "Ventas":5097
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9420,
+    "Ventas":9420
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Julio",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9419,
+    "Ventas":9419
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4269,
+    "Ventas":4269
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":2345,
+    "Ventas":2345
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":5573,
+    "Ventas":5573
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9534,
+    "Ventas":9534
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5181,
+    "Ventas":5181
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9784,
+    "Ventas":9784
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":8039,
+    "Ventas":8039
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4464,
+    "Ventas":4464
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":4261,
+    "Ventas":4261
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7901,
+    "Ventas":7901
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5611,
+    "Ventas":5611
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7828,
+    "Ventas":7828
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9712,
+    "Ventas":9712
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5755,
+    "Ventas":5755
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":7671,
+    "Ventas":7671
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5774,
+    "Ventas":5774
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4502,
+    "Ventas":4502
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":3296,
+    "Ventas":3296
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":3493,
+    "Ventas":3493
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4356,
+    "Ventas":4356
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":6215,
+    "Ventas":6215
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7595,
+    "Ventas":7595
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6241,
+    "Ventas":6241
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9655,
+    "Ventas":9655
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7584,
+    "Ventas":7584
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":4170,
+    "Ventas":4170
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":7774,
+    "Ventas":7774
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5077,
+    "Ventas":5077
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8070,
+    "Ventas":8070
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9601,
+    "Ventas":9601
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2191,
+    "Ventas":2191
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":8901,
+    "Ventas":8901
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":6156,
+    "Ventas":6156
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7954,
+    "Ventas":7954
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3812,
+    "Ventas":3812
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4609,
+    "Ventas":4609
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Agosto",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6134,
+    "Ventas":6134
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4091,
+    "Ventas":4091
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8692,
+    "Ventas":8692
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":2066,
+    "Ventas":2066
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":4717,
+    "Ventas":4717
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8796,
+    "Ventas":8796
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5696,
+    "Ventas":5696
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":6662,
+    "Ventas":6662
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8117,
+    "Ventas":8117
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5810,
+    "Ventas":5810
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5362,
+    "Ventas":5362
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9624,
+    "Ventas":9624
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2971,
+    "Ventas":2971
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7816,
+    "Ventas":7816
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8975,
+    "Ventas":8975
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":7930,
+    "Ventas":7930
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5581,
+    "Ventas":5581
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7601,
+    "Ventas":7601
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":9593,
+    "Ventas":9593
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":6291,
+    "Ventas":6291
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":9854,
+    "Ventas":9854
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5866,
+    "Ventas":5866
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":3783,
+    "Ventas":3783
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7771,
+    "Ventas":7771
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2823,
+    "Ventas":2823
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":7422,
+    "Ventas":7422
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3823,
+    "Ventas":3823
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6800,
+    "Ventas":6800
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5749,
+    "Ventas":5749
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3076,
+    "Ventas":3076
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3880,
+    "Ventas":3880
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6859,
+    "Ventas":6859
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5181,
+    "Ventas":5181
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2906,
+    "Ventas":2906
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":2528,
+    "Ventas":2528
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":9918,
+    "Ventas":9918
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6874,
+    "Ventas":6874
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2240,
+    "Ventas":2240
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Septiembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6241,
+    "Ventas":6241
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":3400,
+    "Ventas":3400
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4861,
+    "Ventas":4861
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":7224,
+    "Ventas":7224
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9206,
+    "Ventas":9206
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3942,
+    "Ventas":3942
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6328,
+    "Ventas":6328
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":9028,
+    "Ventas":9028
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6439,
+    "Ventas":6439
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6883,
+    "Ventas":6883
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4500,
+    "Ventas":4500
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8214,
+    "Ventas":8214
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8739,
+    "Ventas":8739
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7084,
+    "Ventas":7084
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":2286,
+    "Ventas":2286
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4592,
+    "Ventas":4592
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5959,
+    "Ventas":5959
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":8178,
+    "Ventas":8178
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":8944,
+    "Ventas":8944
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":3039,
+    "Ventas":3039
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4057,
+    "Ventas":4057
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":7681,
+    "Ventas":7681
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6844,
+    "Ventas":6844
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":2762,
+    "Ventas":2762
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8879,
+    "Ventas":8879
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4842,
+    "Ventas":4842
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4848,
+    "Ventas":4848
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":3438,
+    "Ventas":3438
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":4767,
+    "Ventas":4767
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8759,
+    "Ventas":8759
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9669,
+    "Ventas":9669
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5445,
+    "Ventas":5445
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9792,
+    "Ventas":9792
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3042,
+    "Ventas":3042
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":9189,
+    "Ventas":9189
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":9558,
+    "Ventas":9558
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2699,
+    "Ventas":2699
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5717,
+    "Ventas":5717
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9524,
+    "Ventas":9524
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Octubre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7193,
+    "Ventas":7193
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5279,
+    "Ventas":5279
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3052,
+    "Ventas":3052
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":8378,
+    "Ventas":8378
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3717,
+    "Ventas":3717
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2832,
+    "Ventas":2832
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":3860,
+    "Ventas":3860
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5626,
+    "Ventas":5626
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4866,
+    "Ventas":4866
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":4069,
+    "Ventas":4069
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9233,
+    "Ventas":9233
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6080,
+    "Ventas":6080
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8557,
+    "Ventas":8557
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2277,
+    "Ventas":2277
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":3849,
+    "Ventas":3849
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":5921,
+    "Ventas":5921
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":5642,
+    "Ventas":5642
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2411,
+    "Ventas":2411
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4235,
+    "Ventas":4235
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":8131,
+    "Ventas":8131
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2563,
+    "Ventas":2563
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7171,
+    "Ventas":7171
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9744,
+    "Ventas":9744
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8756,
+    "Ventas":8756
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8112,
+    "Ventas":8112
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3015,
+    "Ventas":3015
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3785,
+    "Ventas":3785
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":6853,
+    "Ventas":6853
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4593,
+    "Ventas":4593
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2257,
+    "Ventas":2257
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Noviembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4847,
+    "Ventas":4847
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8623,
+    "Ventas":8623
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8653,
+    "Ventas":8653
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9226,
+    "Ventas":9226
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":9524,
+    "Ventas":9524
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":2156,
+    "Ventas":2156
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3426,
+    "Ventas":3426
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5607,
+    "Ventas":5607
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5748,
+    "Ventas":5748
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6956,
+    "Ventas":6956
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":6673,
+    "Ventas":6673
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":5141,
+    "Ventas":5141
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":5230,
+    "Ventas":5230
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":2991,
+    "Ventas":2991
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":7091,
+    "Ventas":7091
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":3951,
+    "Ventas":3951
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6490,
+    "Ventas":6490
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":8832,
+    "Ventas":8832
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":7840,
+    "Ventas":7840
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9138,
+    "Ventas":9138
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5815,
+    "Ventas":5815
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2427,
+    "Ventas":2427
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2086,
+    "Ventas":2086
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5264,
+    "Ventas":5264
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6274,
+    "Ventas":6274
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":2189,
+    "Ventas":2189
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":9412,
+    "Ventas":9412
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8684,
+    "Ventas":8684
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7376,
+    "Ventas":7376
+  },
+  {
+    "Barrio":"Hainamosa",
+    "Mes":"Diciembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6667,
+    "Ventas":6667
+  }]

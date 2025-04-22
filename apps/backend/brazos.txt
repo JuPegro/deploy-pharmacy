@@ -1,0 +1,5293 @@
+[
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8279,
+    "Ventas":8279
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2979,
+    "Ventas":2979
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6300,
+    "Ventas":6300
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":9377,
+    "Ventas":9377
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9690,
+    "Ventas":9690
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9746,
+    "Ventas":9746
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":2181,
+    "Ventas":2181
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5576,
+    "Ventas":5576
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6269,
+    "Ventas":6269
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4058,
+    "Ventas":4058
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3051,
+    "Ventas":3051
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5725,
+    "Ventas":5725
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3493,
+    "Ventas":3493
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7969,
+    "Ventas":7969
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4095,
+    "Ventas":4095
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4302,
+    "Ventas":4302
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":8649,
+    "Ventas":8649
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":9347,
+    "Ventas":9347
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":5037,
+    "Ventas":5037
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7532,
+    "Ventas":7532
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":4033,
+    "Ventas":4033
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":6380,
+    "Ventas":6380
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3830,
+    "Ventas":3830
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4588,
+    "Ventas":4588
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4025,
+    "Ventas":4025
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5353,
+    "Ventas":5353
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2576,
+    "Ventas":2576
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":3315,
+    "Ventas":3315
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4834,
+    "Ventas":4834
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4617,
+    "Ventas":4617
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6507,
+    "Ventas":6507
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4254,
+    "Ventas":4254
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5649,
+    "Ventas":5649
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":5482,
+    "Ventas":5482
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":7226,
+    "Ventas":7226
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4562,
+    "Ventas":4562
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9516,
+    "Ventas":9516
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7309,
+    "Ventas":7309
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Enero",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7200,
+    "Ventas":7200
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7549,
+    "Ventas":7549
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":2480,
+    "Ventas":2480
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6438,
+    "Ventas":6438
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":7739,
+    "Ventas":7739
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7218,
+    "Ventas":7218
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":9395,
+    "Ventas":9395
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6727,
+    "Ventas":6727
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6398,
+    "Ventas":6398
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9107,
+    "Ventas":9107
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6617,
+    "Ventas":6617
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7722,
+    "Ventas":7722
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2303,
+    "Ventas":2303
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9289,
+    "Ventas":9289
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4435,
+    "Ventas":4435
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":6337,
+    "Ventas":6337
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":9772,
+    "Ventas":9772
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5238,
+    "Ventas":5238
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9210,
+    "Ventas":9210
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4566,
+    "Ventas":4566
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2282,
+    "Ventas":2282
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3538,
+    "Ventas":3538
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3641,
+    "Ventas":3641
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4455,
+    "Ventas":4455
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":8603,
+    "Ventas":8603
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":5388,
+    "Ventas":5388
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7831,
+    "Ventas":7831
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8833,
+    "Ventas":8833
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9073,
+    "Ventas":9073
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7024,
+    "Ventas":7024
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6150,
+    "Ventas":6150
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":6377,
+    "Ventas":6377
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5854,
+    "Ventas":5854
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2282,
+    "Ventas":2282
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Febrero",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4749,
+    "Ventas":4749
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3697,
+    "Ventas":3697
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9548,
+    "Ventas":9548
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2847,
+    "Ventas":2847
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":3639,
+    "Ventas":3639
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7003,
+    "Ventas":7003
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7556,
+    "Ventas":7556
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":2585,
+    "Ventas":2585
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4665,
+    "Ventas":4665
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7690,
+    "Ventas":7690
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8481,
+    "Ventas":8481
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2477,
+    "Ventas":2477
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9489,
+    "Ventas":9489
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6002,
+    "Ventas":6002
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2931,
+    "Ventas":2931
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5254,
+    "Ventas":5254
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3246,
+    "Ventas":3246
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7941,
+    "Ventas":7941
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":9314,
+    "Ventas":9314
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":3798,
+    "Ventas":3798
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":3334,
+    "Ventas":3334
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6992,
+    "Ventas":6992
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":6109,
+    "Ventas":6109
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":5723,
+    "Ventas":5723
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6573,
+    "Ventas":6573
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3568,
+    "Ventas":3568
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7513,
+    "Ventas":7513
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":2479,
+    "Ventas":2479
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":7340,
+    "Ventas":7340
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5304,
+    "Ventas":5304
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5708,
+    "Ventas":5708
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2567,
+    "Ventas":2567
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7420,
+    "Ventas":7420
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7390,
+    "Ventas":7390
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":9501,
+    "Ventas":9501
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5162,
+    "Ventas":5162
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7562,
+    "Ventas":7562
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Marzo",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4029,
+    "Ventas":4029
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2585,
+    "Ventas":2585
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6523,
+    "Ventas":6523
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9476,
+    "Ventas":9476
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9237,
+    "Ventas":9237
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7986,
+    "Ventas":7986
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":8682,
+    "Ventas":8682
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":9338,
+    "Ventas":9338
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8203,
+    "Ventas":8203
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7013,
+    "Ventas":7013
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2546,
+    "Ventas":2546
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9982,
+    "Ventas":9982
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4527,
+    "Ventas":4527
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7392,
+    "Ventas":7392
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9152,
+    "Ventas":9152
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7056,
+    "Ventas":7056
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":3774,
+    "Ventas":3774
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":3915,
+    "Ventas":3915
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":6429,
+    "Ventas":6429
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":8573,
+    "Ventas":8573
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6566,
+    "Ventas":6566
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4450,
+    "Ventas":4450
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8550,
+    "Ventas":8550
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4739,
+    "Ventas":4739
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":4633,
+    "Ventas":4633
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":6488,
+    "Ventas":6488
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5205,
+    "Ventas":5205
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4237,
+    "Ventas":4237
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9853,
+    "Ventas":9853
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8221,
+    "Ventas":8221
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7721,
+    "Ventas":7721
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":2685,
+    "Ventas":2685
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":5250,
+    "Ventas":5250
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5218,
+    "Ventas":5218
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Abril",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6464,
+    "Ventas":6464
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":3753,
+    "Ventas":3753
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3628,
+    "Ventas":3628
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4155,
+    "Ventas":4155
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":2190,
+    "Ventas":2190
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8166,
+    "Ventas":8166
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3445,
+    "Ventas":3445
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":4524,
+    "Ventas":4524
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":4131,
+    "Ventas":4131
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8297,
+    "Ventas":8297
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4297,
+    "Ventas":4297
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5032,
+    "Ventas":5032
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5373,
+    "Ventas":5373
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6517,
+    "Ventas":6517
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":2923,
+    "Ventas":2923
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8795,
+    "Ventas":8795
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5592,
+    "Ventas":5592
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5688,
+    "Ventas":5688
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":3073,
+    "Ventas":3073
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":7957,
+    "Ventas":7957
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7953,
+    "Ventas":7953
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":5709,
+    "Ventas":5709
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6353,
+    "Ventas":6353
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":8300,
+    "Ventas":8300
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9413,
+    "Ventas":9413
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":4219,
+    "Ventas":4219
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2528,
+    "Ventas":2528
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3926,
+    "Ventas":3926
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7488,
+    "Ventas":7488
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6788,
+    "Ventas":6788
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6747,
+    "Ventas":6747
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6709,
+    "Ventas":6709
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":9904,
+    "Ventas":9904
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":9265,
+    "Ventas":9265
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6387,
+    "Ventas":6387
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4645,
+    "Ventas":4645
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Mayo",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2655,
+    "Ventas":2655
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8627,
+    "Ventas":8627
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8307,
+    "Ventas":8307
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9718,
+    "Ventas":9718
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":2831,
+    "Ventas":2831
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8445,
+    "Ventas":8445
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":3934,
+    "Ventas":3934
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4391,
+    "Ventas":4391
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":9044,
+    "Ventas":9044
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2848,
+    "Ventas":2848
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5247,
+    "Ventas":5247
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8874,
+    "Ventas":8874
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3386,
+    "Ventas":3386
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3761,
+    "Ventas":3761
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3408,
+    "Ventas":3408
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4705,
+    "Ventas":4705
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8256,
+    "Ventas":8256
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":5953,
+    "Ventas":5953
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":9401,
+    "Ventas":9401
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":9077,
+    "Ventas":9077
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":8438,
+    "Ventas":8438
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":9763,
+    "Ventas":9763
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8766,
+    "Ventas":8766
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3601,
+    "Ventas":3601
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4444,
+    "Ventas":4444
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3794,
+    "Ventas":3794
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":6470,
+    "Ventas":6470
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7193,
+    "Ventas":7193
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2325,
+    "Ventas":2325
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5598,
+    "Ventas":5598
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4114,
+    "Ventas":4114
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2586,
+    "Ventas":2586
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":5931,
+    "Ventas":5931
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5252,
+    "Ventas":5252
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2902,
+    "Ventas":2902
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3606,
+    "Ventas":3606
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Junio",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2863,
+    "Ventas":2863
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9440,
+    "Ventas":9440
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6691,
+    "Ventas":6691
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":8437,
+    "Ventas":8437
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3322,
+    "Ventas":3322
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":2983,
+    "Ventas":2983
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3689,
+    "Ventas":3689
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":3543,
+    "Ventas":3543
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9833,
+    "Ventas":9833
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6832,
+    "Ventas":6832
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2657,
+    "Ventas":2657
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7324,
+    "Ventas":7324
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9027,
+    "Ventas":9027
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2990,
+    "Ventas":2990
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6165,
+    "Ventas":6165
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8000,
+    "Ventas":8000
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":4877,
+    "Ventas":4877
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6180,
+    "Ventas":6180
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":9095,
+    "Ventas":9095
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":6162,
+    "Ventas":6162
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4239,
+    "Ventas":4239
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":4637,
+    "Ventas":4637
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8041,
+    "Ventas":8041
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4762,
+    "Ventas":4762
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5537,
+    "Ventas":5537
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3601,
+    "Ventas":3601
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6294,
+    "Ventas":6294
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":7988,
+    "Ventas":7988
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":9967,
+    "Ventas":9967
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6551,
+    "Ventas":6551
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6325,
+    "Ventas":6325
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":6734,
+    "Ventas":6734
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8109,
+    "Ventas":8109
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5237,
+    "Ventas":5237
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8927,
+    "Ventas":8927
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Julio",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9788,
+    "Ventas":9788
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6031,
+    "Ventas":6031
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":5860,
+    "Ventas":5860
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9163,
+    "Ventas":9163
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2091,
+    "Ventas":2091
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":5560,
+    "Ventas":5560
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2904,
+    "Ventas":2904
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6078,
+    "Ventas":6078
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8011,
+    "Ventas":8011
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3512,
+    "Ventas":3512
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2079,
+    "Ventas":2079
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5921,
+    "Ventas":5921
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6186,
+    "Ventas":6186
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":2170,
+    "Ventas":2170
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2507,
+    "Ventas":2507
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8835,
+    "Ventas":8835
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5243,
+    "Ventas":5243
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":6993,
+    "Ventas":6993
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":4118,
+    "Ventas":4118
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":6806,
+    "Ventas":6806
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":7258,
+    "Ventas":7258
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":2137,
+    "Ventas":2137
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":2639,
+    "Ventas":2639
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6470,
+    "Ventas":6470
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":8775,
+    "Ventas":8775
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6848,
+    "Ventas":6848
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8309,
+    "Ventas":8309
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8235,
+    "Ventas":8235
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":9831,
+    "Ventas":9831
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":9968,
+    "Ventas":9968
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7917,
+    "Ventas":7917
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5046,
+    "Ventas":5046
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7480,
+    "Ventas":7480
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":4534,
+    "Ventas":4534
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":8780,
+    "Ventas":8780
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5782,
+    "Ventas":5782
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4944,
+    "Ventas":4944
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8304,
+    "Ventas":8304
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Agosto",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7743,
+    "Ventas":7743
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9075,
+    "Ventas":9075
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4104,
+    "Ventas":4104
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3218,
+    "Ventas":3218
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9754,
+    "Ventas":9754
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3766,
+    "Ventas":3766
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6749,
+    "Ventas":6749
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":8204,
+    "Ventas":8204
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7251,
+    "Ventas":7251
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7953,
+    "Ventas":7953
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5802,
+    "Ventas":5802
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2759,
+    "Ventas":2759
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6825,
+    "Ventas":6825
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":2569,
+    "Ventas":2569
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6494,
+    "Ventas":6494
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9453,
+    "Ventas":9453
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":8737,
+    "Ventas":8737
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":5125,
+    "Ventas":5125
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5059,
+    "Ventas":5059
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":5080,
+    "Ventas":5080
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":7583,
+    "Ventas":7583
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2537,
+    "Ventas":2537
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5681,
+    "Ventas":5681
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9155,
+    "Ventas":9155
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3001,
+    "Ventas":3001
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9958,
+    "Ventas":9958
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":6982,
+    "Ventas":6982
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":9288,
+    "Ventas":9288
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5682,
+    "Ventas":5682
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4324,
+    "Ventas":4324
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9075,
+    "Ventas":9075
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8591,
+    "Ventas":8591
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":6051,
+    "Ventas":6051
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":9114,
+    "Ventas":9114
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5210,
+    "Ventas":5210
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Septiembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4274,
+    "Ventas":4274
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4858,
+    "Ventas":4858
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9863,
+    "Ventas":9863
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":3738,
+    "Ventas":3738
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6504,
+    "Ventas":6504
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7749,
+    "Ventas":7749
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9412,
+    "Ventas":9412
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9642,
+    "Ventas":9642
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":8098,
+    "Ventas":8098
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4444,
+    "Ventas":4444
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":9731,
+    "Ventas":9731
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8074,
+    "Ventas":8074
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3423,
+    "Ventas":3423
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7162,
+    "Ventas":7162
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6342,
+    "Ventas":6342
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5826,
+    "Ventas":5826
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":4045,
+    "Ventas":4045
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6734,
+    "Ventas":6734
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":6479,
+    "Ventas":6479
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":6289,
+    "Ventas":6289
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":8632,
+    "Ventas":8632
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":7274,
+    "Ventas":7274
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":5801,
+    "Ventas":5801
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3281,
+    "Ventas":3281
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5656,
+    "Ventas":5656
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":6735,
+    "Ventas":6735
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9706,
+    "Ventas":9706
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8852,
+    "Ventas":8852
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":7143,
+    "Ventas":7143
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":2580,
+    "Ventas":2580
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4226,
+    "Ventas":4226
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8289,
+    "Ventas":8289
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7977,
+    "Ventas":7977
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6086,
+    "Ventas":6086
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7544,
+    "Ventas":7544
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2914,
+    "Ventas":2914
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":5485,
+    "Ventas":5485
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8891,
+    "Ventas":8891
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9231,
+    "Ventas":9231
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4747,
+    "Ventas":4747
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Octubre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7434,
+    "Ventas":7434
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2975,
+    "Ventas":2975
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":7231,
+    "Ventas":7231
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3104,
+    "Ventas":3104
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5921,
+    "Ventas":5921
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":2317,
+    "Ventas":2317
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5500,
+    "Ventas":5500
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5867,
+    "Ventas":5867
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9070,
+    "Ventas":9070
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9858,
+    "Ventas":9858
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7582,
+    "Ventas":7582
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9521,
+    "Ventas":9521
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2735,
+    "Ventas":2735
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":6912,
+    "Ventas":6912
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":3374,
+    "Ventas":3374
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5307,
+    "Ventas":5307
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":3734,
+    "Ventas":3734
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":3089,
+    "Ventas":3089
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":6710,
+    "Ventas":6710
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3861,
+    "Ventas":3861
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6567,
+    "Ventas":6567
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":3207,
+    "Ventas":3207
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":6692,
+    "Ventas":6692
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7277,
+    "Ventas":7277
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7682,
+    "Ventas":7682
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5731,
+    "Ventas":5731
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4431,
+    "Ventas":4431
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5765,
+    "Ventas":5765
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6103,
+    "Ventas":6103
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8245,
+    "Ventas":8245
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":8692,
+    "Ventas":8692
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5241,
+    "Ventas":5241
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8582,
+    "Ventas":8582
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5347,
+    "Ventas":5347
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Noviembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5339,
+    "Ventas":5339
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2644,
+    "Ventas":2644
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3387,
+    "Ventas":3387
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9338,
+    "Ventas":9338
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2140,
+    "Ventas":2140
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4115,
+    "Ventas":4115
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2008,
+    "Ventas":2008
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":7736,
+    "Ventas":7736
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3314,
+    "Ventas":3314
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":5674,
+    "Ventas":5674
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8652,
+    "Ventas":8652
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5075,
+    "Ventas":5075
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":9647,
+    "Ventas":9647
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":6016,
+    "Ventas":6016
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":9207,
+    "Ventas":9207
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":9593,
+    "Ventas":9593
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":5596,
+    "Ventas":5596
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":9718,
+    "Ventas":9718
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7494,
+    "Ventas":7494
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4406,
+    "Ventas":4406
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4660,
+    "Ventas":4660
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":3591,
+    "Ventas":3591
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":7527,
+    "Ventas":7527
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4632,
+    "Ventas":4632
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8625,
+    "Ventas":8625
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":8392,
+    "Ventas":8392
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6550,
+    "Ventas":6550
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Los Tres Brazos",
+    "Mes":"Diciembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6302,
+    "Ventas":6302
+  }]

@@ -11,28 +11,52 @@ const farmaciasDominicanas = [
     longitud: -69.9312
   },
   {
-    nombre: "Farmacia San Miguel",
+    nombre: "Los mina",
     direccion: "Av. Principal, Santo Domingo Este",
     latitud: 18.5065,
     longitud: -69.8478
   },
   {
-    nombre: "Farmacia Central",
+    nombre: "Villa faro",
     direccion: "Centro Histórico, Santo Domingo",
     latitud: 18.4626,
     longitud: -69.9494
   },
   {
-    nombre: "Farmacia del Norte",
+    nombre: "Mendoza",
     direccion: "Santiago de los Caballeros",
     latitud: 19.4517,
     longitud: -70.6750
   },
   {
-    nombre: "Farmacia del Sur",
+    nombre: "Invivienda",
+    direccion: "San Juan de la Maguana",
+    latitud: -18.8053,
+    longitud: -71.2291
+  },
+  {
+    nombre: "San Isidro",
+    direccion: "San Juan de la Maguana",
+    latitud: 20.8053,
+    longitud: -71.2291
+  },
+  {
+    nombre: "Hainamosa",
+    direccion: "San Juan de la Maguana",
+    latitud: 16.8053,
+    longitud: -71.2291
+  },
+  {
+    nombre: "Villa Carmen",
+    direccion: "San Juan de la Maguana",
+    latitud: 18.7053,
+    longitud: -71.2291
+  },
+  {
+    nombre: "Ensanche Ozama",
     direccion: "San Juan de la Maguana",
     latitud: 18.8053,
-    longitud: -71.2291
+    longitud: -51.2291
   }
 ];
 

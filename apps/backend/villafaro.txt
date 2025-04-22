@@ -1,0 +1,5294 @@
+[
+{
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4416,
+    "Ventas":4416
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8853,
+    "Ventas":8853
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":2963,
+    "Ventas":2963
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":4307,
+    "Ventas":4307
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5562,
+    "Ventas":5562
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":8606,
+    "Ventas":8606
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5575,
+    "Ventas":5575
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6403,
+    "Ventas":6403
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3236,
+    "Ventas":3236
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2603,
+    "Ventas":2603
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3435,
+    "Ventas":3435
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2844,
+    "Ventas":2844
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9527,
+    "Ventas":9527
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2929,
+    "Ventas":2929
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9404,
+    "Ventas":9404
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4083,
+    "Ventas":4083
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8291,
+    "Ventas":8291
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2665,
+    "Ventas":2665
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":8180,
+    "Ventas":8180
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":7928,
+    "Ventas":7928
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":3403,
+    "Ventas":3403
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":2320,
+    "Ventas":2320
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":5580,
+    "Ventas":5580
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3706,
+    "Ventas":3706
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5030,
+    "Ventas":5030
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9322,
+    "Ventas":9322
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2197,
+    "Ventas":2197
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8433,
+    "Ventas":8433
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":5024,
+    "Ventas":5024
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":2714,
+    "Ventas":2714
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8703,
+    "Ventas":8703
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6163,
+    "Ventas":6163
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8367,
+    "Ventas":8367
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7961,
+    "Ventas":7961
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9634,
+    "Ventas":9634
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":9171,
+    "Ventas":9171
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8653,
+    "Ventas":8653
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9945,
+    "Ventas":9945
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3281,
+    "Ventas":3281
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Enero",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8500,
+    "Ventas":8500
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4232,
+    "Ventas":4232
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6909,
+    "Ventas":6909
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":4926,
+    "Ventas":4926
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2172,
+    "Ventas":2172
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":9384,
+    "Ventas":9384
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":4938,
+    "Ventas":4938
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2803,
+    "Ventas":2803
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6616,
+    "Ventas":6616
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6882,
+    "Ventas":6882
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9436,
+    "Ventas":9436
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":9417,
+    "Ventas":9417
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9969,
+    "Ventas":9969
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5307,
+    "Ventas":5307
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":9927,
+    "Ventas":9927
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4165,
+    "Ventas":4165
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":7966,
+    "Ventas":7966
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6961,
+    "Ventas":6961
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":2429,
+    "Ventas":2429
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8998,
+    "Ventas":8998
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4687,
+    "Ventas":4687
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9698,
+    "Ventas":9698
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9578,
+    "Ventas":9578
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8907,
+    "Ventas":8907
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9999,
+    "Ventas":9999
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3672,
+    "Ventas":3672
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3724,
+    "Ventas":3724
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6324,
+    "Ventas":6324
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9015,
+    "Ventas":9015
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6787,
+    "Ventas":6787
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":7804,
+    "Ventas":7804
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9976,
+    "Ventas":9976
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6395,
+    "Ventas":6395
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7875,
+    "Ventas":7875
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Febrero",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5785,
+    "Ventas":5785
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4293,
+    "Ventas":4293
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7596,
+    "Ventas":7596
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3041,
+    "Ventas":3041
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3310,
+    "Ventas":3310
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":5995,
+    "Ventas":5995
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5668,
+    "Ventas":5668
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":4060,
+    "Ventas":4060
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7127,
+    "Ventas":7127
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8463,
+    "Ventas":8463
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7096,
+    "Ventas":7096
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8122,
+    "Ventas":8122
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5987,
+    "Ventas":5987
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6165,
+    "Ventas":6165
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":7576,
+    "Ventas":7576
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":8313,
+    "Ventas":8313
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":9245,
+    "Ventas":9245
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":6333,
+    "Ventas":6333
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":6735,
+    "Ventas":6735
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4708,
+    "Ventas":4708
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3404,
+    "Ventas":3404
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4807,
+    "Ventas":4807
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9785,
+    "Ventas":9785
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7384,
+    "Ventas":7384
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8418,
+    "Ventas":8418
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2285,
+    "Ventas":2285
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":7385,
+    "Ventas":7385
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9264,
+    "Ventas":9264
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9461,
+    "Ventas":9461
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7429,
+    "Ventas":7429
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3269,
+    "Ventas":3269
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8367,
+    "Ventas":8367
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3979,
+    "Ventas":3979
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2760,
+    "Ventas":2760
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Marzo",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9006,
+    "Ventas":9006
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7739,
+    "Ventas":7739
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9738,
+    "Ventas":9738
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9817,
+    "Ventas":9817
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":8590,
+    "Ventas":8590
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8374,
+    "Ventas":8374
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6631,
+    "Ventas":6631
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3662,
+    "Ventas":3662
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":6601,
+    "Ventas":6601
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7962,
+    "Ventas":7962
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3047,
+    "Ventas":3047
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6603,
+    "Ventas":6603
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3966,
+    "Ventas":3966
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4823,
+    "Ventas":4823
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":4499,
+    "Ventas":4499
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6495,
+    "Ventas":6495
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8053,
+    "Ventas":8053
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":9882,
+    "Ventas":9882
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":9383,
+    "Ventas":9383
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":6005,
+    "Ventas":6005
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":6442,
+    "Ventas":6442
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":4033,
+    "Ventas":4033
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9567,
+    "Ventas":9567
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6728,
+    "Ventas":6728
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4541,
+    "Ventas":4541
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4328,
+    "Ventas":4328
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3821,
+    "Ventas":3821
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":6061,
+    "Ventas":6061
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2582,
+    "Ventas":2582
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2166,
+    "Ventas":2166
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3061,
+    "Ventas":3061
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9946,
+    "Ventas":9946
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5756,
+    "Ventas":5756
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":5091,
+    "Ventas":5091
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7396,
+    "Ventas":7396
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9758,
+    "Ventas":9758
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Abril",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4253,
+    "Ventas":4253
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3089,
+    "Ventas":3089
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7364,
+    "Ventas":7364
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":9588,
+    "Ventas":9588
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3221,
+    "Ventas":3221
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8997,
+    "Ventas":8997
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4960,
+    "Ventas":4960
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2289,
+    "Ventas":2289
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9445,
+    "Ventas":9445
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7844,
+    "Ventas":7844
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":2794,
+    "Ventas":2794
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":9405,
+    "Ventas":9405
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":3907,
+    "Ventas":3907
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":2694,
+    "Ventas":2694
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2176,
+    "Ventas":2176
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5626,
+    "Ventas":5626
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":8639,
+    "Ventas":8639
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6671,
+    "Ventas":6671
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7395,
+    "Ventas":7395
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":4337,
+    "Ventas":4337
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":3818,
+    "Ventas":3818
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2676,
+    "Ventas":2676
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4480,
+    "Ventas":4480
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7126,
+    "Ventas":7126
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7514,
+    "Ventas":7514
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3912,
+    "Ventas":3912
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":9708,
+    "Ventas":9708
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3659,
+    "Ventas":3659
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Mayo",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6245,
+    "Ventas":6245
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":2770,
+    "Ventas":2770
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5114,
+    "Ventas":5114
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6540,
+    "Ventas":6540
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":8622,
+    "Ventas":8622
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4493,
+    "Ventas":4493
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4382,
+    "Ventas":4382
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2098,
+    "Ventas":2098
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2832,
+    "Ventas":2832
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2668,
+    "Ventas":2668
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3955,
+    "Ventas":3955
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":8016,
+    "Ventas":8016
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8661,
+    "Ventas":8661
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7982,
+    "Ventas":7982
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7895,
+    "Ventas":7895
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":8021,
+    "Ventas":8021
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":5912,
+    "Ventas":5912
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":3249,
+    "Ventas":3249
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6732,
+    "Ventas":6732
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":7229,
+    "Ventas":7229
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8337,
+    "Ventas":8337
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":6649,
+    "Ventas":6649
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3134,
+    "Ventas":3134
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":5882,
+    "Ventas":5882
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5869,
+    "Ventas":5869
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5707,
+    "Ventas":5707
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8517,
+    "Ventas":8517
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4188,
+    "Ventas":4188
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3464,
+    "Ventas":3464
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":9258,
+    "Ventas":9258
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3433,
+    "Ventas":3433
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4746,
+    "Ventas":4746
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Junio",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7262,
+    "Ventas":7262
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5111,
+    "Ventas":5111
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3908,
+    "Ventas":3908
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6179,
+    "Ventas":6179
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":6193,
+    "Ventas":6193
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6292,
+    "Ventas":6292
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2986,
+    "Ventas":2986
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5093,
+    "Ventas":5093
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5423,
+    "Ventas":5423
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6659,
+    "Ventas":6659
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6195,
+    "Ventas":6195
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6581,
+    "Ventas":6581
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":8489,
+    "Ventas":8489
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2526,
+    "Ventas":2526
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2633,
+    "Ventas":2633
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":3574,
+    "Ventas":3574
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":4844,
+    "Ventas":4844
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":3369,
+    "Ventas":3369
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9926,
+    "Ventas":9926
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4041,
+    "Ventas":4041
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4830,
+    "Ventas":4830
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8052,
+    "Ventas":8052
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8307,
+    "Ventas":8307
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":7268,
+    "Ventas":7268
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8443,
+    "Ventas":8443
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8793,
+    "Ventas":8793
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7501,
+    "Ventas":7501
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6284,
+    "Ventas":6284
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2341,
+    "Ventas":2341
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3069,
+    "Ventas":3069
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":3022,
+    "Ventas":3022
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":2828,
+    "Ventas":2828
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9634,
+    "Ventas":9634
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8063,
+    "Ventas":8063
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Julio",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5811,
+    "Ventas":5811
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9084,
+    "Ventas":9084
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3675,
+    "Ventas":3675
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":6739,
+    "Ventas":6739
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3517,
+    "Ventas":3517
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":3795,
+    "Ventas":3795
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":4777,
+    "Ventas":4777
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2600,
+    "Ventas":2600
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6502,
+    "Ventas":6502
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4865,
+    "Ventas":4865
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7766,
+    "Ventas":7766
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5293,
+    "Ventas":5293
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":5730,
+    "Ventas":5730
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9044,
+    "Ventas":9044
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8689,
+    "Ventas":8689
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7024,
+    "Ventas":7024
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":7787,
+    "Ventas":7787
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":8100,
+    "Ventas":8100
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":6814,
+    "Ventas":6814
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":2201,
+    "Ventas":2201
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":6203,
+    "Ventas":6203
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6723,
+    "Ventas":6723
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4109,
+    "Ventas":4109
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4558,
+    "Ventas":4558
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5721,
+    "Ventas":5721
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3628,
+    "Ventas":3628
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":7889,
+    "Ventas":7889
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5838,
+    "Ventas":5838
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7805,
+    "Ventas":7805
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7584,
+    "Ventas":7584
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9421,
+    "Ventas":9421
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3527,
+    "Ventas":3527
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5622,
+    "Ventas":5622
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":3007,
+    "Ventas":3007
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4617,
+    "Ventas":4617
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8516,
+    "Ventas":8516
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Agosto",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9602,
+    "Ventas":9602
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7907,
+    "Ventas":7907
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":8179,
+    "Ventas":8179
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7537,
+    "Ventas":7537
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8932,
+    "Ventas":8932
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4073,
+    "Ventas":4073
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7674,
+    "Ventas":7674
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3123,
+    "Ventas":3123
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6966,
+    "Ventas":6966
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9195,
+    "Ventas":9195
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8696,
+    "Ventas":8696
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":8006,
+    "Ventas":8006
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2671,
+    "Ventas":2671
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5255,
+    "Ventas":5255
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":3787,
+    "Ventas":3787
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":4896,
+    "Ventas":4896
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2097,
+    "Ventas":2097
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":3069,
+    "Ventas":3069
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4200,
+    "Ventas":4200
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":5253,
+    "Ventas":5253
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":3065,
+    "Ventas":3065
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3704,
+    "Ventas":3704
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":6823,
+    "Ventas":6823
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3409,
+    "Ventas":3409
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4650,
+    "Ventas":4650
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9596,
+    "Ventas":9596
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3139,
+    "Ventas":3139
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":5605,
+    "Ventas":5605
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2836,
+    "Ventas":2836
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4525,
+    "Ventas":4525
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Septiembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3353,
+    "Ventas":3353
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3376,
+    "Ventas":3376
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":2582,
+    "Ventas":2582
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3361,
+    "Ventas":3361
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5844,
+    "Ventas":5844
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":8402,
+    "Ventas":8402
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2425,
+    "Ventas":2425
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":8338,
+    "Ventas":8338
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7364,
+    "Ventas":7364
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5331,
+    "Ventas":5331
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":3658,
+    "Ventas":3658
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5574,
+    "Ventas":5574
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2344,
+    "Ventas":2344
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":8422,
+    "Ventas":8422
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":3491,
+    "Ventas":3491
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":8452,
+    "Ventas":8452
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":8412,
+    "Ventas":8412
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":8218,
+    "Ventas":8218
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4433,
+    "Ventas":4433
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":6233,
+    "Ventas":6233
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3802,
+    "Ventas":3802
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5777,
+    "Ventas":5777
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":8357,
+    "Ventas":8357
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2988,
+    "Ventas":2988
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8637,
+    "Ventas":8637
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3393,
+    "Ventas":3393
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2784,
+    "Ventas":2784
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8289,
+    "Ventas":8289
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7401,
+    "Ventas":7401
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8254,
+    "Ventas":8254
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3423,
+    "Ventas":3423
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Octubre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3615,
+    "Ventas":3615
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9348,
+    "Ventas":9348
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":8509,
+    "Ventas":8509
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":5129,
+    "Ventas":5129
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8814,
+    "Ventas":8814
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2225,
+    "Ventas":2225
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":4880,
+    "Ventas":4880
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4960,
+    "Ventas":4960
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5264,
+    "Ventas":5264
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9850,
+    "Ventas":9850
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2870,
+    "Ventas":2870
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3600,
+    "Ventas":3600
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":6766,
+    "Ventas":6766
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5180,
+    "Ventas":5180
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5164,
+    "Ventas":5164
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":9167,
+    "Ventas":9167
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":5636,
+    "Ventas":5636
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":9872,
+    "Ventas":9872
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":5188,
+    "Ventas":5188
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":2356,
+    "Ventas":2356
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9927,
+    "Ventas":9927
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9466,
+    "Ventas":9466
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4777,
+    "Ventas":4777
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8711,
+    "Ventas":8711
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":9631,
+    "Ventas":9631
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":8098,
+    "Ventas":8098
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2024,
+    "Ventas":2024
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9537,
+    "Ventas":9537
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4920,
+    "Ventas":4920
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3780,
+    "Ventas":3780
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7303,
+    "Ventas":7303
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":5288,
+    "Ventas":5288
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":2419,
+    "Ventas":2419
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6511,
+    "Ventas":6511
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Noviembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3415,
+    "Ventas":3415
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9593,
+    "Ventas":9593
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9238,
+    "Ventas":9238
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":5185,
+    "Ventas":5185
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7036,
+    "Ventas":7036
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":5168,
+    "Ventas":5168
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2796,
+    "Ventas":2796
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7178,
+    "Ventas":7178
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9287,
+    "Ventas":9287
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2799,
+    "Ventas":2799
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5050,
+    "Ventas":5050
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":3734,
+    "Ventas":3734
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6789,
+    "Ventas":6789
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7029,
+    "Ventas":7029
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4645,
+    "Ventas":4645
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":3083,
+    "Ventas":3083
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":2975,
+    "Ventas":2975
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3248,
+    "Ventas":3248
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4269,
+    "Ventas":4269
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9702,
+    "Ventas":9702
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9325,
+    "Ventas":9325
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5859,
+    "Ventas":5859
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4208,
+    "Ventas":4208
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7873,
+    "Ventas":7873
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7683,
+    "Ventas":7683
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8977,
+    "Ventas":8977
+  },
+  {
+    "Barrio":"Villa Faro",
+    "Mes":"Diciembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2264,
+    "Ventas":2264
+  }
+]

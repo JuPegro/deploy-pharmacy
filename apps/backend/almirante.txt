@@ -1,0 +1,5294 @@
+[
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6715,
+    "Ventas": 6715
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 9082,
+    "Ventas": 9082
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 3424,
+    "Ventas": 3424
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3353,
+    "Ventas": 3353
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 3354,
+    "Ventas": 3354
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 5037,
+    "Ventas": 5037
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4623,
+    "Ventas": 4623
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2121,
+    "Ventas": 2121
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5817,
+    "Ventas": 5817
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4126,
+    "Ventas": 4126
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2370,
+    "Ventas": 2370
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5611,
+    "Ventas": 5611
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6600,
+    "Ventas": 6600
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 9817,
+    "Ventas": 9817
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 3402,
+    "Ventas": 3402
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 8012,
+    "Ventas": 8012
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 3312,
+    "Ventas": 3312
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 3035,
+    "Ventas": 3035
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 3284,
+    "Ventas": 3284
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4523,
+    "Ventas": 4523
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 9006,
+    "Ventas": 9006
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8103,
+    "Ventas": 8103
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 3749,
+    "Ventas": 3749
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 3035,
+    "Ventas": 3035
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 9516,
+    "Ventas": 9516
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 2913,
+    "Ventas": 2913
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 7238,
+    "Ventas": 7238
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9139,
+    "Ventas": 9139
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 8013,
+    "Ventas": 8013
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 5875,
+    "Ventas": 5875
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6833,
+    "Ventas": 6833
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5047,
+    "Ventas": 5047
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3778,
+    "Ventas": 3778
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 5357,
+    "Ventas": 5357
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 4482,
+    "Ventas": 4482
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4333,
+    "Ventas": 4333
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6883,
+    "Ventas": 6883
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3992,
+    "Ventas": 3992
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Enero",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 8014,
+    "Ventas": 8014
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9482,
+    "Ventas": 9482
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5083,
+    "Ventas": 5083
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 3217,
+    "Ventas": 3217
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 9770,
+    "Ventas": 9770
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 6136,
+    "Ventas": 6136
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5435,
+    "Ventas": 5435
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 3999,
+    "Ventas": 3999
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 6675,
+    "Ventas": 6675
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7520,
+    "Ventas": 7520
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4236,
+    "Ventas": 4236
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3498,
+    "Ventas": 3498
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4132,
+    "Ventas": 4132
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 6004,
+    "Ventas": 6004
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9915,
+    "Ventas": 9915
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4829,
+    "Ventas": 4829
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 3218,
+    "Ventas": 3218
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 7040,
+    "Ventas": 7040
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 6551,
+    "Ventas": 6551
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 7566,
+    "Ventas": 7566
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 5286,
+    "Ventas": 5286
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5053,
+    "Ventas": 5053
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 4753,
+    "Ventas": 4753
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 8554,
+    "Ventas": 8554
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 5488,
+    "Ventas": 5488
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 7075,
+    "Ventas": 7075
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3613,
+    "Ventas": 3613
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 5908,
+    "Ventas": 5908
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2662,
+    "Ventas": 2662
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6633,
+    "Ventas": 6633
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4607,
+    "Ventas": 4607
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 4486,
+    "Ventas": 4486
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 5819,
+    "Ventas": 5819
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3159,
+    "Ventas": 3159
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5459,
+    "Ventas": 5459
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2564,
+    "Ventas": 2564
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Febrero",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 6231,
+    "Ventas": 6231
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9267,
+    "Ventas": 9267
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7242,
+    "Ventas": 7242
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 2363,
+    "Ventas": 2363
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 2804,
+    "Ventas": 2804
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 6528,
+    "Ventas": 6528
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 9832,
+    "Ventas": 9832
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7945,
+    "Ventas": 7945
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3846,
+    "Ventas": 3846
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 6330,
+    "Ventas": 6330
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 5802,
+    "Ventas": 5802
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 3115,
+    "Ventas": 3115
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9999,
+    "Ventas": 9999
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2676,
+    "Ventas": 2676
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4893,
+    "Ventas": 4893
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7032,
+    "Ventas": 7032
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 7114,
+    "Ventas": 7114
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5828,
+    "Ventas": 5828
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6874,
+    "Ventas": 6874
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 4425,
+    "Ventas": 4425
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 6126,
+    "Ventas": 6126
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 8570,
+    "Ventas": 8570
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 4417,
+    "Ventas": 4417
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 5023,
+    "Ventas": 5023
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 3182,
+    "Ventas": 3182
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 3226,
+    "Ventas": 3226
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 2458,
+    "Ventas": 2458
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 5891,
+    "Ventas": 5891
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 4058,
+    "Ventas": 4058
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 3398,
+    "Ventas": 3398
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3254,
+    "Ventas": 3254
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 5097,
+    "Ventas": 5097
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 5680,
+    "Ventas": 5680
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6426,
+    "Ventas": 6426
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8298,
+    "Ventas": 8298
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8249,
+    "Ventas": 8249
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3853,
+    "Ventas": 3853
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2031,
+    "Ventas": 2031
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4302,
+    "Ventas": 4302
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Marzo",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 7620,
+    "Ventas": 7620
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4628,
+    "Ventas": 4628
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6778,
+    "Ventas": 6778
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 2766,
+    "Ventas": 2766
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 5576,
+    "Ventas": 5576
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 5017,
+    "Ventas": 5017
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2963,
+    "Ventas": 2963
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7411,
+    "Ventas": 7411
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5604,
+    "Ventas": 5604
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5622,
+    "Ventas": 5622
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3568,
+    "Ventas": 3568
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6555,
+    "Ventas": 6555
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 5012,
+    "Ventas": 5012
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4049,
+    "Ventas": 4049
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 8174,
+    "Ventas": 8174
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 4243,
+    "Ventas": 4243
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 8701,
+    "Ventas": 8701
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3998,
+    "Ventas": 3998
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 4202,
+    "Ventas": 4202
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8131,
+    "Ventas": 8131
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 4653,
+    "Ventas": 4653
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 2003,
+    "Ventas": 2003
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 4725,
+    "Ventas": 4725
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 4218,
+    "Ventas": 4218
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 5055,
+    "Ventas": 5055
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 6369,
+    "Ventas": 6369
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 2672,
+    "Ventas": 2672
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6091,
+    "Ventas": 6091
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5134,
+    "Ventas": 5134
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2534,
+    "Ventas": 2534
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5861,
+    "Ventas": 5861
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8277,
+    "Ventas": 8277
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Abril",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3562,
+    "Ventas": 3562
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3714,
+    "Ventas": 3714
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 4578,
+    "Ventas": 4578
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 2609,
+    "Ventas": 2609
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7344,
+    "Ventas": 7344
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6783,
+    "Ventas": 6783
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 3099,
+    "Ventas": 3099
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 5177,
+    "Ventas": 5177
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3463,
+    "Ventas": 3463
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5921,
+    "Ventas": 5921
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7354,
+    "Ventas": 7354
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2937,
+    "Ventas": 2937
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 8420,
+    "Ventas": 8420
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7116,
+    "Ventas": 7116
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4027,
+    "Ventas": 4027
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 4563,
+    "Ventas": 4563
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 7197,
+    "Ventas": 7197
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 7535,
+    "Ventas": 7535
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2718,
+    "Ventas": 2718
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 7056,
+    "Ventas": 7056
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2864,
+    "Ventas": 2864
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 4307,
+    "Ventas": 4307
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 7944,
+    "Ventas": 7944
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 2794,
+    "Ventas": 2794
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 9280,
+    "Ventas": 9280
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 8157,
+    "Ventas": 8157
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4546,
+    "Ventas": 4546
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 5901,
+    "Ventas": 5901
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8426,
+    "Ventas": 8426
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 3801,
+    "Ventas": 3801
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2124,
+    "Ventas": 2124
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4064,
+    "Ventas": 4064
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Mayo",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 8630,
+    "Ventas": 8630
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2800,
+    "Ventas": 2800
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6290,
+    "Ventas": 6290
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 7328,
+    "Ventas": 7328
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 4734,
+    "Ventas": 4734
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 6887,
+    "Ventas": 6887
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7949,
+    "Ventas": 7949
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4880,
+    "Ventas": 4880
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 3989,
+    "Ventas": 3989
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 5721,
+    "Ventas": 5721
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3236,
+    "Ventas": 3236
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5017,
+    "Ventas": 5017
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9308,
+    "Ventas": 9308
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4764,
+    "Ventas": 4764
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6040,
+    "Ventas": 6040
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6403,
+    "Ventas": 6403
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 4945,
+    "Ventas": 4945
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 9593,
+    "Ventas": 9593
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 3779,
+    "Ventas": 3779
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 9206,
+    "Ventas": 9206
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 2926,
+    "Ventas": 2926
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9749,
+    "Ventas": 9749
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 4154,
+    "Ventas": 4154
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 2893,
+    "Ventas": 2893
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 6753,
+    "Ventas": 6753
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 7548,
+    "Ventas": 7548
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 6524,
+    "Ventas": 6524
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6825,
+    "Ventas": 6825
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5943,
+    "Ventas": 5943
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 3489,
+    "Ventas": 3489
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8805,
+    "Ventas": 8805
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5882,
+    "Ventas": 5882
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5864,
+    "Ventas": 5864
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Junio",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3148,
+    "Ventas": 3148
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 6854,
+    "Ventas": 6854
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 2319,
+    "Ventas": 2319
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 5366,
+    "Ventas": 5366
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 6305,
+    "Ventas": 6305
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5291,
+    "Ventas": 5291
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8990,
+    "Ventas": 8990
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 3928,
+    "Ventas": 3928
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6034,
+    "Ventas": 6034
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8961,
+    "Ventas": 8961
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9353,
+    "Ventas": 9353
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3701,
+    "Ventas": 3701
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2437,
+    "Ventas": 2437
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3298,
+    "Ventas": 3298
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 2626,
+    "Ventas": 2626
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9715,
+    "Ventas": 9715
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4670,
+    "Ventas": 4670
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 5659,
+    "Ventas": 5659
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 9808,
+    "Ventas": 9808
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 2297,
+    "Ventas": 2297
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 6817,
+    "Ventas": 6817
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7288,
+    "Ventas": 7288
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 9675,
+    "Ventas": 9675
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8173,
+    "Ventas": 8173
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 2834,
+    "Ventas": 2834
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 9372,
+    "Ventas": 9372
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 4785,
+    "Ventas": 4785
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 2438,
+    "Ventas": 2438
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 3383,
+    "Ventas": 3383
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9228,
+    "Ventas": 9228
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 2447,
+    "Ventas": 2447
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4837,
+    "Ventas": 4837
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6121,
+    "Ventas": 6121
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9379,
+    "Ventas": 9379
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 2309,
+    "Ventas": 2309
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5070,
+    "Ventas": 5070
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2922,
+    "Ventas": 2922
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7809,
+    "Ventas": 7809
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Julio",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 8191,
+    "Ventas": 8191
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 2691,
+    "Ventas": 2691
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 9206,
+    "Ventas": 9206
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 9392,
+    "Ventas": 9392
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 5416,
+    "Ventas": 5416
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2149,
+    "Ventas": 2149
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 6090,
+    "Ventas": 6090
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 5567,
+    "Ventas": 5567
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 5225,
+    "Ventas": 5225
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8778,
+    "Ventas": 8778
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6935,
+    "Ventas": 6935
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7623,
+    "Ventas": 7623
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9138,
+    "Ventas": 9138
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4151,
+    "Ventas": 4151
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 8735,
+    "Ventas": 8735
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5081,
+    "Ventas": 5081
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7362,
+    "Ventas": 7362
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 3381,
+    "Ventas": 3381
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 4245,
+    "Ventas": 4245
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 8405,
+    "Ventas": 8405
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 5553,
+    "Ventas": 5553
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9987,
+    "Ventas": 9987
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 3310,
+    "Ventas": 3310
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3833,
+    "Ventas": 3833
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 5578,
+    "Ventas": 5578
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 6644,
+    "Ventas": 6644
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 7004,
+    "Ventas": 7004
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 9329,
+    "Ventas": 9329
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7736,
+    "Ventas": 7736
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 3073,
+    "Ventas": 3073
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 7143,
+    "Ventas": 7143
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8143,
+    "Ventas": 8143
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5138,
+    "Ventas": 5138
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 7563,
+    "Ventas": 7563
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 7979,
+    "Ventas": 7979
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4436,
+    "Ventas": 4436
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5676,
+    "Ventas": 5676
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2254,
+    "Ventas": 2254
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3757,
+    "Ventas": 3757
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Agosto",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4647,
+    "Ventas": 4647
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 2111,
+    "Ventas": 2111
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 9232,
+    "Ventas": 9232
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2928,
+    "Ventas": 2928
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 8048,
+    "Ventas": 8048
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 6040,
+    "Ventas": 6040
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 4306,
+    "Ventas": 4306
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5559,
+    "Ventas": 5559
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9294,
+    "Ventas": 9294
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9670,
+    "Ventas": 9670
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4288,
+    "Ventas": 4288
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4041,
+    "Ventas": 4041
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2919,
+    "Ventas": 2919
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 7805,
+    "Ventas": 7805
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 2368,
+    "Ventas": 2368
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9977,
+    "Ventas": 9977
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 6428,
+    "Ventas": 6428
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 9010,
+    "Ventas": 9010
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 8812,
+    "Ventas": 8812
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 9098,
+    "Ventas": 9098
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 8123,
+    "Ventas": 8123
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5802,
+    "Ventas": 5802
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 6720,
+    "Ventas": 6720
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 9059,
+    "Ventas": 9059
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 5836,
+    "Ventas": 5836
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3366,
+    "Ventas": 3366
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5433,
+    "Ventas": 5433
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Septiembre",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 7299,
+    "Ventas": 7299
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 6908,
+    "Ventas": 6908
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 5508,
+    "Ventas": 5508
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4181,
+    "Ventas": 4181
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 8360,
+    "Ventas": 8360
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 2663,
+    "Ventas": 2663
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 8459,
+    "Ventas": 8459
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7209,
+    "Ventas": 7209
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8141,
+    "Ventas": 8141
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8191,
+    "Ventas": 8191
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3630,
+    "Ventas": 3630
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3680,
+    "Ventas": 3680
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 8689,
+    "Ventas": 8689
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 5157,
+    "Ventas": 5157
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 5179,
+    "Ventas": 5179
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 8701,
+    "Ventas": 8701
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 9423,
+    "Ventas": 9423
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8049,
+    "Ventas": 8049
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 6027,
+    "Ventas": 6027
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 2508,
+    "Ventas": 2508
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 9277,
+    "Ventas": 9277
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 7625,
+    "Ventas": 7625
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9514,
+    "Ventas": 9514
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 3222,
+    "Ventas": 3222
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 6853,
+    "Ventas": 6853
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4566,
+    "Ventas": 4566
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 4994,
+    "Ventas": 4994
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 5235,
+    "Ventas": 5235
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8519,
+    "Ventas": 8519
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9752,
+    "Ventas": 9752
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4909,
+    "Ventas": 4909
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Octubre",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 8820,
+    "Ventas": 8820
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4409,
+    "Ventas": 4409
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5446,
+    "Ventas": 5446
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 9876,
+    "Ventas": 9876
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 8004,
+    "Ventas": 8004
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 4122,
+    "Ventas": 4122
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8370,
+    "Ventas": 8370
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3599,
+    "Ventas": 3599
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 4535,
+    "Ventas": 4535
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 5491,
+    "Ventas": 5491
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 3843,
+    "Ventas": 3843
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7982,
+    "Ventas": 7982
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4576,
+    "Ventas": 4576
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4223,
+    "Ventas": 4223
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2073,
+    "Ventas": 2073
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8548,
+    "Ventas": 8548
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 6064,
+    "Ventas": 6064
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6503,
+    "Ventas": 6503
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3210,
+    "Ventas": 3210
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 6645,
+    "Ventas": 6645
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 2452,
+    "Ventas": 2452
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 8118,
+    "Ventas": 8118
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 2025,
+    "Ventas": 2025
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 4752,
+    "Ventas": 4752
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 5771,
+    "Ventas": 5771
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 5629,
+    "Ventas": 5629
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 9895,
+    "Ventas": 9895
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 8228,
+    "Ventas": 8228
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6015,
+    "Ventas": 6015
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 5990,
+    "Ventas": 5990
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 7343,
+    "Ventas": 7343
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4969,
+    "Ventas": 4969
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7272,
+    "Ventas": 7272
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6883,
+    "Ventas": 6883
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4537,
+    "Ventas": 4537
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3632,
+    "Ventas": 3632
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Noviembre",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 3712,
+    "Ventas": 3712
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10234,
+    "Producto": "Paracetamol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10235,
+    "Producto": "Ibuprofeno (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10236,
+    "Producto": "Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 6673,
+    "Ventas": 6673
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10237,
+    "Producto": "Diclofenaco (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10238,
+    "Producto": "Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 5934,
+    "Ventas": 5934
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10279,
+    "Producto": "Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 4284,
+    "Ventas": 4284
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10239,
+    "Producto": "Amoxicilina (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8642,
+    "Ventas": 8642
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10240,
+    "Producto": "Azitromicina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10241,
+    "Producto": "Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion": "Unidad",
+    "Entrada": 9303,
+    "Ventas": 9303
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10242,
+    "Producto": "Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10243,
+    "Producto": "Clindamicina (Gel TÃ³pico)",
+    "Presentacion": "Unidad",
+    "Entrada": 8709,
+    "Ventas": 8709
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10244,
+    "Producto": "LosartÃ¡n (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9416,
+    "Ventas": 9416
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10245,
+    "Producto": "Amlodipino (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9807,
+    "Ventas": 9807
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10246,
+    "Producto": "Hidroclorotiazida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10247,
+    "Producto": "Enalapril (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10248,
+    "Producto": "Metoprolol (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10249,
+    "Producto": "Metformina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8976,
+    "Ventas": 8976
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10250,
+    "Producto": "Glibenclamida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10251,
+    "Producto": "Insulina (Viales)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10252,
+    "Producto": "Sitagliptina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7204,
+    "Ventas": 7204
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10253,
+    "Producto": "Glimepirida (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10254,
+    "Producto": "Clotrimazol (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 8001,
+    "Ventas": 8001
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10255,
+    "Producto": "Miconazol (Polvo)",
+    "Presentacion": "Unidad",
+    "Entrada": 8964,
+    "Ventas": 8964
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10256,
+    "Producto": "Hidrocortisona (UngÃ¼ento)",
+    "Presentacion": "Unidad",
+    "Entrada": 7026,
+    "Ventas": 7026
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10257,
+    "Producto": "Betametasona (Crema)",
+    "Presentacion": "Unidad",
+    "Entrada": 5381,
+    "Ventas": 5381
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10258,
+    "Producto": "Ãcido retinoico (Gel)",
+    "Presentacion": "Unidad",
+    "Entrada": 5185,
+    "Ventas": 5185
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10259,
+    "Producto": "Vitamina C (Tabletas Efervescentes)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10260,
+    "Producto": "Vitamina D (Gotas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3607,
+    "Ventas": 3607
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10261,
+    "Producto": "Hierro (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10262,
+    "Producto": "Ãcido fÃ³lico (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4624,
+    "Ventas": 4624
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10263,
+    "Producto": "Complejo B (Inyectable)",
+    "Presentacion": "Unidad",
+    "Entrada": 3849,
+    "Ventas": 3849
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10264,
+    "Producto": "Paracetamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 6330,
+    "Ventas": 6330
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10265,
+    "Producto": "Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 2432,
+    "Ventas": 2432
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10266,
+    "Producto": "Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion": "Unidad",
+    "Entrada": 7807,
+    "Ventas": 7807
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10267,
+    "Producto": "Salbutamol (Inhalador)",
+    "Presentacion": "Unidad",
+    "Entrada": 7389,
+    "Ventas": 7389
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10268,
+    "Producto": "Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion": "Unidad",
+    "Entrada": 7573,
+    "Ventas": 7573
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10269,
+    "Producto": "Omeprazol (CÃ¡psulas)",
+    "Presentacion": "Unidad",
+    "Entrada": 5036,
+    "Ventas": 5036
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10270,
+    "Producto": "Loratadina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10271,
+    "Producto": "Salbutamol (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 4399,
+    "Ventas": 4399
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10272,
+    "Producto": "Prednisona (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 8981,
+    "Ventas": 8981
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10273,
+    "Producto": "Levotiroxina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 7281,
+    "Ventas": 7281
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10274,
+    "Producto": "Atorvastatina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 4575,
+    "Ventas": 4575
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10275,
+    "Producto": "Ãcido valproico (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 8544,
+    "Ventas": 8544
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10276,
+    "Producto": "Carbamazepina (SuspensiÃ³n)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10277,
+    "Producto": "Furosemida (Ampollas)",
+    "Presentacion": "Unidad",
+    "Entrada": 9803,
+    "Ventas": 9803
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10280,
+    "Producto": "Warfarina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 3062,
+    "Ventas": 3062
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10285,
+    "Producto": "Diazepam (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10287,
+    "Producto": "Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion": "Unidad",
+    "Entrada": 6874,
+    "Ventas": 6874
+  },
+  {
+    "Barrio": "El Almirante",
+    "Mes": "Diciembre",
+    "Codigo": 10288,
+    "Producto": "Guaifenesina (Jarabe)",
+    "Presentacion": "Unidad",
+    "Entrada": 0,
+    "Ventas": 0
+  }
+]

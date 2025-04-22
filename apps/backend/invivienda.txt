@@ -1,0 +1,5292 @@
+[  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6310,
+    "Ventas":6310
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4836,
+    "Ventas":4836
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9306,
+    "Ventas":9306
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8545,
+    "Ventas":8545
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4531,
+    "Ventas":4531
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6823,
+    "Ventas":6823
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2553,
+    "Ventas":2553
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4843,
+    "Ventas":4843
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7950,
+    "Ventas":7950
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6694,
+    "Ventas":6694
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":9825,
+    "Ventas":9825
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":9406,
+    "Ventas":9406
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":8423,
+    "Ventas":8423
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2608,
+    "Ventas":2608
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":3360,
+    "Ventas":3360
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2061,
+    "Ventas":2061
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7582,
+    "Ventas":7582
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9070,
+    "Ventas":9070
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3898,
+    "Ventas":3898
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9729,
+    "Ventas":9729
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3658,
+    "Ventas":3658
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3405,
+    "Ventas":3405
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6825,
+    "Ventas":6825
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":8755,
+    "Ventas":8755
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5467,
+    "Ventas":5467
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7878,
+    "Ventas":7878
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4316,
+    "Ventas":4316
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Enero",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8198,
+    "Ventas":8198
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5689,
+    "Ventas":5689
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":7877,
+    "Ventas":7877
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2841,
+    "Ventas":2841
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":7162,
+    "Ventas":7162
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4271,
+    "Ventas":4271
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":9785,
+    "Ventas":9785
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7348,
+    "Ventas":7348
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":5918,
+    "Ventas":5918
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6627,
+    "Ventas":6627
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8223,
+    "Ventas":8223
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2349,
+    "Ventas":2349
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8373,
+    "Ventas":8373
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2920,
+    "Ventas":2920
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2581,
+    "Ventas":2581
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":2338,
+    "Ventas":2338
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2945,
+    "Ventas":2945
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4258,
+    "Ventas":4258
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":7766,
+    "Ventas":7766
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":7171,
+    "Ventas":7171
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":2809,
+    "Ventas":2809
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4729,
+    "Ventas":4729
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":3287,
+    "Ventas":3287
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3789,
+    "Ventas":3789
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5491,
+    "Ventas":5491
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9024,
+    "Ventas":9024
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":9087,
+    "Ventas":9087
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":7258,
+    "Ventas":7258
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5726,
+    "Ventas":5726
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4570,
+    "Ventas":4570
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4612,
+    "Ventas":4612
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5983,
+    "Ventas":5983
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7091,
+    "Ventas":7091
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":4971,
+    "Ventas":4971
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4643,
+    "Ventas":4643
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3902,
+    "Ventas":3902
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2911,
+    "Ventas":2911
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Febrero",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2500,
+    "Ventas":2500
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":4206,
+    "Ventas":4206
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8162,
+    "Ventas":8162
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9085,
+    "Ventas":9085
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7406,
+    "Ventas":7406
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":2769,
+    "Ventas":2769
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7908,
+    "Ventas":7908
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3279,
+    "Ventas":3279
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2952,
+    "Ventas":2952
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7263,
+    "Ventas":7263
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4927,
+    "Ventas":4927
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3193,
+    "Ventas":3193
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4576,
+    "Ventas":4576
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":8488,
+    "Ventas":8488
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7689,
+    "Ventas":7689
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":2773,
+    "Ventas":2773
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":5629,
+    "Ventas":5629
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3251,
+    "Ventas":3251
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4873,
+    "Ventas":4873
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":8592,
+    "Ventas":8592
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":5992,
+    "Ventas":5992
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2751,
+    "Ventas":2751
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4419,
+    "Ventas":4419
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9810,
+    "Ventas":9810
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8822,
+    "Ventas":8822
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9856,
+    "Ventas":9856
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":3671,
+    "Ventas":3671
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":8987,
+    "Ventas":8987
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6008,
+    "Ventas":6008
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6676,
+    "Ventas":6676
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Marzo",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3582,
+    "Ventas":3582
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8328,
+    "Ventas":8328
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9966,
+    "Ventas":9966
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3389,
+    "Ventas":3389
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":5601,
+    "Ventas":5601
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7951,
+    "Ventas":7951
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7323,
+    "Ventas":7323
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":5346,
+    "Ventas":5346
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9008,
+    "Ventas":9008
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5697,
+    "Ventas":5697
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4860,
+    "Ventas":4860
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7785,
+    "Ventas":7785
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7412,
+    "Ventas":7412
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6534,
+    "Ventas":6534
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3606,
+    "Ventas":3606
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":4630,
+    "Ventas":4630
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":2932,
+    "Ventas":2932
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":5792,
+    "Ventas":5792
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":3128,
+    "Ventas":3128
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3990,
+    "Ventas":3990
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7130,
+    "Ventas":7130
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":8601,
+    "Ventas":8601
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3698,
+    "Ventas":3698
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7212,
+    "Ventas":7212
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":4135,
+    "Ventas":4135
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":2597,
+    "Ventas":2597
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8335,
+    "Ventas":8335
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5834,
+    "Ventas":5834
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7493,
+    "Ventas":7493
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4720,
+    "Ventas":4720
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7268,
+    "Ventas":7268
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7836,
+    "Ventas":7836
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":9817,
+    "Ventas":9817
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8834,
+    "Ventas":8834
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5211,
+    "Ventas":5211
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8833,
+    "Ventas":8833
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Abril",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9592,
+    "Ventas":9592
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5147,
+    "Ventas":5147
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4376,
+    "Ventas":4376
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2704,
+    "Ventas":2704
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":5328,
+    "Ventas":5328
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5758,
+    "Ventas":5758
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9849,
+    "Ventas":9849
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6387,
+    "Ventas":6387
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9002,
+    "Ventas":9002
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5729,
+    "Ventas":5729
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8429,
+    "Ventas":8429
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9366,
+    "Ventas":9366
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8097,
+    "Ventas":8097
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2791,
+    "Ventas":2791
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":5789,
+    "Ventas":5789
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":3228,
+    "Ventas":3228
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":8861,
+    "Ventas":8861
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6231,
+    "Ventas":6231
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":4303,
+    "Ventas":4303
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9966,
+    "Ventas":9966
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4272,
+    "Ventas":4272
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5620,
+    "Ventas":5620
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4724,
+    "Ventas":4724
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":5067,
+    "Ventas":5067
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":4642,
+    "Ventas":4642
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8289,
+    "Ventas":8289
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2743,
+    "Ventas":2743
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5928,
+    "Ventas":5928
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4305,
+    "Ventas":4305
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7200,
+    "Ventas":7200
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3044,
+    "Ventas":3044
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6828,
+    "Ventas":6828
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4077,
+    "Ventas":4077
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Mayo",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4310,
+    "Ventas":4310
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":8166,
+    "Ventas":8166
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":4356,
+    "Ventas":4356
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":9789,
+    "Ventas":9789
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7651,
+    "Ventas":7651
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4925,
+    "Ventas":4925
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5292,
+    "Ventas":5292
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7640,
+    "Ventas":7640
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8271,
+    "Ventas":8271
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3907,
+    "Ventas":3907
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9284,
+    "Ventas":9284
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2945,
+    "Ventas":2945
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9663,
+    "Ventas":9663
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7621,
+    "Ventas":7621
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3498,
+    "Ventas":3498
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9608,
+    "Ventas":9608
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4872,
+    "Ventas":4872
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":7708,
+    "Ventas":7708
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3562,
+    "Ventas":3562
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4237,
+    "Ventas":4237
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":2333,
+    "Ventas":2333
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":4096,
+    "Ventas":4096
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":5905,
+    "Ventas":5905
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":5310,
+    "Ventas":5310
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":6526,
+    "Ventas":6526
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6502,
+    "Ventas":6502
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7380,
+    "Ventas":7380
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4188,
+    "Ventas":4188
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":4784,
+    "Ventas":4784
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":9134,
+    "Ventas":9134
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2665,
+    "Ventas":2665
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2421,
+    "Ventas":2421
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8535,
+    "Ventas":8535
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":9762,
+    "Ventas":9762
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":8801,
+    "Ventas":8801
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7354,
+    "Ventas":7354
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6230,
+    "Ventas":6230
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Junio",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":2251,
+    "Ventas":2251
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2045,
+    "Ventas":2045
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":6466,
+    "Ventas":6466
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":7264,
+    "Ventas":7264
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":2674,
+    "Ventas":2674
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8835,
+    "Ventas":8835
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":3840,
+    "Ventas":3840
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4108,
+    "Ventas":4108
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3151,
+    "Ventas":3151
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7283,
+    "Ventas":7283
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4750,
+    "Ventas":4750
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4108,
+    "Ventas":4108
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":8013,
+    "Ventas":8013
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5022,
+    "Ventas":5022
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4449,
+    "Ventas":4449
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":3124,
+    "Ventas":3124
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7085,
+    "Ventas":7085
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7809,
+    "Ventas":7809
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":2351,
+    "Ventas":2351
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9968,
+    "Ventas":9968
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4353,
+    "Ventas":4353
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":5025,
+    "Ventas":5025
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":9814,
+    "Ventas":9814
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5910,
+    "Ventas":5910
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5719,
+    "Ventas":5719
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8723,
+    "Ventas":8723
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8394,
+    "Ventas":8394
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5315,
+    "Ventas":5315
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3522,
+    "Ventas":3522
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":6279,
+    "Ventas":6279
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":6826,
+    "Ventas":6826
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2909,
+    "Ventas":2909
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2678,
+    "Ventas":2678
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6189,
+    "Ventas":6189
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Julio",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6848,
+    "Ventas":6848
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5355,
+    "Ventas":5355
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5946,
+    "Ventas":5946
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":3061,
+    "Ventas":3061
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3268,
+    "Ventas":3268
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":9144,
+    "Ventas":9144
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":7327,
+    "Ventas":7327
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9052,
+    "Ventas":9052
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3925,
+    "Ventas":3925
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8369,
+    "Ventas":8369
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3461,
+    "Ventas":3461
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":8829,
+    "Ventas":8829
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":9899,
+    "Ventas":9899
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":4065,
+    "Ventas":4065
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":3200,
+    "Ventas":3200
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":2129,
+    "Ventas":2129
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9526,
+    "Ventas":9526
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7967,
+    "Ventas":7967
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2178,
+    "Ventas":2178
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":6961,
+    "Ventas":6961
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":8389,
+    "Ventas":8389
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4860,
+    "Ventas":4860
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8508,
+    "Ventas":8508
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6138,
+    "Ventas":6138
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7992,
+    "Ventas":7992
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":7216,
+    "Ventas":7216
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7879,
+    "Ventas":7879
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5985,
+    "Ventas":5985
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9078,
+    "Ventas":9078
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Agosto",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9716,
+    "Ventas":9716
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4605,
+    "Ventas":4605
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9202,
+    "Ventas":9202
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3146,
+    "Ventas":3146
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4562,
+    "Ventas":4562
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7101,
+    "Ventas":7101
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7090,
+    "Ventas":7090
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":3522,
+    "Ventas":3522
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6602,
+    "Ventas":6602
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9935,
+    "Ventas":9935
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9968,
+    "Ventas":9968
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7499,
+    "Ventas":7499
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2702,
+    "Ventas":2702
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6760,
+    "Ventas":6760
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8312,
+    "Ventas":8312
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":9938,
+    "Ventas":9938
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4789,
+    "Ventas":4789
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2167,
+    "Ventas":2167
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":5139,
+    "Ventas":5139
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":5024,
+    "Ventas":5024
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":9162,
+    "Ventas":9162
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":7404,
+    "Ventas":7404
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":5590,
+    "Ventas":5590
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":8723,
+    "Ventas":8723
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":9600,
+    "Ventas":9600
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5611,
+    "Ventas":5611
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":2320,
+    "Ventas":2320
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":5568,
+    "Ventas":5568
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":6609,
+    "Ventas":6609
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5936,
+    "Ventas":5936
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":4738,
+    "Ventas":4738
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6039,
+    "Ventas":6039
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2223,
+    "Ventas":2223
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8620,
+    "Ventas":8620
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":9923,
+    "Ventas":9923
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6744,
+    "Ventas":6744
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Septiembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9943,
+    "Ventas":9943
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3060,
+    "Ventas":3060
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":3549,
+    "Ventas":3549
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":7831,
+    "Ventas":7831
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4561,
+    "Ventas":4561
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6224,
+    "Ventas":6224
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":5582,
+    "Ventas":5582
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":4800,
+    "Ventas":4800
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":8570,
+    "Ventas":8570
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6049,
+    "Ventas":6049
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3439,
+    "Ventas":3439
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9005,
+    "Ventas":9005
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4852,
+    "Ventas":4852
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":3110,
+    "Ventas":3110
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4542,
+    "Ventas":4542
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":8035,
+    "Ventas":8035
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":2405,
+    "Ventas":2405
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":6291,
+    "Ventas":6291
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":2813,
+    "Ventas":2813
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":8359,
+    "Ventas":8359
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6357,
+    "Ventas":6357
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6788,
+    "Ventas":6788
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2032,
+    "Ventas":2032
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":2377,
+    "Ventas":2377
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7458,
+    "Ventas":7458
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6675,
+    "Ventas":6675
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5760,
+    "Ventas":5760
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":5530,
+    "Ventas":5530
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7560,
+    "Ventas":7560
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8906,
+    "Ventas":8906
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Octubre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3373,
+    "Ventas":3373
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2599,
+    "Ventas":2599
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":7826,
+    "Ventas":7826
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":2784,
+    "Ventas":2784
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":5196,
+    "Ventas":5196
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3260,
+    "Ventas":3260
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":8115,
+    "Ventas":8115
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":9388,
+    "Ventas":9388
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6994,
+    "Ventas":6994
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4026,
+    "Ventas":4026
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4708,
+    "Ventas":4708
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3987,
+    "Ventas":3987
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4576,
+    "Ventas":4576
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4828,
+    "Ventas":4828
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":3160,
+    "Ventas":3160
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6651,
+    "Ventas":6651
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4078,
+    "Ventas":4078
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":7907,
+    "Ventas":7907
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":2001,
+    "Ventas":2001
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":5146,
+    "Ventas":5146
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":9413,
+    "Ventas":9413
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3296,
+    "Ventas":3296
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":4431,
+    "Ventas":4431
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3655,
+    "Ventas":3655
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2005,
+    "Ventas":2005
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":8365,
+    "Ventas":8365
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":4626,
+    "Ventas":4626
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":7986,
+    "Ventas":7986
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":3168,
+    "Ventas":3168
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5165,
+    "Ventas":5165
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":3178,
+    "Ventas":3178
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6129,
+    "Ventas":6129
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3916,
+    "Ventas":3916
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":6824,
+    "Ventas":6824
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":3439,
+    "Ventas":3439
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":4315,
+    "Ventas":4315
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7210,
+    "Ventas":7210
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3606,
+    "Ventas":3606
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":7031,
+    "Ventas":7031
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Noviembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9164,
+    "Ventas":9164
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10234,
+    "Producto":"Paracetamol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10235,
+    "Producto":"Ibuprofeno (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4050,
+    "Ventas":4050
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10236,
+    "Producto":"Ãcido acetilsalicÃ­lico (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":2137,
+    "Ventas":2137
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10237,
+    "Producto":"Diclofenaco (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":6233,
+    "Ventas":6233
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10238,
+    "Producto":"Naproxeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5618,
+    "Ventas":5618
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10279,
+    "Producto":"Heparina (SoluciÃ³n Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10239,
+    "Producto":"Amoxicilina (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4918,
+    "Ventas":4918
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10240,
+    "Producto":"Azitromicina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6793,
+    "Ventas":6793
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10241,
+    "Producto":"Ciprofloxacino (SoluciÃ³n OftÃ¡lmica)",
+    "Presentacion":"Unidad",
+    "Entrada":5516,
+    "Ventas":5516
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10242,
+    "Producto":"Cefalexina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10243,
+    "Producto":"Clindamicina (Gel TÃ³pico)",
+    "Presentacion":"Unidad",
+    "Entrada":3178,
+    "Ventas":3178
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10244,
+    "Producto":"LosartÃ¡n (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":8171,
+    "Ventas":8171
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10245,
+    "Producto":"Amlodipino (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10246,
+    "Producto":"Hidroclorotiazida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6691,
+    "Ventas":6691
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10247,
+    "Producto":"Enalapril (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9612,
+    "Ventas":9612
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10248,
+    "Producto":"Metoprolol (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":4072,
+    "Ventas":4072
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10249,
+    "Producto":"Metformina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10250,
+    "Producto":"Glibenclamida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":9304,
+    "Ventas":9304
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10251,
+    "Producto":"Insulina (Viales)",
+    "Presentacion":"Unidad",
+    "Entrada":8865,
+    "Ventas":8865
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10252,
+    "Producto":"Sitagliptina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":2079,
+    "Ventas":2079
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10253,
+    "Producto":"Glimepirida (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5329,
+    "Ventas":5329
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10254,
+    "Producto":"Clotrimazol (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":4134,
+    "Ventas":4134
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10255,
+    "Producto":"Miconazol (Polvo)",
+    "Presentacion":"Unidad",
+    "Entrada":3560,
+    "Ventas":3560
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10256,
+    "Producto":"Hidrocortisona (UngÃ¼ento)",
+    "Presentacion":"Unidad",
+    "Entrada":2992,
+    "Ventas":2992
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10257,
+    "Producto":"Betametasona (Crema)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10258,
+    "Producto":"Ãcido retinoico (Gel)",
+    "Presentacion":"Unidad",
+    "Entrada":5863,
+    "Ventas":5863
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10259,
+    "Producto":"Vitamina C (Tabletas Efervescentes)",
+    "Presentacion":"Unidad",
+    "Entrada":9360,
+    "Ventas":9360
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10260,
+    "Producto":"Vitamina D (Gotas)",
+    "Presentacion":"Unidad",
+    "Entrada":3943,
+    "Ventas":3943
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10261,
+    "Producto":"Hierro (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":7319,
+    "Ventas":7319
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10262,
+    "Producto":"Ãcido fÃ³lico (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6781,
+    "Ventas":6781
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10263,
+    "Producto":"Complejo B (Inyectable)",
+    "Presentacion":"Unidad",
+    "Entrada":5169,
+    "Ventas":5169
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10264,
+    "Producto":"Paracetamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":9290,
+    "Ventas":9290
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10265,
+    "Producto":"Ibuprofeno (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":5201,
+    "Ventas":5201
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10266,
+    "Producto":"Amoxicilina (SuspensiÃ³n Oral)",
+    "Presentacion":"Unidad",
+    "Entrada":2770,
+    "Ventas":2770
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10267,
+    "Producto":"Salbutamol (Inhalador)",
+    "Presentacion":"Unidad",
+    "Entrada":6989,
+    "Ventas":6989
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10268,
+    "Producto":"Sales de rehidrataciÃ³n oral (Sobres)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10269,
+    "Producto":"Omeprazol (CÃ¡psulas)",
+    "Presentacion":"Unidad",
+    "Entrada":4666,
+    "Ventas":4666
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10270,
+    "Producto":"Loratadina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10271,
+    "Producto":"Salbutamol (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":8134,
+    "Ventas":8134
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10272,
+    "Producto":"Prednisona (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":3622,
+    "Ventas":3622
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10273,
+    "Producto":"Levotiroxina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":5364,
+    "Ventas":5364
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10274,
+    "Producto":"Atorvastatina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6875,
+    "Ventas":6875
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10275,
+    "Producto":"Ãcido valproico (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":5975,
+    "Ventas":5975
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10276,
+    "Producto":"Carbamazepina (SuspensiÃ³n)",
+    "Presentacion":"Unidad",
+    "Entrada":4732,
+    "Ventas":4732
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10277,
+    "Producto":"Furosemida (Ampollas)",
+    "Presentacion":"Unidad",
+    "Entrada":5979,
+    "Ventas":5979
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10280,
+    "Producto":"Warfarina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":6172,
+    "Ventas":6172
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10285,
+    "Producto":"Diazepam (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10287,
+    "Producto":"Paracetamol con Pseudoefedrina (Tabletas)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  },
+  {
+    "Barrio":"Invivienda",
+    "Mes":"Diciembre",
+    "Codigo":10288,
+    "Producto":"Guaifenesina (Jarabe)",
+    "Presentacion":"Unidad",
+    "Entrada":0,
+    "Ventas":0
+  }]

@@ -73,27 +73,12 @@ model Inventario {
   @@unique([farmaciaId, medicamentoId])
 }
 
-model Venta {
-  id             String     @id @default(uuid())
-  cantidad       Int
-  fecha          DateTime   @default(now())
-  mes            Int        // Nuevo campo para el mes (1-12)
-  anio           Int        // Nuevo campo para el año
-  farmaciaId     String
-  precioUnitario Decimal    @db.Decimal(10, 2)
-  inventarioId   String
-  usuarioId      String?
-  farmacia       Farmacia   @relation(fields: [farmaciaId], references: [id])
-  inventario     Inventario @relation(fields: [inventarioId], references: [id])
-  vendedor       Usuario?   @relation(fields: [usuarioId], references: [id])
-}
-
 model Devolucion {
   id             String           @id @default(uuid())
   cantidad       Int
-  fecha          DateTime         @default(now())
+  fecha          DateTime         @default(dbgenerated("(CURRENT_DATE + INTERVAL '0 year')"))
   mes            Int              // Nuevo campo para el mes (1-12)
-  anio           Int              // Nuevo campo para el año
+  anio           Int              @default(2024) // Año por defecto 2024
   motivo         String
   farmaciaId     String
   inventarioId   String
@@ -113,6 +98,62 @@ model Devolucion {
   farmacia      Farmacia         @relation(fields: [farmaciaId], references: [id])
   inventario    Inventario       @relation(fields: [inventarioId], references: [id])
 }
+
+model Venta {
+  id             String     @id @default(uuid())
+  cantidad       Int
+  fecha          DateTime   @default(dbgenerated("(CURRENT_DATE + INTERVAL '0 year')"))
+  mes            Int        // Nuevo campo para el mes (1-12)
+  anio           Int        @default(2024) // Año por defecto 2024
+  farmaciaId     String
+  precioUnitario Decimal    @db.Decimal(10, 2)
+  inventarioId   String
+  usuarioId      String?
+  farmacia       Farmacia   @relation(fields: [farmaciaId], references: [id])
+  inventario     Inventario @relation(fields: [inventarioId], references: [id])
+  vendedor       Usuario?   @relation(fields: [usuarioId], references: [id])
+}
+
+// model Venta {
+//   id             String     @id @default(uuid())
+//   cantidad       Int
+//   fecha          DateTime   @default(now())
+//   mes            Int        // Nuevo campo para el mes (1-12)
+//   anio           Int        // Nuevo campo para el año
+//   farmaciaId     String
+//   precioUnitario Decimal    @db.Decimal(10, 2)
+//   inventarioId   String
+//   usuarioId      String?
+//   farmacia       Farmacia   @relation(fields: [farmaciaId], references: [id])
+//   inventario     Inventario @relation(fields: [inventarioId], references: [id])
+//   vendedor       Usuario?   @relation(fields: [usuarioId], references: [id])
+// }
+
+// model Devolucion {
+//   id             String           @id @default(uuid())
+//   cantidad       Int
+//   fecha          DateTime         @default(now())
+//   mes            Int              // Nuevo campo para el mes (1-12)
+//   anio           Int              // Nuevo campo para el año
+//   motivo         String
+//   farmaciaId     String
+//   inventarioId   String
+//   estado         EstadoDevolucion @default(PENDIENTE)
+  
+//   // Usuario que creó la devolución
+//   usuarioId      String?
+//   usuario        Usuario?         @relation("UsuarioCreadorDevolucion", fields: [usuarioId], references: [id])
+  
+//   // Administrador que aprobó/rechazó la devolución
+//   aprobadoPorId  String?
+//   aprobadoPor    Usuario?         @relation("UsuarioAprobadorDevolucion", fields: [aprobadoPorId], references: [id])
+  
+//   fechaAprobacion DateTime?
+//   motivoRechazo   String?
+  
+//   farmacia      Farmacia         @relation(fields: [farmaciaId], references: [id])
+//   inventario    Inventario       @relation(fields: [inventarioId], references: [id])
+// }
 
 model MovimientoInventario {
   id           String         @id @default(uuid())
